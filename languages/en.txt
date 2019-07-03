@@ -1,0 +1,38 @@
+= Comment lines start with a '='
+
+= base url translation
+http://inriamecsci.github.io/cryptris=http://cr-marcstevens.github.io/cryptris
+
+= *.html
+CRYPTRIS_HTMLTITLE=Cryptris - An asymetric cryptography game
+CRYPTRIS_HTMLDESCRIPTION=Discover the universe of cryptography: play against the computer to find out who will be able to decrypt the fastest. Many challenges await you, are you ready?
+CRYPTRIS_JS_LANGUAGEFILE=lang_english.js
+
+= index.html
+MENU_NEW_GAME=New Game
+MENU_ARCADE=Arcade
+MENU_DOCUMENTATION=Documentation
+MENU_SHARE=Share this game
+MENU_ABOUT=About this game
+MENU_CREDITS=Credits
+
+= about.html
+ABOUT_HTMLTITLE=About - Cryptris
+ABOUT_DESCRIPTION=Cryptris is a game proposed by <a href="http://www.inria.fr/" target="_blank">Inria</a> and developed by <a href="http://digitalcuisine.fr/" target="_blank">Digital&nbsp;Cuisine</a>, with the support of <a href="http://www.capmaths.fr">Cap'Maths</a>, and proposed under an open <a href="license.html">license</a>.
+ABOUT_GOAL=The goal of this game is to show the interest of so-called asymmetric cryptography. In a series of puzzles, the player decrypts a message using a private key, while the computer tries to decrypt the same message using a&nbsp;public&nbsp;key.
+ABOUT_DIFFICULTLY=The difficulty for the player increases linearly, while the computer will have more and more trouble. Cryptography protects your data effectively!
+
+= arcade.html
+ARCADE_LOGIN=Choisissez votre nom d’utilisateur :
+ARCADE_BEGINNER=Beginner - 8 blocks
+ARCADE_EASY=Easy - 10 blocks
+ARCADE_MEDIUM=Medium - 12 blocks
+ARCADE_HARD=Hard - 14 blocks
+ARCADE_EXPERT=Expert - 16 blocks
+ARCADE_END=- END -
+
+PRIVATE_KEY=Private Key
+PUBLIC_KEY=Public Key
+PLAYER=Player
+ADVERSARY=Adversary
+SHARE_SOCIAL_MEDIA=Share your experience on your favorite social media :
