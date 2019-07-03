@@ -32,8 +32,6 @@ $(function(){
 			$("#step1").animate({marginLeft: "-200%"});
 			$("#step2").animate({marginLeft: "0%"});
 
-			// log to google analytics
-			ga('send', 'event', 'Partager', 'Chiffrer le message', $("textarea").val());
 
 		} else {
 			$t.trigger('startRumble');

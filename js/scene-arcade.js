@@ -21,8 +21,6 @@ $(function(){
 
   function getName(level, isCK) {
 
-    // Log event to google analytics
-    ga('send', 'event', 'Arcade', 'Renseignement du nom', 'Invite de commande');
     //console.log('Arcade - Renseignement du nom - Invite de commande');
 
     $("body").closeAllDialogs( function(){
@@ -34,8 +32,6 @@ $(function(){
           currentGame.username = currentGame.litteralName !== "" ? currentGame.litteralName : 'Joueur';
           updateNameFunction();
 
-          // Log event to google analytics
-          ga('send', 'event', 'Arcade', 'Renseignement du nom', 'Nom choisi : ' + currentGame.username);
           //console.log('Arcade - Renseignement du nom - Nom choisi : ' + currentGame.username);
 
           isCK ? level() : firstDialog(level);
@@ -304,7 +300,6 @@ $(function(){
     ia_create_pk(currentGame.scenes.create_key_scene.scene, currentGame.scenes.create_key_scene.game_box);
 
     var keyScore = score(currentGame.scenes.create_key_scene.game_box.message.getNumbers());
-    ga('send', 'event', 'Arcade', 'Création clé publique', 'Score de la clé : ' + keyScore);
     //console.log('Arcade - Création clé publique - Score de la clé : ' + keyScore);
     
     var waitToContinue = currentGame.director.createTimer(currentGame.director.time, Number.MAX_VALUE, null,
@@ -531,7 +526,6 @@ $(function(){
           }
 
           if (informationBoardIsResolved !== null) {
-            ga('send', 'event', informationBoardIsResolved.category, informationBoardIsResolved.action, "Jeu terminé en " + formatSeconds(currentGame[informationBoardIsResolved.timeLabel]));
             //console.log(informationBoardIsResolved.category + ' - ' + informationBoardIsResolved.action + ' - ' + "Jeu terminé en " + formatSeconds(currentGame[informationBoardIsResolved.timeLabel]));
             informationBoardIsResolved = null;
           }
@@ -882,7 +876,6 @@ $(function(){
 
   function playLevel1(){
 
-    ga('send', 'event', 'Arcade', 'Challenge facile (8 blocs)', 'Début');
     //console.log('Arcade - Challenge facile (8 blocs) - Début');
     
     /**
@@ -1070,7 +1063,6 @@ $(function(){
 
   function playLevel2(){
 
-    ga('send', 'event', 'Arcade', 'Challenge novice (10 blocs)', 'Début');
     //console.log('Arcade - Challenge novice (10 blocs) - Début');
 
     /**
@@ -1246,7 +1238,6 @@ $(function(){
 
 
   function playLevel3(){
-    ga('send', 'event', 'Arcade', 'Challenge apprenti (12 blocs)', 'Début');
     //console.log('Arcade - Challenge apprenti (12 blocs) - Début');
 
     /**
@@ -1428,7 +1419,6 @@ $(function(){
   });
 
   function playLevel4(){
-    ga('send', 'event', 'Arcade', 'Challenge chercheur (14 blocs)', 'Début');
     //console.log('Arcade - Challenge chercheur (14 blocs) - Début');
 
     /**
@@ -1609,7 +1599,6 @@ $(function(){
   });
 
   function playLevel5(){
-    ga('send', 'event', 'Arcade', 'Challenge expert (16 blocs)', 'Début');
     //console.log('Arcade - Challenge expert (16 blocs) - Début');
 
     /**
@@ -1691,8 +1680,6 @@ $(function(){
   }       
 
 
-  // Log event to google analytics
-  ga('send', 'event', 'Arcade', 'Début du mode arcade', '');
   //console.log('Arcade - Début du mode arcade');
 
   menu();
@@ -1751,8 +1738,6 @@ $(function(){
 
   function menu() {
 
-    // Log event to google analytics
-    ga('send', 'event', 'Arcade', 'Affichage du menu', '');
     //console.log('Arcade - Affichage du menu');
   
     $("body").closeAllDialogs(function(){

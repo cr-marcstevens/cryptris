@@ -296,7 +296,6 @@ $(function(){
     function launchGame() {
 
 
-        ga('send', 'event', 'Décrypter', "Décryptage d'un message partagé", 'Début');
         //console.log("Décrypter - Décryptage d'un message partagé - Début");
 
         $("body").closeAllDialogs(function(){});
@@ -318,7 +317,6 @@ $(function(){
                         $(document).trigger('freezeTime', {'scene' : currentGame.scenes.play_max_scene.scene, 'timeLabel' : 'playMaxSceneActiveTime'});
                     }
 
-                    ga('send', 'event', 'Décrypter', "Décryptage d'un message partagé", "Jeu terminé en " + formatSeconds(currentGame.playMaxSceneActiveTime));
                     //console.log("Décrypter - Décryptage d'un message partagé - " + "Jeu terminé en " + formatSeconds(currentGame.playMaxSceneActiveTime));
 
 
@@ -619,7 +617,6 @@ $(function(){
     currentGame.cryptedDataMessage = createADataMessage(currentGame.keyInfoCipher, currentGame.keyInfoCurrentLength);
     
     // Log event to google analytics
-    ga('send', 'event', 'Décrypter', 'Renseignement du nom', 'Invite de commande');
     //console.log('Décrypter - Renseignement du nom - Invite de commande');
 
     $("body").closeAllDialogs( function(){
@@ -632,7 +629,6 @@ $(function(){
     	      game.player.name = $('#login-name').val().escape();
         	  currentGame.username = game.player.name !== "" ? game.player.name : 'Joueur';
               // Log event to google analytics
-              ga('send', 'event', 'Décrypter', 'Renseignement du nom', 'Nom choisi : ' + currentGame.username);
               //console.log('Décrypter - Renseignement du nom - Nom choisi : ' + currentGame.username);
 
 

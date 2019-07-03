@@ -68,49 +68,31 @@ $(function() {
    */
 
   $(document).on("helpCreateKeyEvent", function() {
-    // Log to google analytics
-    ga('send', 'event', 'Jeu', 'Intro - Création clé publique', 'Aide');
-
     // Launch relevant help
     activateHelp(currentGame.scenes.create_key_scene, "createKeySceneActive", helpCreateKey);
   });
 
   $(document).on("playChercheuseHelpEvent", function() {
-    // Log to google analytics
-    ga('send', 'event', 'Jeu', 'Intro - Chercheuse crypte un message', 'Aide');
-
     // Launch relevant help
     activateHelp(currentGame.scenes.play_chercheuse_scene, "playChercheuseSceneActive", helpPlayChercheuse);
   });
 
   $(document).on("playSoloHelpEvent", function() {
-    // Log to google analytics
-    ga('send', 'event', 'Jeu', 'Intro - Tutoriel decryptage', 'Aide');
-
     // Launch relevant help
     activateHelp(currentGame.scenes.play_solo_scene, "playSoloSceneActive", helpPlaySolo);
   });
 
   $(document).on("playMinHelpEvent", function() {
-    // Log to google analytics
-    ga('send', 'event', 'Jeu', 'Niveau 1', 'Aide');
-
     // Launch relevant help
     activateHelp(currentGame.scenes.play_min_scene, "playMinSceneActive", helpPlayMin);
   });
 
   $(document).on("playMediumHelpEvent", function() {
-    // Log to google analytics
-    ga('send', 'event', 'Jeu', 'Niveau 2', 'Aide');
-
     // Launch relevant help
     activateHelp(currentGame.scenes.play_medium_scene, "playMediumSceneActive", helpPlayMedium);
   });
 
   $(document).on("playMaxHelpEvent", function() {
-    // Log to google analytics
-    ga('send', 'event', 'Jeu', 'Niveau 3', 'Aide');
-
     // Launch relevant help
     activateHelp(currentGame.scenes.play_max_scene, "playMaxSceneActive", helpPlayMax);
   });
@@ -173,9 +155,6 @@ $(function() {
 
   function switchToCreateKey() {
 
-    // Log to google analytics
-    ga('send', 'event', 'Jeu', 'Intro - Création clé publique', 'Début');
-
     $("body").closeAllDialogs();
 
     // Enable the action on the key.
@@ -193,8 +172,6 @@ $(function() {
           waitToContinue.cancel();
           currentGame.createKeySceneActive = false;
 
-          // Log to google analytics 
-          ga('send', 'event', 'Jeu', 'Intro - Création clé publique', 'Fin');
           $(document).trigger('nextDialog');
         }
 
@@ -218,12 +195,10 @@ $(function() {
     // Check for key score, if too low, we'll launch the ia to strengthen it
     if ( keyScore < 2) {
       ia_create_pk(currentGame.scenes.create_key_scene.scene, currentGame.scenes.create_key_scene.game_box, true);
-      ga('send', 'event', 'Jeu', 'Intro - Création clé publique', 'Clé trop faible, correction automatique');
     }
     // If key is strong enough, we'll skip to the next step.
     else {
       ia_create_pk(currentGame.scenes.create_key_scene.scene, currentGame.scenes.create_key_scene.game_box, false);
-      ga('send', 'event', 'Jeu', 'Intro - Création clé publique', 'Score de la clé : ' + keyScore);
     }
 
     // Timer to wait for continuing
@@ -306,7 +281,6 @@ $(function() {
             $(document).trigger('freezeTime', {'scene' : currentGame.scenes[sceneName].scene, 'timeLabel' : hookName + 'Time'});
           }
           if (informationBoardIsResolved !== null) {
-            ga('send', 'event', informationBoardIsResolved.category, informationBoardIsResolved.action, "Jeu terminé en " + formatSeconds(currentGame[informationBoardIsResolved.timeLabel]));
             //console.log(informationBoardIsResolved.category + ' - ' + informationBoardIsResolved.action + ' - ' + "Jeu terminé en " + formatSeconds(currentGame[informationBoardIsResolved.timeLabel]));
             informationBoardIsResolved = null;
           }
@@ -354,8 +328,6 @@ $(function() {
    */
 
   function playChercheuse() {
-    // Log to google analytics
-    ga('send', 'event', 'Jeu', 'Intro - Chercheuse crypte un message', 'Début');
     
     // Activate the timer.
     $(document).trigger('startTime', currentGame.scenes.play_chercheuse_scene.scene);
@@ -384,9 +356,6 @@ $(function() {
           currentGame.scenes.play_chercheuse_scene.game_box.closePadlock();
           $(document).trigger('endAnimate');
 
-          // Log to google analytics
-          ga('send', 'event', 'Jeu', 'Intro - Chercheuse crypte un message', 'Fin');
-
           setTimeout(function() {
            $(document).trigger('nextDialog');
 
@@ -405,7 +374,6 @@ $(function() {
    */
 
   function activatePlaySolo() {
-    ga('send', 'event', 'Jeu', 'Intro - Tutoriel decryptage', 'Début');
     //console.log('Jeu - Intro - Tutoriel decryptage - Début');
 
     /**
@@ -431,7 +399,6 @@ $(function() {
    */
 
   function playLevel1() {
-    ga('send', 'event', 'Jeu', 'Niveau 1', 'Début');
     //console.log('Jeu - Niveau 1 - Début');
 
     /**
@@ -461,7 +428,6 @@ $(function() {
    */
 
   function playLevel2() {
-    ga('send', 'event', 'Jeu', 'Niveau 2', 'Début');
     //console.log('Jeu - Niveau 2 - Début');
 
     /**
@@ -497,7 +463,6 @@ $(function() {
    */
 
   function playLevel3() {
-    ga('send', 'event', 'Jeu', 'Niveau 3', 'Début');
     //console.log('Jeu - Niveau 3 - Début');
 
     /**
@@ -783,9 +748,6 @@ $(function() {
         $('.new-login').submit(function(e) {
           currentGame.litteralName = $('#login-name').val().escape();
           currentGame.username = currentGame.litteralName !== "" ? currentGame.litteralName : 'Joueur';
-
-          // Log event to google analytics
-          ga('send', 'event', 'Jeu', 'Intro - Nouveau nom d’utilisateur', currentGame.username);
 
           updateNameFunction();
 
@@ -1206,8 +1168,6 @@ $(function() {
 
   function theEnd() {
     $("body").closeAllDialogs(function() {
-      // Log to google analytics
-      ga('send', 'event', 'Jeu', 'Fin du jeu', game.getCurrentGamingTime );
 
       // Display end-game screen
       $.switchWrapper('#end-game', function() {});
@@ -1241,9 +1201,7 @@ $(function() {
         }
       }
       
-      // Log to google analytics
       ////console.log(i.category, '-', i.action, '-', i.label);
-      ga('send', 'event', i.category, i.action, i.label);
 
       // Go back to the index
       window.location.href = './'
@@ -1588,8 +1546,6 @@ $(function() {
 
 
 
-  // Log event to google analytics
-  ga('send', 'event', 'Jeu', 'Début du jeu', '');
 
   // Start game
   cryptrisSettings.startTime = new Date().getTime();

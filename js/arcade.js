@@ -300,8 +300,6 @@ $(function(){
             if ($t.hasClass("public")) {
                 $t.find(".key-desc").text("clé publique");
 
-                // Log event to google analytics
-                ga('send', 'event', 'Arcade', 'Changement de clé du joueur', 'Clé Publique');
                 //console.log('Arcade - Changement de clé du joueur - Clé Publique');
 
                 currentGame.playerKeyType = "public";
@@ -310,8 +308,6 @@ $(function(){
             } else {
                 $t.find(".key-desc").text("clé privée");
 
-                // Log event to google analytics
-                ga('send', 'event', 'Arcade', 'Changement de clé du joueur', 'Clé Privée');
                 //console.log('Arcade - Changement de clé du joueur - Clé Privée');
 
                 currentGame.playerKeyType = "private";
@@ -322,8 +318,6 @@ $(function(){
             if ($t.hasClass("public")) {
                 $t.find(".key-desc").text("clé publique");
 
-                // Log event to google analytics
-                ga('send', 'event', 'Arcade', 'Changement de clé du serveur', 'Clé Publique');
                 //console.log('Arcade - Changement de clé du serveur - Clé Publique');
 
                 currentGame.iaKeyType = "public";
@@ -332,8 +326,6 @@ $(function(){
             } else {
                 $t.find(".key-desc").text("clé privée");
 
-                // Log event to google analytics
-                ga('send', 'event', 'Arcade', 'Changement de clé du serveur', 'Clé Privée');
                 //console.log('Arcade - Changement de clé du serveur - Clé Privée');
 
                 currentGame.iaKeyType = "private";
