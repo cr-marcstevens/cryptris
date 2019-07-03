@@ -6,7 +6,7 @@ http://inriamecsci.github.io/cryptris=http://cr-marcstevens.github.io/cryptris
 = *.html
 CRYPTRIS_HTMLTITLE=Cryptris - An asymetric cryptography game
 CRYPTRIS_HTMLDESCRIPTION=Discover the universe of cryptography: play against the computer to find out who will be able to decrypt the fastest. Many challenges await you, are you ready?
-CRYPTRIS_JS_LANGUAGEFILE=lang_english.js
+CRYPTRIS_JS_LANGUAGEFILE=lang_en.js
 
 = index.html
 MENU_NEW_GAME=New Game
@@ -23,7 +23,7 @@ ABOUT_GOAL=The goal of this game is to show the interest of so-called asymmetric
 ABOUT_DIFFICULTLY=The difficulty for the player increases linearly, while the computer will have more and more trouble. Cryptography protects your data effectively!
 
 = arcade.html
-ARCADE_LOGIN=Choisissez votre nom d’utilisateur :
+ARCADE_LOGIN=Choose your username :
 ARCADE_BEGINNER=Beginner - 8 blocks
 ARCADE_EASY=Easy - 10 blocks
 ARCADE_MEDIUM=Medium - 12 blocks
