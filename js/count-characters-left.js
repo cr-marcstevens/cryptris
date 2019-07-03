@@ -42,10 +42,10 @@ $(function(){
 		}
 
 		// Pluralize text
-		if(Math.abs(n)>1){
-			$text.text("Caractères restants");
+		if(Math.abs(n)!=1){
+			$text.text(lang.CHARACTERS_LEFT);
 		} else {
-			$text.text("Caractère restant");
+			$text.text(lang.CHARACTER_LEFT);
 		}
 
 	};

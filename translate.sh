@@ -23,7 +23,7 @@ for lg in en ; do
 
 	# convert the language file into a ed script and a javascript file
 	rm -f languages/${lg}.ed js/lang_${lg}.js
-	echo "var $.lang = {" > js/lang_${lg}.js
+	echo "lang = {" > js/lang_${lg}.js
 	while read -r line; do
 		lhs=`echo $line | cut -d= -f1`
 		rhs=`echo $line | cut -d= -f2-`

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Article">
   <head>
-    <title>Partager le jeu avec des amis - Cryptris</title>
+    <title>SHARE_HTMLTITLE</title>
 
     <script src="js/CRYPTRIS_JS_LANGUAGEFILE"></script>
 
@@ -113,13 +113,13 @@
             <img class="cryptris-logo-medium" src="img/logo-cryptris-large.png">
 
             <div class="text-content no-max-width">
-              <h2>Partager le jeu</h2>
-              <p>Proposez à vos amis de déchiffrer votre message, commencez par le saisir ci-dessous, <br>il sera alors chiffré à l'aide d'une paire de clé privé / publique aléatoire.</p>
+              <h2>SHARE_THE_GAME</h2>
+              <p>SHARE_ENTER_YOUR_MESSAGE</p>
 
               <form id="share">
                   <fieldset><textarea></textarea></fieldset>
-                  <div class="characters-left"><span class="count lcd">140</span> <span class="text">Caractères restants</span></div>
-                  <input type="reset" value="Annuler" class="button red"><input type="submit" value="Suivant" class="button blue">
+                  <div class="characters-left"><span class="count lcd">140</span> <span class="text">CHARACTERS_LEFT</span></div>
+                  <input type="reset" value="TXT_RESET" class="button red"><input type="submit" value="TXT_SUBMIT" class="button blue">
               </form>
 
         
@@ -134,12 +134,10 @@
             <img class="cryptris-logo-medium" src="img/logo-cryptris-large.png">
             
             <div class="text-content no-max-width">
-              <h2>Partager le jeu</h2>
-              <p>Voici votre message chiffré, partagez le sur les sites de votre choix.</p>
+              <h2>SHARE_THE_GAME</h2>
+              <p>SHARE_HERES_ENCRYPTED_MESSAGE</p>
 
-              <p class="warning"><img src='img/avatar-chercheuse.jpg' class='avatar-small'>Attention ! Cryptris n'est qu'un jeu: nous donnerons la clef privée a tout ceux qui cliqueront sur votre lien et votre message ne restera pas secret bien longtemps...<br/>
-              Pour envoyer de vrais messages chiffrés, <a href='documentation.html#pgp'>utilisez PGP</a></p>
-
+              <p class="warning"><img src='img/avatar-chercheuse.jpg' class='avatar-small'>WARNING_CRYPTRIS_PGP</p>
               
               <div class="encrypted-message">
                   <div class="message">
@@ -154,31 +152,14 @@
                   <div class="social-actions">
 
 
-                    <p><a id="share-em" href="#"><img src="img/icn-ml-large.png"> Partager par email</a></p>
-                    <p><a id="share-fb" href="#"><img src="img/icn-facebook-large.png"> Partager sur facebook</a></p>
-                    <p><a id="share-tw" href="#"><img src="img/icn-twitter-large.png"> Partager sur twitter</a></p>
-                    <p>
-                      <span
-                        id="share-gp"
-                        class="g-interactivepost"
-                        data-contenturl="https://cryptris.com"
-                        data-contentdeeplinkid="/"
-                        data-clientid="303615069411.apps.googleusercontent.com"
-                        data-cookiepolicy="single_host_origin"
-                        data-prefilltext="Essaye de décrypter ce message sur Cryptris"
-                        data-calltoactionlabel="PLAY"
-                        data-calltoactionurl="http://cryptris.com"
-                        data-calltoactiondeeplinkid="/">
-                        <a href="#"><img src="img/icn-gp-large.png"> Partager sur google plus</a>
-                      </span>
-                    </p>
+                    <p><a id="share-em" href="#"><img src="img/icn-ml-large.png">SHARE_VIA_LINK</a></p>
+                    <p><a id="share-fb" href="#"><img src="img/icn-facebook-large.png">SHARE_ON_FACEBOOK</a></p>
+                    <p><a id="share-tw" href="#"><img src="img/icn-twitter-large.png">SHARE_ON_TWITTER</a></p>
 
-
-                    <!--<p><a id="share-gp" href="#"><img src="img/icn-gp-large.png"> Partager sur google plus</a></p>-->
                   </div>
               </div>
               <p> </p>
-              <p style="margin-top:30px"><a id="edit-message" href="#" class="button red">Modifier mon message</a></p>
+              <p style="margin-top:30px"><a id="edit-message" href="#" class="button red">MODIFY_MY_MESSAGE</a></p>
             </div>
 
         </div>
@@ -192,10 +173,10 @@
           
           <header class="header"><a href="#" class="btn-close"><img src="img/btn-close.png"></a></header>
 
-          <h2>Partager par email</h2>
-            <p>Copiez-collez cette adresse pour partager votre message par email&nbsp;:</p>
+          <h2>SHARE_VIA_LINK</h2>
+            <p>SHARE_THIS_LINK</p>
             <p><input id="share-url" value="[...]"></p>
-            <p style='margin-top: 30px'><a href="#" class='button' id="mailto-share-url" target="_blank">Essayer d'ouvrir un nouveau mail</a></p>
+            <p style='margin-top: 30px'><a href="#" class='button' id="mailto-share-url" target="_blank">TRY_TO_OPEN_EMAIL</a></p>
           </div>
         </div>
       </div>
