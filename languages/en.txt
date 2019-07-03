@@ -11,6 +11,10 @@ TXT_SUBMIT=Submit
 TXT_LICENSES=Licenses
 TXT_PARTNERS=Partners
 TXT_NEXT=Next
+TXT_PREV=Previous
+TXT_OPEN_MESSAGE=Open Message
+TXT_DECRYPT_MESSAGE=Decrypt Message
+TXT_RESEARCHER=Researcher
 PRIVATE_KEY=Private Key
 PUBLIC_KEY=Public Key
 PLAYER=Player
@@ -76,3 +80,22 @@ SHARE_ENTER_YOUR_MESSAGE=Challenge your friends to decipher your message, start 
 SHARE_HERES_ENCRYPTED_MESSAGE=Here is your encrypted message, share it !
 MODIFY_MY_MESSAGE=Modify my message
 WARNING_CRYPTRIS_PGP=Warning ! Cryptris is just a game: we will give the private key to all those who will click on your link and your message will not remain secret long ... <br/> To send real encrypted messages, <a href='documentation.html#pgp'>use PGP</a>
+
+= js/arcade-dialogs.js
+ARCADE_DIALOG_GAME_OVER_TITLE=Game over (the computer won)
+ARCADE_DIALOG_GAME_OVER=You really need to be able to decrypt this message before the computer. Let's start from scratch!
+ARCADE_DIALOG_TOO_MANY_BLOCKS_TITLE=Game over (player does not play properly)
+ARCADE_DIALOG_TOO_MANY_BLOCKS=To decrypt the message you have to cancel out the blocks, you are accumulating them.
+ARCADE_DIALOG_ANNOUNCE_PUBLICKEY=You will create your private key / public key pair but <span> ... </ span> do not forget, this private key is ... private! You alone must know it! Your public key will be disseminated on the network to all the researchers of the Institute.
+ARCADE_DIALOG_ANNOUNCE_PUBLICKEY_TITLE=Dialogue 'You will create your key pair' (Researcher)
+ARCADE_DIALOG_HERE_PRIVATEKEY=Here is your private key, use the keys LEFT and RIGHT to manipulate it according to your desire. Press UP or SPACE to invert your key and when you are ready, press DOWN to confirm your choice.
+ARCADE_DIALOG_HERE_PRIVATEKEY_TITLE=Dialogue 'Here is your private key' (Researcher)
+ARCADE_DIALOG_CREATE_PUBLICKEY=To generate your public key, drop your private key six or seven times. If the security level is sufficient, your public key will be saved, otherwise the computer will complete it.
+ARCADE_DIALOG_SUCCESS=Congratulations, you understood how it works!
+
+= recursive KEY IMAGES
+IMG_KEY_UP=<img src='img/icn-arrow-up.png' class='keyboard-key'>
+IMG_KEY_DOWN=<img src='img/icn-arrow-down.png' class='keyboard-key'>
+IMG_KEY_LEFT=<img src='img/icn-arrow-left.png' class='keyboard-key'>
+IMG_KEY_RIGHT=<img src='img/icn-arrow-right.png' class='keyboard-key'>
+IMG_KEY_SPACE=<img src='img/icn-space.png' class='keyboard-key'>

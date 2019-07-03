@@ -29,7 +29,7 @@ $(function(){
         $('.new-login').submit(function(e){
           
           currentGame.litteralName = $('#login-name').val().escape();
-          currentGame.username = currentGame.litteralName !== "" ? currentGame.litteralName : 'Joueur';
+          currentGame.username = currentGame.litteralName !== "" ? currentGame.litteralName : lang.PLAYER;
           updateNameFunction();
 
           //console.log('Arcade - Renseignement du nom - Nom choisi : ' + currentGame.username);
@@ -201,7 +201,7 @@ $(function(){
             label: "Dialogue 'Aide création de clé publique' (Chercheuse)",
           },
 
-          title: "Chercheuse",
+          title: lang.TXT_RESEARCHER,
           content: "Pour générer ta clé publique, manipule ta clé privée avec <img src='img/icn-arrow-left.png' class='keyboard-key'>, <img src='img/icn-arrow-up.png' class='keyboard-key'> et <img src='img/icn-arrow-right.png' class='keyboard-key'> puis fais-la tomber six ou sept fois avec la touche <img src='img/icn-arrow-down.png' class='keyboard-key'>.",
           controls: [{
             label: "Suite", 
