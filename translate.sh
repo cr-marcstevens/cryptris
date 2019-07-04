@@ -10,10 +10,10 @@ function generate_html_file
 {
 infile=$1
 lang=$2
-outfile=${infile%.html}_${lang}.html
+outfile=$(basename ${infile%.html})_${lang}.html
 
 echo $infile $outfile
-cat $infile | sed "s/\(href=.[a-zA-Z]*\)[.]html/\1_en.html/g" | sed -f languages/${lang}.ed > $outfile
+cat $infile | sed "s/\(href=.[a-zA-Z]*\)[.]html/\1_${lang}.html/g" | sed -f languages/${lang}.ed > $outfile
 
 }
 
@@ -37,7 +37,7 @@ for lg in en ; do
 	echo "langend:\"\"};" >> js/lang_${lg}.js
 
 	# process all html files	
-	for f in *.html; do
+	for f in html/*.html; do
 		generate_html_file $f $lg
 	done
 	
