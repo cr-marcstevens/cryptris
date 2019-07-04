@@ -28,16 +28,9 @@ CRYPTRIS_HTMLTITLE=Cryptris - An asymetric cryptography game
 CRYPTRIS_HTMLDESCRIPTION=Discover the universe of cryptography: play against the computer to find out who will be able to decrypt the fastest. Many challenges await you, are you ready?
 CRYPTRIS_JS_LANGUAGEFILE=lang_en.js
 
-= index.html
-MENU_NEW_GAME=New Game
-MENU_ARCADE=Arcade
-MENU_DOCUMENTATION=Documentation
-MENU_SHARE=Share this game
-MENU_ABOUT=About this game
-MENU_CREDITS=Credits
-
 = about.html credits.html
 ABOUT_HTMLTITLE=About - Cryptris
+CREDITS_HTMLTITLE=Credits - Cryptris
 ABOUT_DESCRIPTION=Cryptris is a game proposed by <a href="http://www.inria.fr/" target="_blank">Inria</a> and developed by <a href="http://digitalcuisine.fr/" target="_blank">Digital&nbsp;Cuisine</a>, with the support of <a href="http://www.capmaths.fr">Cap'Maths</a>, and proposed under an open <a href="license.html">license</a>.
 ABOUT_GOAL=The goal of this game is to show the interest of so-called asymmetric cryptography. In a series of puzzles, the player decrypts a message using a private key, while the computer tries to decrypt the same message using a&nbsp;public&nbsp;key.
 ABOUT_DIFFICULTY=The difficulty for the player increases linearly, while the computer will have more and more trouble. Cryptography protects your data effectively!
@@ -69,6 +62,22 @@ ARCADE_MENU_EXPERT=Expert - 16 blocks
 ARCADE_END=- END -
 SHARE_SOCIAL_MEDIA=Share your experience on your favorite social media :
 
+= index.html
+MENU_NEW_GAME=New Game
+MENU_ARCADE=Arcade
+MENU_DOCUMENTATION=Documentation
+MENU_SHARE=Share this game
+MENU_ABOUT=About this game
+MENU_CREDITS=Credits
+
+= license.html
+LICENSE_HTMLTITLE=License - Cryptris
+LICENSE_SOURCE_CODE=All source code is distributed under the license <a href="http://www.cecill.info/licences/Licence_CeCILL_V2-en.html">CeCILL V2</a> (Compatible with GNU GPL)
+LICENSE_DOCUMENTATION=All related documents are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en">Creative Commons</a> Attribution-NonCommercial-ShareAlike 2.0 France (CC BY-NC-SA 2.0 FR)
+LICENSE_BYNCSA20FR_URL=https://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en
+LICENSE_EXPLANATION=This license therefore gives the right to copy, distribute and communicate this material by any means and in any format, and make a remix, transform, or create from the material for personal or educational purposes (for any other use just contact us)
+LICENSE_CECILL_REMARK=The source code is distributed under the CeCiLL license. This License is a Free Open Source Software license. It is close in its terms to the LGPL license. The CeCill licenses have been created under the supervision of French computer science major institutions. They comply to European regulation rules. Documents are distributed under the Creative-Commons standard license.
+
 = share.html
 SHARE_HTMLTITLE=Share this game with your friends
 CHARACTERS_LEFT=Characters left
@@ -84,6 +93,16 @@ SHARE_ENTER_YOUR_MESSAGE=Challenge your friends to decipher your message, start 
 SHARE_HERES_ENCRYPTED_MESSAGE=Here is your encrypted message, share it !
 MODIFY_MY_MESSAGE=Modify my message
 WARNING_CRYPTRIS_PGP=Warning ! Cryptris is just a game: we will give the private key to all those who will click on your link and your message will not remain secret long ... <br/> To send real encrypted messages, <a href='documentation.html#pgp'>use PGP</a>
+
+= story.html
+STORY_END=- END -
+STORY_END_MESSAGE=<p>You've explored the world of cryptography and confronted the computer&nbsp;!</p><p> Try to decrypt an even longer message, even with the public key, in arcade mode. </p><p> Share your experience on your favorite social networks &nbsp;: </p>
+
+= thanks.html
+THANKS_HTMLTITLE=Thank you for playing Cryptris
+THANKS_FOR_PLAYING=Thank you for playing this game!
+CLOSE_THIS_WINDOW=Close this window
+
 
 = js/arcade-dialogs.js
 ARCADE_DIALOG_GAME_OVER_TITLE=Game over (the computer won)
