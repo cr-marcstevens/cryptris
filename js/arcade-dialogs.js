@@ -69,7 +69,7 @@ var announcePublicKeyDialog = getDialog(chercheusePredef, lang.ARCADE_DIALOG_ANN
   label: lang.ARCADE_DIALOG_ANNOUNCE_PUBLICKEY_TITLE,
 });
 
-var hereYourPrivateKeyDialog = getDialog(chercheusePredef, lang.ARCADE_DIALOG_HERE_PRIVATEKEY, null,  {
+var hereYourPrivateKeyDialog = getDialog(chercheusePredef, lang.ARCADE_DIALOG_HERE_PRIVATEKEY.replace("KEYUP",lang.KEYUP).replace("KEYDOWN",lang.KEYDOWN).replace("KEYLEFT",lang.KEYLEFT).replace("KEYRIGHT",lang.KEYRIGHT).replace("KEYSPACE",lang.KEYSPACE), null,  {
   category: "Arcade",
   action: "Création clé publique",
   label: lang.ARCADE_DIALOG_HERE_PRIVATEKEY_TITLE,

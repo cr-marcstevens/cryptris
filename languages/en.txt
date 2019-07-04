@@ -1,4 +1,7 @@
 = Comment lines start with a '='
+= Format: TOKEN=substitution string
+= Usage in HTML: just place TOKEN and it will be completely replaced
+= Usage in Javascript: use the variable lang.TOKEN holding the string "substitution string"
 
 = base url translation
 http://inriamecsci.github.io/cryptris=http://cr-marcstevens.github.io/cryptris
@@ -55,6 +58,7 @@ CREDITS_S_OTHER_IMAGES=Without exception, all other visuals were created by or f
 CREDITS_PARTNERS=This achievement was made possible thanks to the support of the following partners :
 
 = arcade.html
+ARCADE_HTMLTITLE=Arcade - Cryptris
 ARCADE_CHOOSE_USERNAME=Choose your username :
 ARCADE_MENU_CREATE_KEY=Create Keys
 ARCADE_MENU_BEGINNER=Beginner - 8 blocks
@@ -88,14 +92,20 @@ ARCADE_DIALOG_TOO_MANY_BLOCKS_TITLE=Game over (player does not play properly)
 ARCADE_DIALOG_TOO_MANY_BLOCKS=To decrypt the message you have to cancel out the blocks, you are accumulating them.
 ARCADE_DIALOG_ANNOUNCE_PUBLICKEY=You will create your private key / public key pair but <span> ... </ span> do not forget, this private key is ... private! You alone must know it! Your public key will be disseminated on the network to all the researchers of the Institute.
 ARCADE_DIALOG_ANNOUNCE_PUBLICKEY_TITLE=Dialogue 'You will create your key pair' (Researcher)
-ARCADE_DIALOG_HERE_PRIVATEKEY=Here is your private key, use the keys LEFT and RIGHT to manipulate it according to your desire. Press UP or SPACE to invert your key and when you are ready, press DOWN to confirm your choice.
+ARCADE_DIALOG_HERE_PRIVATEKEY=Here is your private key, use the keys KEYLEFT and KEYRIGHT to manipulate it according to your desire. Press KEYUP or KEYSPACE to invert your key and when you are ready, press KEYDOWN to confirm your choice.
 ARCADE_DIALOG_HERE_PRIVATEKEY_TITLE=Dialogue 'Here is your private key' (Researcher)
 ARCADE_DIALOG_CREATE_PUBLICKEY=To generate your public key, drop your private key six or seven times. If the security level is sufficient, your public key will be saved, otherwise the computer will complete it.
 ARCADE_DIALOG_SUCCESS=Congratulations, you understood how it works!
 
-= recursive KEY IMAGES
-IMG_KEY_UP=<img src='img/icn-arrow-up.png' class='keyboard-key'>
-IMG_KEY_DOWN=<img src='img/icn-arrow-down.png' class='keyboard-key'>
-IMG_KEY_LEFT=<img src='img/icn-arrow-left.png' class='keyboard-key'>
-IMG_KEY_RIGHT=<img src='img/icn-arrow-right.png' class='keyboard-key'>
-IMG_KEY_SPACE=<img src='img/icn-space.png' class='keyboard-key'>
+= recursive KEY IMAGES: 
+= NOTE: in js you must use: lang.ARCADE_DIALOG_HERE_PRIVATEKEY.replace("KEYUP",lang.KEYUP).replace("KEYDOWN",lang.KEYDOWN)  etc etc.
+KEYUP=UP
+KEYDOWN=DOWN
+KEYRIGHT=RIGHT
+KEYLEFT=LEFT
+KEYSPACE=SPACE
+=KEYUP=<img src='img/icn-arrow-up.png' class='keyboard-key'>
+=KEYDOWN=<img src='img/icn-arrow-down.png' class='keyboard-key'>
+=KEYLEFT=<img src='img/icn-arrow-left.png' class='keyboard-key'>
+=KEYRIGHT=<img src='img/icn-arrow-right.png' class='keyboard-key'>
+=KEYSPACE=<img src='img/icn-space.png' class='keyboard-key'>
