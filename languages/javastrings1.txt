@@ -131,3 +131,7 @@
 'Serveur'|lang.TXT_ADVERSARY
 "img/logo-inria-pixelated.png"|lang.IMG_LOGO_INSTITUTE
 "<img src='img/avatar-chercheuse.jpg'>"|"<img src='"+lang.IMG_RESEARCHER+"'>"
+"http://inriamecsci.github.io/cryptris"|lang.BASE_URL
+"/thanks.html"|lang.THANKS_HTMLFILE
+'decrypter.html'|lang.DECRYPTER_HTMLFILE
+'Félicitations ! Tu as décrypté plus rapidement que l’ordinateur. Si tu veux découvrir la cryptographie, essaie de faire une nouvelle partie complète.'|lang.DIALOG_STRING108
