@@ -12,14 +12,16 @@ infile=$1
 lang=$2
 outfile=$(basename ${infile%.html})_${lang}.html
 
-echo $infile $outfile
+#echo $infile $outfile
 cat $infile | sed "s/\(href=.[a-zA-Z]*\)[.]html/\1_${lang}.html/g" | sed -f languages/${lang}.ed > $outfile
 
 }
 
 rm *_*.html
 
+echo "Translating HTML files for each language"
 for lg in en ; do
+	echo -n "Reading substitutions for language ${lg}"
 
 	# convert the language file into a ed script and a javascript file
 	rm -f languages/${lg}.ed js/lang_${lg}.js
@@ -33,11 +35,15 @@ for lg in en ; do
 			echo "s|${lhs}|${rhs}|g;" | sed "s/\&/\\\&/g" >> languages/${lg}.ed
 			echo "${lhsname}:\"${rhsescaped}\"," >> js/lang_${lg}.js
 		fi
+		echo -n "."
 	done < languages/${lg}.txt
 	echo "langend:\"\"};" >> js/lang_${lg}.js
+	echo "done"
 
 	# process all html files	
 	for f in html/*.html; do
+		outfile=$(basename ${f%.html})_${lg}.html
+		echo "Generating ${outfile}"
 		generate_html_file $f $lg
 	done
 	

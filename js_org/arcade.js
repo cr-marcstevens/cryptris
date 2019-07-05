@@ -139,7 +139,7 @@ function initGame(director) {
      * Image assets
      */
     var imgs = getPreloadedImages();
-
+    var my_counter=0, my_error_counter=0;
     /**
      * Preload our necessarly.
      */
@@ -148,7 +148,18 @@ function initGame(director) {
     new CAAT.Module.Preloader.ImagePreloader().loadImages(
         imgs,
         function on_load(counter, images) {
-            if (counter === images.length) {
+            my_counter = counter;
+            if (my_counter+my_error_counter === imgs.length) {
+                director.emptyScenes();
+                director.setImagesCache(images);
+                createScenes(director);
+                director.setClear(CAAT.Foundation.Director.CLEAR_ALL);
+                CAAT.loop(60);
+            }
+        },
+        function on_error(e,i) {
+            my_error_counter += 1;
+            if (my_counter+my_error_counter === imgs.length) {
                 director.emptyScenes();
                 director.setImagesCache(images);
                 createScenes(director);

@@ -55,8 +55,9 @@ function getPreloadedImages() {
     imgs.push({id:'gauge6', url: "img/gauge/06.png"});
     imgs.push({id:'spinner', url: "img/assets/spinner.gif"});
 
-    var assets = ["img/apple-touch-startup-image-1536x2008.png",
-		"img/icn-facebook-large_2x.png",
+    var assets = [
+        "img/apple-touch-startup-image-1536x2008.png",
+		/*"img/icn-facebook-large_2x.png",*/
 		"img/logo-inria-medium-2.png",
 		"img/logo-inria-medium-_2x.png",
 		"img/icn-mini-ia-padlock-open.png",
@@ -80,9 +81,9 @@ function getPreloadedImages() {
 		"img/avatar-new-message.jpg",
 		"img/apple-touch-icon-76x76.png",
 		"img/icn-arrow-down_2x.png",
-		"img/icn-facebook_2x.png",
+		/*"img/icn-facebook_2x.png",*/
 		"img/icn-space_2x.png",
-		"img/icn-facebook-large.png",
+		/*"img/icn-facebook-large.png",*/
 		"img/apple-touch-icon-120x120.png",
 		"img/entangled-cables-L-02.png",
 		"img/icn-arrow-up.png",
@@ -96,7 +97,7 @@ function getPreloadedImages() {
 		"img/32_000-icon.png",
 		"img/avatar-new-message-padlock-closed.png",
 		"img/avatar-chercheuse.jpg",
-		"img/icn-facebook.png",
+		/*"img/icn-facebook.png",*/
 		"img/lcd.png",
 		"img/apple-touch-startup-image-320x460.png",
 		"img/logo-cryptris-large__2x.png",
@@ -135,8 +136,8 @@ function getPreloadedImages() {
 		"img/entangled-cables-R-03.png",
 		"img/logo-inria-medium.png",
 		"img/icn-gp-large_2x.png",
-		"img/icn-twitter.png",
-		"img/icn-twitter-large_2x.png",
+		/*"img/icn-twitter.png",*/
+		/*"img/icn-twitter-large_2x.png",*/
 		"img/logo-inria-pixelated.png",
 		"img/apple-touch-icon-57x57.png",
 		"img/btn-close.png",
@@ -145,7 +146,7 @@ function getPreloadedImages() {
 		"img/apple-touch-startup-image-640x1096.png",
 		"img/bg-circuits.png",
 		"img/icn-gp.png",
-		"img/icn-twitter-large.png",
+		/*"img/icn-twitter-large.png",*/
 		"img/entangled-cables-outlet.png",
 		"img/icn-mini-player-key-symbol.png",
 		"img/icn-space.png",
@@ -159,7 +160,7 @@ function getPreloadedImages() {
 		"img/avatar-new-message-ring.png",
 		"img/btn-close_2x.png",
 		"img/logo-animath.png",
-		"img/icn-twitter_2x.png",
+		/*"img/icn-twitter_2x.png",*/
 		"img/logo-cryptris-medium.png",
 		"img/entangled-cables-jack-R.png",
 		"img/icn-arrow-down.png",

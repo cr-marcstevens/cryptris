@@ -112,14 +112,25 @@ function initGame(director, current_length, crypted_message) {
      * Image assets
      */
     var imgs = getPreloadedImages();
-
+    var my_counter=0, my_error_counter=0;
     /**
      * Preload our necessarly images and load the splash screens.
      */
     new CAAT.Module.Preloader.ImagePreloader().loadImages(
         imgs,
         function on_load(counter, images) {
-            if (counter === images.length) {
+            my_counter=counter;
+            if (my_counter+my_error_counter === imgs.length) {
+                director.emptyScenes();
+                director.setImagesCache(images);
+                createScenes(director, current_length, crypted_message);
+                director.setClear(CAAT.Foundation.Director.CLEAR_ALL);
+                CAAT.loop(60);
+            }
+        },
+        function on_error(e,i) {
+            my_error_counter += 1;
+            if (my_counter+my_error_counter === imgs.length) {
                 director.emptyScenes();
                 director.setImagesCache(images);
                 createScenes(director, current_length, crypted_message);

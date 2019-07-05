@@ -20,8 +20,9 @@ cat $infile | sed "s/\(href=.[a-zA-Z]*\)[.]html/\1_${lang}.html/g" | sed -f lang
 rm -r js
 cp -R js_org js
 
+echo "Adapting original javascript files to enable translations"
 for lg in languages/javastrings*.txt; do
-	echo "Processing $lg"
+	echo -n "Reading substitutions from $lg"
 
 	# convert the language file into a ed script and a javascript file
 	rm -f ${lg}.ed
@@ -32,10 +33,13 @@ for lg in languages/javastrings*.txt; do
 		if [ "$lhs" != "" ]; then
 			echo "s|${lhs}|${rhs}|g;" >> ${lg}.ed
 		fi
+		echo -n "."
 	done < ${lg}
+	echo "done"
 
 	# process all javascript files	
 	for f in `find js -name "*.js"`; do
+		echo "Processing $f"
 		cat $f | sed -f ${lg}.ed > $f.tmp
 		mv $f.tmp $f
 	done

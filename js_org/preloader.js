@@ -22,22 +22,35 @@ $(document).ready(function() {
          * Preload our necessarly images and load the splash screens.
          */
         var time = $.now();
+        var my_counter = 0, my_error_counter = 0;
         var preloadImages = new CAAT.Module.Preloader.ImagePreloader().loadImages(
             imgs,
             function on_load(counter, images) {
-                if (counter === images.length) {
-                    
+                my_counter = counter;
+                if (my_counter+my_error_counter === imgs.length) {
                     // -- Swith from preloader screen to menu screen.
                     $('#preloader-view').attr('style', 'display: none;');
                     $('#menu-view').attr('style', '');
-
                 } else {
                     // -- Update the preloader screen.
-                    var width = Math.round( (counter + 1) / images.length * 100 ) + '%';
+                    var width = Math.round( (my_counter+my_error_counter + 1) / imgs.length * 100 ) + '%';
                     $('#preloader-display').text(width) ;
                     $('#preloader-view .bar').css('width', width);
                 }
-            }
+            },
+            function on_error(e, index) {
+                my_error_counter += 1;
+                if (my_counter+my_error_counter === imgs.length) {
+                    // -- Swith from preloader screen to menu screen.
+                    $('#preloader-view').attr('style', 'display: none;');
+                    $('#menu-view').attr('style', '');
+                } else {
+                    // -- Update the preloader screen.
+                    var width = Math.round( (my_counter+my_error_counter + 1) / imgs.length * 100 ) + '%';
+                    $('#preloader-display').text(width) ;
+                    $('#preloader-view .bar').css('width', width);
+                }
+            },
         );
     }
 });
