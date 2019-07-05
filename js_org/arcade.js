@@ -298,7 +298,7 @@ $(function(){
 
         if ($t.context.id === "player-key") {
             if ($t.hasClass("public")) {
-                $t.find(".key-desc").text(lang.PUBLIC_KEY);
+                $t.find(".key-desc").text(lang.TXT_PUBLIC_KEY);
 
                 //console.log('Arcade - Changement de clé du joueur - Clé Publique');
 
@@ -306,7 +306,7 @@ $(function(){
                 playerBoardColorInfo['key-symbol'] = 'icn-mini-ia-key-symbol-left';
                 playerBoardColorInfo['keychain'] = 'keychain-ia-left';
             } else {
-                $t.find(".key-desc").text(lang.PRIVATE_KEY);
+                $t.find(".key-desc").text(lang.TXT_PRIVATE_KEY);
 
                 //console.log('Arcade - Changement de clé du joueur - Clé Privée');
 
@@ -316,7 +316,7 @@ $(function(){
             }
         } else {
             if ($t.hasClass("public")) {
-                $t.find(".key-desc").text(lang.PUBLIC_KEY);
+                $t.find(".key-desc").text(lang.TXT_PUBLIC_KEY);
 
                 //console.log('Arcade - Changement de clé du serveur - Clé Publique');
 
@@ -324,7 +324,7 @@ $(function(){
                 iaBoardColorInfo['key-symbol'] = 'icn-mini-ia-key-symbol';
                 iaBoardColorInfo['keychain'] = 'keychain-ia';
             } else {
-                $t.find(".key-desc").text(lang.PRIVATE_KEY);
+                $t.find(".key-desc").text(lang.TXT_PRIVATE_KEY);
 
                 //console.log('Arcade - Changement de clé du serveur - Clé Privée');
 

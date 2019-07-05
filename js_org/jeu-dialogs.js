@@ -74,7 +74,7 @@ function updateKeysExplanations() {
 }
 
 function updateWeird() {
-    weirdDialog['content'] = (currentGame.litteralName != "" ? " <em>" + currentGame.litteralName + ",</em> e" : "E") + "st-ce que tu me reçois ? C’est vraiment bizarre, notre serveur refuse obstinément de se re-configurer et m'empêche de sortir <sspan>de la salle </sspan>des machines, essaie de débrancher le câble n° 42 du tableau électrique principal.";
+    weirdDialog['content'] = (currentGame.litteralName != "" ? " <em>" + currentGame.litteralName + "!</em> " : "") + "st-ce que tu me reçois ? C’est vraiment bizarre, notre serveur refuse obstinément de se re-configurer et m'empêche de sortir <sspan>de la salle </sspan>des machines, essaie de débrancher le câble n° 42 du tableau électrique principal.";
 }
 
 function updateElectricShock() {

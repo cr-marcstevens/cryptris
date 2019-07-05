@@ -25,9 +25,9 @@ for lg in en ; do
 	rm -f languages/${lg}.ed js/lang_${lg}.js
 	echo "lang = {" > js/lang_${lg}.js
 	while read -r line; do
-		lhs=`echo $line | cut -d= -f1`
-		rhs=`echo $line | cut -d= -f2-`
-		lhsname=`echo -n $lhs | tr -C "[a-zA-Z_]" "_"`
+		lhs=`echo "$line" | cut -d= -f1`
+		rhs=`echo "$line" | cut -d= -f2-`
+		lhsname=`echo -n $lhs | tr -C "[a-zA-Z0-9_]" "_"`
 		rhsescaped=`echo $rhs | tr -d "\""`
 		if [ "$lhs" != "" ]; then
 			echo "s|${lhs}|${rhs}|g;" | sed "s/\&/\\\&/g" >> languages/${lg}.ed

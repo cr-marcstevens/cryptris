@@ -29,7 +29,7 @@ $(function(){
         $('.new-login').submit(function(e){
           
           currentGame.litteralName = $('#login-name').val().escape();
-          currentGame.username = currentGame.litteralName !== "" ? currentGame.litteralName : lang.PLAYER;
+          currentGame.username = currentGame.litteralName !== "" ? currentGame.litteralName : lang.TXT_PLAYER;
           updateNameFunction();
 
           //console.log('Arcade - Renseignement du nom - Nom choisi : ' + currentGame.username);

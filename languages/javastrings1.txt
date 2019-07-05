@@ -1,0 +1,131 @@
+" blocs"|lang.DIALOG_STRING1
+", bienvenue à l'INRIA. Tu as en ta possession un message crypté, laisse-moi t'expliquer comment le décrypter. "|lang.DIALOG_STRING2
+", ton compte est maintenant créé. Afin de sécuriser les échanges sur le réseau, nous utilisons un protocole de cryptographie asymétrique."|lang.DIALOG_STRING3
+"<br/>Durée (maximale) de décryptage : "|lang.DIALOG_STRING4
+"Abandon - Temps de jeu : "|lang.DIALOG_STRING5
+"Abandon"|lang.DIALOG_STRING6
+"Abandonner"|lang.DIALOG_STRING7
+"Aie ! Je viens de me prendre une décharge électrique !"|lang.DIALOG_STRING8
+"Arcade"|lang.MENU_ARCADE
+"Asymétrique ? Pourquoi asymétrique ?"|lang.DIALOG_STRING9
+"Attends, ce n’est pas normal... Je vérifie... Ça alors ! Le serveur s’est reprogrammé de lui-même et il contrôle le système. Manifestement, il nous écoute et t’a empêché de débrancher le câble, tout comme il a verrouillé les portes de la salle. Je suis enfermée ici !"|lang.DIALOG_STRING10
+"Bienvenue à l’Institut ! C’est donc toi mon nouvel apprenti, parfait ! Commençons par le commencement, il te faudra un compte utilisateur pour te connecter au réseau, tu n’as qu’à choisir ton nom d’utilisateur."|lang.DIALOG_STRING11
+"Bonjour"|lang.TXT_GOODDAY
+"Bravo, tu as débranché le bon câble ! Plus que deux panneaux électriques et&nbsp;ça devrait être bon !"|lang.DIALOG_STRING12
+"C'est bizarre, le serveur a signalé une panne, je dois aller en salle des machines pour vérifier que tout est en ordre. Il faudra que tu branches ou débranches certains câbles."|lang.DIALOG_STRING13
+"Ce serveur ne devrait pas être en mesure de décrypter aussi rapidement ces messages... J’ai compris ! Il contamine d’autres ordinateurs et augmente ainsi sa puissance !"|lang.DIALOG_STRING14
+"Challenge apprenti (12 blocs)"|lang.DIALOG_STRING15
+"Challenge chercheur (14 blocs)"|lang.DIALOG_STRING16
+"Challenge expert (16 blocs)"|lang.DIALOG_STRING17
+"Challenge facile (8 blocs)"|lang.DIALOG_STRING18
+"Challenge novice (10 blocs)"|lang.DIALOG_STRING19
+"Challenge réussi"|lang.DIALOG_STRING20
+"Challenge suivant"|lang.DIALOG_STRING21
+"Chaque challenge est crypté à l’aide de ta <em>clé publique</em>, pour le décrypter tu dois utiliser ta <em>clé privée.</em> Manipule ta clé comme tout à l’heure avec <img src='img/icn-arrow-left.png' class='keyboard-key'> et <img src='img/icn-arrow-right.png'  class='keyboard-key'> pour déplacer les colonnes et <img src='img/icn-arrow-up.png' class='keyboard-key'> ou <img src='img/icn-space.png' class='keyboard-key'>. pour inverser les couleurs des blocs."|lang.DIALOG_STRING22
+"Chercheuse"|lang.TXT_RESEARCHER
+"Cinquième challenge décrypté : "|lang.DIALOG_STRING23
+"Clé créée avec succès"|lang.DIALOG_STRING24
+"Clé privée ? Qu'est-ce que c'est ?"|lang.DIALOG_STRING25
+"Comparaison des temps de jeu"|lang.DIALOG_STRING26
+"Comparaison du temps de décryptage"|lang.DIALOG_STRING27
+"Cryptogra... quoi ?"|lang.DIALOG_STRING28
+"Cryptographie! Du grec ancien <strong>kruptos</strong> (« caché ») et <strong>graphein</strong> (« écrire »). Il s’agit de protéger des messages."|lang.DIALOG_STRING29
+"Cryptris"|lang.TXT_CRYPTRIS
+"Cryptris, un jeu gratuit sur la cryptographie asymétrique"|lang.CRYPTRIS_HTMLTITLE
+"Création clé publique"|lang.DIALOG_STRING30
+"C’est le bon moment pour utiliser le protocole de cryptage afin de l’empêcher de nous écouter ! Je vais t'envoyer la liste des câbles à débrancher, mais un par un, et de manière cryptée."|lang.DIALOG_STRING31
+"D'accord, j'ai compris."|lang.DIALOG_STRING32
+"Deuxième challenge décrypté : "|lang.DIALOG_STRING33
+"Durée du décryptage ("|lang.DIALOG_STRING34
+"Débranche le câble 24 du panneau électrique V"|lang.DIALOG_STRING35
+"Débranche le câble 31 du panneau électrique N"|lang.DIALOG_STRING36
+"Débranche le câble 78 du panneau électrique M"|lang.DIALOG_STRING37
+"Débrancher le câble"|lang.DIALOG_STRING38
+"Déchiffrez le message: "|lang.DIALOG_STRING39
+"Décryptage d'un message partagé"|lang.DIALOG_STRING40
+"Décrypter - Décryptage d'un message partagé - "|lang.DIALOG_STRING41
+"Décrypter - Décryptage d'un message partagé - Début"|lang.DIALOG_STRING42
+"Décrypter le message"|lang.TXT_DECRYPT_MESSAGE
+"Décrypter"|lang.DIALOG_STRING44
+"Défi! Cryptris, un jeu gratuit sur la cryptographie asymétrique"|lang.DIALOG_STRING45
+"Défiez l’ordinateur pour savoir qui arrivera à décrypter le plus rapidement. De nombreux défis cryptologiques vous attendent, êtes-vous prêts ?"|lang.DIALOG_STRING46
+"Ecran debrancher câble"|lang.DIALOG_STRING47
+"Ecran débrancher câble"|lang.DIALOG_STRING47
+"En revanche la difficulté pour l’ordinateur a augmenté bien plus vite que sa&nbsp;capacité de calcul. CQFD !"|lang.DIALOG_STRING48
+"Félicitations, tu as compris le fonctionnement et la clé publique générée est efficace !"|lang.DIALOG_STRING49
+"Game over (le joueur ne joue pas correctement)"|lang.ARCADE_DIALOG_TOO_MANY_BLOCKS
+"Game over (l’ordinateur a gagné)"|lang.ARCADE_DIALOG_GAME_OVER
+"Heureusement, grâce à la cryptographie asymétrique, aucune machine ne peut décrypter assez vite nos messages. Les différents niveaux d’encryption ne t’ont pas vraiment compliqué <span>la tâche,</span> car tu disposes de la clé privée."|lang.DIALOG_STRING50
+"Il faut vraiment que tu puisses décrypter ce message avant l'ordinateur. Reprennons de zéro !"|lang.DIALOG_STRING51
+"InriOS 3.14"|lang.DIALOG_STRING52
+"Intro - Chercheuse crypte un message"|lang.DIALOG_STRING53
+"Intro - Création clé publique"|lang.DIALOG_STRING54
+"Intro - Fin"|lang.DIALOG_STRING55
+"Intro - Tutoriel decryptage"|lang.DIALOG_STRING56
+"Intro - Tutoriel décryptage"|lang.DIALOG_STRING56
+"Intro"|lang.DIALOG_STRING57
+"J'utilise ta clé publique pour crypter mon message."|lang.DIALOG_STRING58
+"JOUEUR"|lang.TXT_PLAYER
+"Je suis en train de crypter un message que tu pourras décrypter par la suite."|lang.DIALOG_STRING59
+"Je t'envoie le dernier câble, en augmentant encore la difficulté du cryptage. Il lui faudra quelques centaines de jours pour <span>décrypter ce dernier message</span>, et d'ici là nous l'aurons débranché et analysé !"|lang.DIALOG_STRING60
+"Je t'envoie le deuxième câble, crypté avec deux blocs de plus. Avec la cryptographie asymétrique, lorsqu’on augmente le  nombre de bits, la difficulté du calcul augmente de manière exponentielle pour un attaquant. Cela devrait donc faire l’affaire."|lang.DIALOG_STRING61
+"Je t'envoie un message crypté contenant le premier numéro de câble à débrancher et le tableau électrique correspondant."|lang.DIALOG_STRING62
+"Je viens de terminer Cryptris - un jeu sur l’univers de la cryptographie asymétrique. Affrontez l’ordinateur"|lang.DIALOG_STRING63
+"Jeu terminé en "|lang.DIALOG_STRING64
+"Jeu"|lang.TXT_GAME
+"J’ai bien failli rester enfermée pour de bon et le serveur aurait pu contaminer tout internet, absorbant les données personnelles de la planète entière !"|lang.DIALOG_STRING65
+"LOGICIEL ESPION"|lang.TXT_SPY_SOFTWARE
+"Lorsque deux blocs de même couleur se touchent : ils s'additionnent, sinon ils se détruisent. Ton message est décrypté lorsqu'il ne reste qu'une seule ligne au message. A toi de jouer !"|lang.DIALOG_STRING66
+"Lorsque tu appuies sur <img src='img/icn-arrow-down.png' class='keyboard-key'> ta clé est envoyée sur le message à décrypter et les blocs vont s’annuler s’ils sont de couleurs opposées ou s’empiler s’ils sont de même couleur. Le message est décrypté lorsque tu n’as plus qu’une seule ligne de blocs en bas. À toi de jouer !"|lang.DIALOG_STRING67
+"Malheureusement, le serveur a accès à notre base de données, <span>et a appris</span> comment décrypter plus vite. Je fais ce que je peux pour le ralentir, mais sa capacité de calcul et son adresse ne font qu'augmenter !"|lang.DIALOG_STRING68
+"Mes félicitations ! Nous avons réussi à contenir la machine. Sa capacité de calcul augmentait de manière phénoménale, mais pas aussi rapidement que&nbsp;la difficulté du décryptage…"|lang.DIALOG_STRING69
+"Message crypté."|lang.DIALOG_STRING70
+"Message décrypté"|lang.DIALOG_STRING71
+"Message décrypté."|lang.DIALOG_STRING71
+"OK"|lang.TXT_OK
+"OK, tu as réussi à lire ce message."|lang.DIALOG_STRING72
+"Oui ! Asymétrique, on l’appelle aussi cryptographie à clé publique car elle repose sur l’utilisation de deux types de clés <span>:</span> la clé privée, et la clé publique. La clé publique sert à chiffrer, ou coder si tu préfères, les messages, tandis que la clé privée permet de les déchiffrer."|lang.DIALOG_STRING73
+"Ouvrir le message"|lang.TXT_OPEN_MESSAGE
+"Parfait ! Te voilà fin prêt! J’ai bien ta clé publique, nous pouvons passer à la suite."|lang.DIALOG_STRING74
+"Parfait ! Te voilà fin prêt! J’ai bien ta clé publique... Vérifions que tout fonctionne. Je t’envoie un premier message crypté."|lang.DIALOG_STRING75
+"Parfait ! Tu as compris <em>comment décrypter un message à l'aide de ta clé privée,</em> je n’en attendais pas <span>moins de toi !</span> Te voilà fin prêt et tu es maintenant un membre à part entière de l’Institut."|lang.DIALOG_STRING76
+"Parfait"|lang.TXT_PERFECT
+"Passer cette étape"|lang.DIALOG_STRING78
+"Pause"|lang.TXT_PAUSE
+"Pour décrypter le message tu dois détruire les blocs, tu es en train de les accumuler. Reprennons de zéro !"|lang.DIALOG_STRING79
+"Pour générer ta clé publique, fais tomber six fois ta clé privée. Si le niveau de sécurité est suffisant, ta clé publique sera sauvegardée, sinon l'ordinateur la complétera."|lang.DIALOG_STRING80
+"Pour générer ta clé publique, manipule ta clé privée avec <img src='img/icn-arrow-left.png' class='keyboard-key'>, <img src='img/icn-arrow-up.png' class='keyboard-key'> et <img src='img/icn-arrow-right.png' class='keyboard-key'> puis fais-la tomber six fois avec la touche <img src='img/icn-arrow-down.png' class='keyboard-key'>. Si le niveau de sécurité est suffisant, ta clé publique sera sauvegardée, sinon l'ordinateur la complétera."|lang.DIALOG_STRING81
+"Pour générer ta clé publique, manipule ta clé privée avec <img src='img/icn-arrow-left.png' class='keyboard-key'>, <img src='img/icn-arrow-up.png' class='keyboard-key'> et <img src='img/icn-arrow-right.png' class='keyboard-key'> puis fais-la tomber six ou sept fois avec la touche <img src='img/icn-arrow-down.png' class='keyboard-key'>."|lang.DIALOG_STRING82
+"Premier challenge décrypté : "|lang.DIALOG_STRING83
+"Premier jour à l'institut"|lang.DIALOG_STRING84
+"Précédent"|lang.TXT_PREV
+"Préparation du niveau de jeu"|lang.DIALOG_STRING85
+"Quatrième challenge décrypté : "|lang.DIALOG_STRING86
+"Recommencer"|lang.TXT_RESTART
+"Reprendre"|lang.TXT_RESUME
+"Rotate"|lang.TXT_ROTATE
+"Si tu as besoin d'aide, appuie sur le bouton '?' et je te donnerai toutes les informations nécessaires."|lang.DIALOG_STRING87
+"Si vous le dites..."|lang.DIALOG_STRING88
+"Suite"|lang.TXT_NEXT
+"Séléctionner le cable à débrancher"|lang.DIALOG_STRING89
+"Ta clé privée est la clé que toi seul connaîtra, c'est elle qui te permettra de déchiffrer facilement les message qui te seront envoyés. <em>Sans la clé privée il est très difficile,</em> voir impossible, <em>de déchiffrer un message crypté.</em>"|lang.DIALOG_STRING90
+"Ta clé privée se trouve en haut. Utilise les touches <img src='img/icn-arrow-left.png' class='keyboard-key'> et <img src='img/icn-arrow-right.png'  class='keyboard-key'> pour la manipuler selon ton envie. Appuie sur la touche <img src='img/icn-arrow-up.png' class='keyboard-key'> ou <img src='img/icn-space.png' class='keyboard-key'> pour inverser ta clé et lorsque tu seras prêt, appuie sur la touche <img src='img/icn-arrow-down.png' class='keyboard-key'> pour valider ton choix."|lang.DIALOG_STRING91
+"Ta clé publique sera dérivée de ta clé privée. De la même manière qu'un <em>cadenas</em> permet de <em>sécuriser le contenu d'un coffre,</em> la <em>clé publique</em> permet de <em>chiffrer des messages</em> et les rendre illisibles à ceux qui ne disposent pas de la clé privée."|lang.DIALOG_STRING92
+"Taille de la clé (blocs)"|lang.DIALOG_STRING93
+"Temps de jeu : "|lang.DIALOG_STRING94
+"There were invalid base64 characters in the input text.\n"|lang.DIALOG_STRING95
+"Troisième challenge décrypté : "|lang.DIALOG_STRING96
+"Très bien, tu as compris ! Cependant la clé publique générée n'est pas suffisamment sécurisée, l'ordinateur va arranger cela."|lang.DIALOG_STRING97
+"Très bien, tu as débranché le bon câble ! Plus qu'un panneau électrique et je pourrai enfin sortir !"|lang.DIALOG_STRING98
+"Tu es stagiaire dans une équipe de recherche Inria"|lang.DIALOG_STRING99
+"Tu n'y arrives pas ? C'est peut-être normal ! Je te rappelle le principe de la cryptographie asymétrique : la clé secrète rend le déchiffrement facile, mais c'est très difficile voire impossible avec la clé publique. Choisis bien à&nbsp;qui tu donnes quelle clé!"|lang.DIALOG_STRING100
+"Tu vas maintenant créer ta paire de clé privée / clé publique mais<span>...</span> n’oublie pas, cette clé privée est... privée ! Toi seul dois la connaître ! Ta clé publique sera diffusée sur le réseau à l’ensemble des chercheurs de l’Institut."|lang.DIALOG_STRING101
+"Une clé publique ? Pourquoi ma clé serait-elle publique ?"|lang.DIALOG_STRING102
+"Valid base64 characters are A-Z, a-z, 0-9, '+', '/',and '='\n"|lang.DIALOG_STRING103
+"Voici le message que j'ai crypté à l’aide de ta <em>clé publique</em>, pour le décrypter tu dois utiliser ta <em>clé privée.</em> Manipule ta clé comme tout à l’heure avec <img src='img/icn-arrow-left.png' class='keyboard-key'> et <img src='img/icn-arrow-right.png'  class='keyboard-key'> pour déplacer les colonnes et <img src='img/icn-arrow-up.png' class='keyboard-key'> ou <img src='img/icn-space.png' class='keyboard-key'>. pour inverser les couleurs des blocs."|lang.DIALOG_STRING104
+"Voici ta clé privée, elle s'affiche en haut de ton écran, utilise les touches <img src='img/icn-arrow-left.png' class='keyboard-key'> et <img src='img/icn-arrow-right.png'  class='keyboard-key'> pour la manipuler selon ton envie. Appuie sur la touche <img src='img/icn-arrow-up.png' class='keyboard-key'> ou <img src='img/icn-space.png' class='keyboard-key'> pour inverser ta clé et lorsque tu seras prêt, appuie sur la touche <img src='img/icn-arrow-down.png' class='keyboard-key'> pour valider ton choix."|lang.DIALOG_STRING105
+"Zut, le serveur essaie lui aussi de décrypter le message, <em>heureusement il ne dispose que de ta clé publique !</em> Je t’envoie en temps réel les informations correspondant à son avancé, dépêche toi de décrypter le message avant qu’il n’arrive à casser le code."|lang.DIALOG_STRING106
+"st-ce que tu me reçois ? C’est vraiment bizarre, notre serveur refuse obstinément de se re-configurer et m'empêche de sortir <sspan>de la salle </sspan>des machines, essaie de débrancher le câble n° 42 du tableau électrique principal."|lang.DIALOG_STRING107
+"Échec"|lang.TXT_FAILURE
+"Échec."|lang.TXT_FAILURE
+'Serveur'|lang.TXT_ADVERSARY
