@@ -545,6 +545,8 @@ ul {
 .logo-inria-pixelated {
   margin: -20px;
   margin-bottom: 80px;
+  max-height:150px;
+  width:auto;
 }
 
 .new-login label {

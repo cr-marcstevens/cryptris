@@ -3,8 +3,22 @@
 = Usage in HTML: just place TOKEN and it will be completely replaced
 = Usage in Javascript: use the variable lang.TOKEN holding the string "substitution string"
 
+== customization
 = base url translation
-http://inriamecsci.github.io/cryptris=http://cr-marcstevens.github.io/cryptris
+http://inriamecsci.github.io/cryptris=https://marc-stevens.nl/cryptris/
+TXT_CUSTOM_OS=CryptOS 355/113
+= custom institute
+=TXT_CUSTOM_INSTITUTE=Inria
+=TXT_CUSTOM_GROUP=a research team
+=TXT_RESEARCHER=Researcher
+TXT_CUSTOM_INSTITUTE=CWI
+TXT_CUSTOM_GROUP=the Cryptology Group
+TXT_RESEARCHER=Léo Ducas
+= institute logo: auto scaled to max-height 150px
+IMG_LOGO_INSTITUTE=https://event.cwi.nl/wine2015/media/img/1b_CWI_LogoPMS193.png
+=IMG_RESEARCHER=img/avatar-m.jpg
+=IMG_RESEARCHER=img/avater-chercheuse.jpg
+IMG_RESEARCHER=https://pbs.twimg.com/profile_images/1003931882298408965/i2511k8a_400x400.jpg
 
 = basic words
 TXT_CANCEL=Cancel
@@ -17,7 +31,6 @@ TXT_NEXT=Next
 TXT_PREV=Previous
 TXT_OPEN_MESSAGE=Open Message
 TXT_DECRYPT_MESSAGE=Decrypt Message
-TXT_RESEARCHER=Researcher
 TXT_GAME=Game
 TXT_SPY_SOFTWARE=SPY SOFTWARE
 TXT_PAUSE=Pause
@@ -27,7 +40,6 @@ TXT_RESUME=Resume
 TXT_ROTATE=Rotate
 TXT_FAILURE=Failure
 TXT_GOODDAY=Hello
-TXT_CUSTOM_OS=InriOS 3.14
 TXT_CRYPTRIS=Cryptris
 TXT_PRIVATE_KEY=Private Key
 TXT_PUBLIC_KEY=Public Key
@@ -172,7 +184,7 @@ DIALOG_STRING10=Wait, it's not normal ... I'm checking ... That's it! The server
 =DIALOG_STRING18=Challenge facile (8 blocs)
 =DIALOG_STRING19=Challenge novice (10 blocs)
 =DIALOG_STRING20=Challenge réussi
-DIALOG_STRING11=Welcome to the Institute! So you're my new apprentice, perfect! Let's start at the beginning, you will need a user account to connect to the network, you just have to choose your username.
+DIALOG_STRING11=Welcome to the Institute! So you're my new intern, perfect! Let's start at the beginning, you will need a user account to connect to the network, you just have to choose your username.
 DIALOG_STRING12=Congratulations, you have disconnected the right cable! More than two electrical panels and it should be good!
 DIALOG_STRING13=It's weird, the server has reported a failure, I have to go to the machine room to check that everything is in order. You will have to plug or unplug some cables.
 DIALOG_STRING14=This server should not be able to decrypt these messages as fast ... I understand! It contaminates other computers and increases its power!
@@ -347,7 +359,7 @@ DIALOG_STRING95=There were invalid base64 characters in the text input.\n
 DIALOG_STRING96=Third challenge decrypted:
 DIALOG_STRING97=All right, you understand! However the generated public key is not secure enough, the computer will fix that.
 DIALOG_STRING98=All right, you've unplugged the right cable! More than an electrical panel and I can finally go out!
-DIALOG_STRING99=You are intern in an Inria research team
+DIALOG_STRING99=You are an intern in TXT_CUSTOM_GROUP at TXT_CUSTOM_INSTITUTE
 =TODO: CHECK TRANSLATION of DIALOG_STRING100
 DIALOG_STRING100=Can not? It may be normal! I remind you the principle of asymmetric cryptography: the secret key makes decryption easy, but it is very difficult or impossible with the public key. Choose well who you give what key!
 
