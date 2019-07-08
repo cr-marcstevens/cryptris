@@ -341,7 +341,7 @@ p{
 
 .cryptris-logo-large{
 	width: 70%;
-	max-width: 1090px;
+/*	max-width: 1090px;*/
 	min-width: 500px;
 	margin-top: -5%;
 	margin-bottom: -50px;
