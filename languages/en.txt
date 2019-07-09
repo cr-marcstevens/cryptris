@@ -367,9 +367,7 @@ DIALOG_STRING96=Third challenge decrypted:
 DIALOG_STRING97=All right, you understand! However the generated public key is not secure enough, the computer will fix that.
 DIALOG_STRING98=All right, you've unplugged the right cable! More than an electrical panel and I can finally go out!
 DIALOG_STRING99=You are an intern in TXT_CUSTOM_GROUP at TXT_CUSTOM_INSTITUTE
-=TODO: CHECK TRANSLATION of DIALOG_STRING100
-DIALOG_STRING100=Can not? It may be normal! I remind you the principle of asymmetric cryptography: the secret key makes decryption easy, but it is very difficult or impossible with the public key. Choose well who you give what key!
-
+DIALOG_STRING100=Can't win ? This may be normal! Let me remind you the principle of asymmetric cryptography: the secret key makes decryption easy, but it is very difficult or impossible with the public key. Choose well who gets which key!
 =DIALOG_STRING101=Tu vas maintenant créer ta paire de clé privée / clé publique mais<span>...</span> n’oublie pas, cette clé privée est... privée ! Toi seul dois la connaître ! Ta clé publique sera diffusée sur le réseau à l’ensemble des chercheurs de l’Institut.
 =DIALOG_STRING102=Une clé publique ? Pourquoi ma clé serait-elle publique ?
 =DIALOG_STRING103=Valid base64 characters are A-Z, a-z, 0-9, '+', '/',and '='\n
