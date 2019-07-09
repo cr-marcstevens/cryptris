@@ -9,11 +9,16 @@ mv "$1.tmp" "$1"
 function generate_html_file
 {
 infile=$1
-lang=$2
-outfile=$(basename ${infile%.html})_${lang}.html
-
-#echo $infile $outfile
-cat $infile | sed "s/\(href=.[a-zA-Z]*\)[.]html/\1_${lang}.html/g" | sed -f languages/${lang}.ed > $outfile
+if [ "$infile" != "html/documentation.html" ]; then
+	lang=$2
+	outfile=$(basename ${infile%.html})_${lang}.html
+	echo "Generating ${outfile}"
+	#echo $infile $outfile
+	cat $infile | sed "s/\(href=.[a-zA-Z]*\)[.]html/\1_${lang}.html/g" | sed -f languages/${lang}.ed > $outfile
+else
+	echo "Copying ${outfile} (pre-translated)"
+	cp html/pre_translated/$outfile $outfile
+fi
 
 }
 
@@ -43,7 +48,6 @@ for lg in en ; do
 	# process all html files	
 	for f in html/*.html; do
 		outfile=$(basename ${f%.html})_${lg}.html
-		echo "Generating ${outfile}"
 		generate_html_file $f $lg
 	done
 	

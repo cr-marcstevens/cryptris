@@ -8,6 +8,7 @@
 BASE_URL=https://marc-stevens.nl/cryptris/
 THANKS_HTMLFILE=/thanks_en.html
 DECRYPTER_HTMLFILE=/decrypter_en.html
+DOCUMENTATION_HTMLFILE=documentation_en.html
 
 = custom institute
 =TXT_CUSTOM_OS=InriOS 3.14
