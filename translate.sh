@@ -1,5 +1,7 @@
 #!/bin/bash
 
+CRYPTRIS_LANGUAGES="en fr"
+
 function replace_string_in_file
 {
 cat "$1" | sed "s/$2/$3/g" > "$1.tmp"
@@ -9,23 +11,17 @@ mv "$1.tmp" "$1"
 function generate_html_file
 {
 infile=$1
-if [ "$infile" != "html/documentation.html" ]; then
-	lang=$2
-	outfile=$(basename ${infile%.html})_${lang}.html
-	echo "Generating ${outfile}"
-	#echo $infile $outfile
-	cat $infile | sed "s/\(href=.[a-zA-Z]*\)[.]html/\1_${lang}.html/g" | sed -f languages/${lang}.ed > $outfile
-else
-	echo "Copying ${outfile} (pre-translated)"
-	cp html/pre_translated/$outfile $outfile
-fi
+lang=$2
+outfile=$(basename ${infile%.html})_${lang}.html
+echo "Generating ${outfile}"
+cat $infile | sed "s/\(href=.[a-zA-Z]*\)[.]html/\1_${lang}.html/g" | sed -f languages/${lang}.ed > $outfile
 
 }
 
-rm *_*.html
+rm *_*.html 2>/dev/null
 
-echo "Translating HTML files for each language"
-for lg in en fr ; do
+echo "Translating HTML files for each language: ${CRYPTRIS_LANGUAGES}"
+for lg in ${CRYPTRIS_LANGUAGES} ; do
 	echo -n "Reading substitutions for language ${lg}"
 
 	# convert the language file into a ed script and a javascript file
@@ -51,4 +47,10 @@ for lg in en fr ; do
 		generate_html_file $f $lg
 	done
 	
+	# copy pre-translated html files
+	for f in html/pre_translated/*_${lg}.html ; do
+		ff=$(basename ${f})
+		echo "Copying $ff (pre-translated)"
+		cp $f ./
+	done
 done
