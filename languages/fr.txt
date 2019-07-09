@@ -1,0 +1,264 @@
+= Comment lines start with a '='
+= Format: TOKEN=substitution string
+= Usage in HTML: just place TOKEN and it will be completely replaced
+= Usage in Javascript: use the variable lang.TOKEN holding the string "substitution string"
+
+THANKS_HTMLFILE=thanks_fr.html
+DECRYPTER_HTMLFILE=decrypter_fr.html
+
+= custom group / researcher
+TXT_RESEARCHER=Chercheuse
+TXT_CUSTOM_GROUP=une équipe de recherche Inria
+
+= basic words
+TXT_CANCEL=Cancel
+TXT_OK=OK
+TXT_RESET=Reset
+TXT_SUBMIT=Submit
+TXT_LICENSES=Licenses
+TXT_PARTNERS=Partners
+TXT_NEXT=Next
+TXT_PREV=Previous
+TXT_OPEN_MESSAGE=Open Message
+TXT_DECRYPT_MESSAGE=Decrypt Message
+TXT_GAME=Game
+TXT_SPY_SOFTWARE=SPY SOFTWARE
+TXT_PAUSE=Pause
+TXT_PERFECT=Perfect
+TXT_RESTART=Restart
+TXT_RESUME=Resume
+TXT_ROTATE=Rotate
+TXT_FAILURE=Failure
+TXT_GOODDAY=Hello
+TXT_CRYPTRIS=Cryptris
+TXT_PRIVATE_KEY=Private Key
+TXT_PUBLIC_KEY=Public Key
+TXT_PLAYER=Player
+TXT_ADVERSARY=Adversary
+
+= *.html
+CRYPTRIS_HTMLTITLE=Cryptris - An asymetric cryptography game
+CRYPTRIS_HTMLDESCRIPTION=Discover the universe of cryptography: play against the computer to find out who will be able to decrypt the fastest. Many challenges await you, are you ready?
+CRYPTRIS_JS_LANGUAGEFILE=lang_en.js
+
+= about.html credits.html
+ABOUT_HTMLTITLE=About - Cryptris
+CREDITS_HTMLTITLE=Credits - Cryptris
+ABOUT_DESCRIPTION=Cryptris is a game proposed by <a href="http://www.inria.fr/" target="_blank">Inria</a> and developed by <a href="http://digitalcuisine.fr/" target="_blank">Digital&nbsp;Cuisine</a>, with the support of <a href="http://www.capmaths.fr">Cap'Maths</a>, and proposed under an open <a href="license.html">license</a>.
+ABOUT_GOAL=The goal of this game is to show the interest of so-called asymmetric cryptography. In a series of puzzles, the player decrypts a message using a private key, while the computer tries to decrypt the same message using a&nbsp;public&nbsp;key.
+ABOUT_DIFFICULTY=The difficulty for the player increases linearly, while the computer will have more and more trouble. Cryptography protects your data effectively!
+CREDITS_IDEA=Based on an original idea by Léo Ducas
+CREDITS_H_SCENARIO=Scenario
+CREDITS_H_TRANSLATION=Translation
+CREDITS_R_COORDINATION=Coordination
+CREDITS_R_SCIENTIFICREF=Scientific Review
+CREDITS_R_REF=Review
+CREDITS_R_ARTISTIC_DIRECTOR=Artistic Director
+CREDITS_R_GRAPHICS=Graphics
+CREDITS_R_GAME_ENGINE=Game Engine
+CREDITS_R_HTML_INTEGRATION=HTML Integration
+CREDITS_R_TESTING=Testing
+CREDITS_R_TRANSLATION=Translation adaptation
+CREDITS_R_LANGUAGE=Translation
+CREDITS_THIRDPARTY=This project uses libraries, images and third-party tools.
+CREDITS_S_SERVER_ROOM=Server room by wikieditor243, licensed under creative commons (CC BY-SA 3.0).
+CREDITS_S_ELECTRIC_CIRCUIT=Electric Circuit by Brandon Blinkenberg (gobran111).
+CREDITS_S_OTHER_IMAGES=Without exception, all other visuals were created by or for Digital Cuisine and Inria.
+CREDITS_PARTNERS=This achievement was made possible thanks to the support of the following partners :
+
+= arcade.html
+ARCADE_HTMLTITLE=Arcade - Cryptris
+ARCADE_CHOOSE_USERNAME=Choose your username :
+ARCADE_MENU_CREATE_KEY=Create Keys
+ARCADE_MENU_BEGINNER=Beginner - 8 blocks
+ARCADE_MENU_EASY=Easy - 10 blocks
+ARCADE_MENU_MEDIUM=Medium - 12 blocks
+ARCADE_MENU_HARD=Hard - 14 blocks
+ARCADE_MENU_EXPERT=Expert - 16 blocks
+ARCADE_END=- END -
+SHARE_SOCIAL_MEDIA=Share your experience on your favorite social media :
+
+= index.html
+MENU_NEW_GAME=New Game
+MENU_ARCADE=Arcade
+MENU_DOCUMENTATION=Documentation
+MENU_SHARE=Share this game
+MENU_ABOUT=About this game
+MENU_CREDITS=Credits
+
+= license.html
+LICENSE_HTMLTITLE=License - Cryptris
+LICENSE_SOURCE_CODE=All source code is distributed under the license <a href="http://www.cecill.info/licences/Licence_CeCILL_V2-en.html">CeCILL V2</a> (Compatible with GNU GPL)
+LICENSE_DOCUMENTATION=All related documents are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en">Creative Commons</a> Attribution-NonCommercial-ShareAlike 2.0 France (CC BY-NC-SA 2.0 FR)
+LICENSE_BYNCSA20FR_URL=https://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en
+LICENSE_EXPLANATION=This license therefore gives the right to copy, distribute and communicate this material by any means and in any format, and make a remix, transform, or create from the material for personal or educational purposes (for any other use just contact us)
+LICENSE_CECILL_REMARK=The source code is distributed under the CeCiLL license. This License is a Free Open Source Software license. It is close in its terms to the LGPL license. The CeCill licenses have been created under the supervision of French computer science major institutions. They comply to European regulation rules. Documents are distributed under the Creative-Commons standard license.
+
+= share.html
+SHARE_HTMLTITLE=Share this game with your friends
+CHARACTERS_LEFT=Characters left
+CHARACTER_LEFT=Character left
+SHARE_THE_GAME=Share the game
+SHARE_ON_FACEBOOK=Share on Facebook
+SHARE_ON_TWITTER=Share on Twitter
+SHARE_VIA_EMAIL=Share via email
+SHARE_VIA_LINK=Share link
+SHARE_THIS_LINK=Copy-paste this link to share your message&nbsp;:
+TRY_TO_OPEN_EMAIL=Try to send with a new email
+SHARE_ENTER_YOUR_MESSAGE=Challenge your friends to decipher your message, start by typing it below, <br/>it will then be encrypted using a random private / public key pair.
+SHARE_HERES_ENCRYPTED_MESSAGE=Here is your encrypted message, share it !
+MODIFY_MY_MESSAGE=Modify my message
+WARNING_CRYPTRIS_PGP=Warning ! Cryptris is just a game: we will give the private key to all those who will click on your link and your message will not remain secret long ... <br/> To send real encrypted messages, <a href='documentation.html#pgp'>use PGP</a>
+
+= story.html
+STORY_END_MESSAGE=<p>You've explored the world of cryptography and confronted the computer&nbsp;!</p><p> Try to decrypt an even longer message, even with the public key, in arcade mode. </p><p> Share your experience on your favorite social networks &nbsp;: </p>
+STORY_END=- END -
+
+= thanks.html
+THANKS_HTMLTITLE=Thank you for playing Cryptris
+THANKS_FOR_PLAYING=Thank you for playing this game!
+CLOSE_THIS_WINDOW=Close this window
+
+
+= js/arcade-dialogs.js
+ARCADE_DIALOG_GAME_OVER_TITLE=Game over (the computer won)
+ARCADE_DIALOG_GAME_OVER=You really need to be able to decrypt this message before the computer. Let's start from scratch!
+ARCADE_DIALOG_TOO_MANY_BLOCKS_TITLE=Game over (player does not play properly)
+ARCADE_DIALOG_TOO_MANY_BLOCKS=To decrypt the message you have to cancel out the blocks, you are accumulating them.
+ARCADE_DIALOG_ANNOUNCE_PUBLICKEY_TITLE=Dialogue 'You will create your key pair' (Researcher)
+ARCADE_DIALOG_ANNOUNCE_PUBLICKEY=You will create your private key / public key pair but <span> ... </ span> do not forget, this private key is ... private! You alone must know it! Your public key will be disseminated on the network to all the researchers of the Institute.
+ARCADE_DIALOG_HERE_PRIVATEKEY_TITLE=Dialogue 'Here is your private key' (Researcher)
+ARCADE_DIALOG_HERE_PRIVATEKEY=Here is your private key, use the keys KEYLEFT and KEYRIGHT to manipulate it according to your desire. Press KEYUP or KEYSPACE to invert your key and when you are ready, press KEYDOWN to confirm your choice.
+ARCADE_DIALOG_CREATE_PUBLICKEY=To generate your public key, drop your private key six or seven times. If the security level is sufficient, your public key will be saved, otherwise the computer will complete it.
+ARCADE_DIALOG_SUCCESS=Congratulations, you understood how it works!
+
+= recursive KEY IMAGES: 
+= NOTE: in js you must use: lang.ARCADE_DIALOG_HERE_PRIVATEKEY.replace("KEYUP",lang.KEYUP).replace("KEYDOWN",lang.KEYDOWN)  etc etc.
+=KEYUP=UP
+=KEYDOWN=DOWN
+=KEYRIGHT=RIGHT
+=KEYLEFT=LEFT
+=KEYSPACE=SPACE
+KEYUP=<img src='img/icn-arrow-up.png' class='keyboard-key'>
+KEYDOWN=<img src='img/icn-arrow-down.png' class='keyboard-key'>
+KEYLEFT=<img src='img/icn-arrow-left.png' class='keyboard-key'>
+KEYRIGHT=<img src='img/icn-arrow-right.png' class='keyboard-key'>
+KEYSPACE=<img src='img/icn-space.png' class='keyboard-key'>
+
+
+DIALOG_STRING1=blocs
+DIALOG_STRING2=, bienvenue à l'INRIA. Tu as en ta possession un message crypté, laisse-moi t'expliquer comment le décrypter. 
+DIALOG_STRING3=, ton compte est maintenant créé. Afin de sécuriser les échanges sur le réseau, nous utilisons un protocole de cryptographie asymétrique.
+DIALOG_STRING4=Durée (maximale) de décryptage
+DIALOG_STRING5=Abandon - Temps de jeu
+DIALOG_STRING6=Abandon
+DIALOG_STRING7=Abandonner
+DIALOG_STRING8=Aie ! Je viens de me prendre une décharge électrique !
+DIALOG_STRING9=Asymétrique ? Pourquoi asymétrique ?
+DIALOG_STRING10=Attends, ce n’est pas normal... Je vérifie... Ça alors ! Le serveur s’est reprogrammé de lui-même et il contrôle le système. Manifestement, il nous écoute et t’a empêché de débrancher le câble, tout comme il a verrouillé les portes de la salle. Je suis enfermée ici !
+
+DIALOG_STRING11=Bienvenue à l’Institut ! C’est donc toi mon nouvel apprenti, parfait ! Commençons par le commencement, il te faudra un compte utilisateur pour te connecter au réseau, tu n’as qu’à choisir ton nom d’utilisateur.
+DIALOG_STRING12=Bravo, tu as débranché le bon câble ! Plus que deux panneaux électriques et&nbsp;ça devrait être bon !
+DIALOG_STRING13=C'est bizarre, le serveur a signalé une panne, je dois aller en salle des machines pour vérifier que tout est en ordre. Il faudra que tu branches ou débranches certains câbles.
+DIALOG_STRING14=Ce serveur ne devrait pas être en mesure de décrypter aussi rapidement ces messages... J’ai compris ! Il contamine d’autres ordinateurs et augmente ainsi sa puissance !
+DIALOG_STRING15=Challenge apprenti (12 blocs)
+DIALOG_STRING16=Challenge chercheur (14 blocs)
+DIALOG_STRING17=Challenge expert (16 blocs)
+DIALOG_STRING18=Challenge facile (8 blocs)
+DIALOG_STRING19=Challenge novice (10 blocs)
+DIALOG_STRING20=Challenge réussi
+
+DIALOG_STRING21=Challenge suivant
+DIALOG_STRING22=Chaque challenge est crypté à l’aide de ta <em>clé publique</em>, pour le décrypter tu dois utiliser ta <em>clé privée.</em> Manipule ta clé comme tout à l’heure avec KEYLEFT et KEYRIGHT pour déplacer les colonnes et KEYUP ou KEYSPACE. pour inverser les couleurs des blocs.
+DIALOG_STRING23=Cinquième challenge décrypté
+DIALOG_STRING24=Clé créée avec succès
+DIALOG_STRING25=Clé privée ? Qu'est-ce que c'est ?
+DIALOG_STRING26=Comparaison des temps de jeu
+DIALOG_STRING27=Comparaison du temps de décryptage
+DIALOG_STRING28=Cryptogra... quoi ?
+DIALOG_STRING29=Cryptographie! Du grec ancien <strong>kruptos</strong> (« caché ») et <strong>graphein</strong> (« écrire »). Il s’agit de protéger des messages.
+DIALOG_STRING30=Création clé publique
+
+DIALOG_STRING31=C’est le bon moment pour utiliser le protocole de cryptage afin de l’empêcher de nous écouter ! Je vais t'envoyer la liste des câbles à débrancher, mais un par un, et de manière cryptée.
+DIALOG_STRING32=D'accord, j'ai compris.
+DIALOG_STRING33=Deuxième challenge décrypté
+DIALOG_STRING34=Durée du décryptage
+DIALOG_STRING35=Débranche le câble 24 du panneau électrique V
+DIALOG_STRING36=Débranche le câble 31 du panneau électrique N
+DIALOG_STRING37=Débranche le câble 78 du panneau électrique M
+DIALOG_STRING38=Débrancher le câble
+DIALOG_STRING39=Déchiffrez le message
+DIALOG_STRING40=Décryptage d'un message partagé
+
+DIALOG_STRING41=Décrypter - Décryptage d'un message partagé - 
+DIALOG_STRING42=Décrypter - Décryptage d'un message partagé - Début
+DIALOG_STRING44=Décrypter
+DIALOG_STRING45=Défi! Cryptris, un jeu gratuit sur la cryptographie asymétrique
+DIALOG_STRING46=Défiez l’ordinateur pour savoir qui arrivera à décrypter le plus rapidement. De nombreux défis cryptologiques vous attendent, êtes-vous prêts ?
+DIALOG_STRING47=Ecran débrancher câble
+DIALOG_STRING48=En revanche la difficulté pour l’ordinateur a augmenté bien plus vite que sa&nbsp;capacité de calcul. CQFD !
+DIALOG_STRING49=Félicitations, tu as compris le fonctionnement et la clé publique générée est efficace !
+DIALOG_STRING50=Heureusement, grâce à la cryptographie asymétrique, aucune machine ne peut décrypter assez vite nos messages. Les différents niveaux d’encryption ne t’ont pas vraiment compliqué <span>la tâche,</span> car tu disposes de la clé privée.
+
+DIALOG_STRING51=Il faut vraiment que tu puisses décrypter ce message avant l'ordinateur. Reprennons de zéro !
+DIALOG_STRING53=Intro - Chercheuse crypte un message
+DIALOG_STRING54=Intro - Création clé publique
+DIALOG_STRING55=Intro - Fin
+DIALOG_STRING56=Intro - Tutoriel decryptage
+DIALOG_STRING56=Intro - Tutoriel décryptage
+DIALOG_STRING57=Intro
+DIALOG_STRING58=J'utilise ta clé publique pour crypter mon message.
+DIALOG_STRING59=Je suis en train de crypter un message que tu pourras décrypter par la suite.
+DIALOG_STRING60=Je t'envoie le dernier câble, en augmentant encore la difficulté du cryptage. Il lui faudra quelques centaines de jours pour <span>décrypter ce dernier message</span>, et d'ici là nous l'aurons débranché et analysé !
+
+DIALOG_STRING61=Je t'envoie le deuxième câble, crypté avec deux blocs de plus. Avec la cryptographie asymétrique, lorsqu’on augmente le  nombre de bits, la difficulté du calcul augmente de manière exponentielle pour un attaquant. Cela devrait donc faire l’affaire.
+DIALOG_STRING62=Je t'envoie un message crypté contenant le premier numéro de câble à débrancher et le tableau électrique correspondant.
+DIALOG_STRING63=Je viens de terminer Cryptris - un jeu sur l’univers de la cryptographie asymétrique. Affrontez l’ordinateur
+DIALOG_STRING64=Jeu terminé en 
+DIALOG_STRING65=J’ai bien failli rester enfermée pour de bon et le serveur aurait pu contaminer tout internet, absorbant les données personnelles de la planète entière !
+DIALOG_STRING66=Lorsque deux blocs de même couleur se touchent : ils s'additionnent, sinon ils se détruisent. Ton message est décrypté lorsqu'il ne reste qu'une seule ligne au message. A toi de jouer !
+DIALOG_STRING67=Lorsque tu appuies sur KEYDOWN ta clé est envoyée sur le message à décrypter et les blocs vont s’annuler s’ils sont de couleurs opposées ou s’empiler s’ils sont de même couleur. Le message est décrypté lorsque tu n’as plus qu’une seule ligne de blocs en bas. À toi de jouer !
+DIALOG_STRING68=Malheureusement, le serveur a accès à notre base de données, <span>et a appris</span> comment décrypter plus vite. Je fais ce que je peux pour le ralentir, mais sa capacité de calcul et son adresse ne font qu'augmenter !
+DIALOG_STRING69=Mes félicitations ! Nous avons réussi à contenir la machine. Sa capacité de calcul augmentait de manière phénoménale, mais pas aussi rapidement que&nbsp;la difficulté du décryptage…
+DIALOG_STRING70=Message crypté.
+
+DIALOG_STRING71=Message décrypté
+DIALOG_STRING72=OK, tu as réussi à lire ce message.
+DIALOG_STRING73=Oui ! Asymétrique, on l’appelle aussi cryptographie à clé publique car elle repose sur l’utilisation de deux types de clés <span>:</span> la clé privée, et la clé publique. La clé publique sert à chiffrer, ou coder si tu préfères, les messages, tandis que la clé privée permet de les déchiffrer.
+DIALOG_STRING74=Parfait ! Te voilà fin prêt! J’ai bien ta clé publique, nous pouvons passer à la suite.
+DIALOG_STRING75=Parfait ! Te voilà fin prêt! J’ai bien ta clé publique... Vérifions que tout fonctionne. Je t’envoie un premier message crypté.
+DIALOG_STRING76=Parfait ! Tu as compris <em>comment décrypter un message à l'aide de ta clé privée,</em> je n’en attendais pas <span>moins de toi !</span> Te voilà fin prêt et tu es maintenant un membre à part entière de l’Institut.
+DIALOG_STRING78=Passer cette étape
+DIALOG_STRING79=Pour décrypter le message tu dois détruire les blocs, tu es en train de les accumuler. Reprennons de zéro !
+DIALOG_STRING80=Pour générer ta clé publique, fais tomber six fois ta clé privée. Si le niveau de sécurité est suffisant, ta clé publique sera sauvegardée, sinon l'ordinateur la complétera.
+
+DIALOG_STRING81=Pour générer ta clé publique, manipule ta clé privée avec KEYLEFT, KEYUP et KEYRIGHT puis fais-la tomber six fois avec la touche KEYDOWN. Si le niveau de sécurité est suffisant, ta clé publique sera sauvegardée, sinon l'ordinateur la complétera.
+DIALOG_STRING82=Pour générer ta clé publique, manipule ta clé privée avec KEYLEFT, KEYUP et KEYRIGHT puis fais-la tomber six ou sept fois avec la touche KEYDOWN.
+DIALOG_STRING83=Premier challenge décrypté
+DIALOG_STRING84=Premier jour à l'institut
+DIALOG_STRING85=Préparation du niveau de jeu
+DIALOG_STRING86=Quatrième challenge décrypté
+DIALOG_STRING87=Si tu as besoin d'aide, appuie sur le bouton '?' et je te donnerai toutes les informations nécessaires.
+DIALOG_STRING88=Si vous le dites...
+DIALOG_STRING89=Séléctionner le cable à débrancher
+DIALOG_STRING90=Ta clé privée est la clé que toi seul connaîtra, c'est elle qui te permettra de déchiffrer facilement les message qui te seront envoyés. <em>Sans la clé privée il est très difficile,</em> voir impossible, <em>de déchiffrer un message crypté.</em>
+
+DIALOG_STRING91=Ta clé privée se trouve en haut. Utilise les touches KEYLEFT et KEYRIGHT pour la manipuler selon ton envie. Appuie sur la touche KEYUP ou KEYSPACE pour inverser ta clé et lorsque tu seras prêt, appuie sur la touche KEYDOWN pour valider ton choix.
+DIALOG_STRING92=Ta clé publique sera dérivée de ta clé privée. De la même manière qu'un <em>cadenas</em> permet de <em>sécuriser le contenu d'un coffre,</em> la <em>clé publique</em> permet de <em>chiffrer des messages</em> et les rendre illisibles à ceux qui ne disposent pas de la clé privée.
+DIALOG_STRING93=Taille de la clé (blocs)
+DIALOG_STRING94=Temps de jeu
+DIALOG_STRING95=There were invalid base64 characters in the input text.\n
+DIALOG_STRING96=Troisième challenge décrypté
+DIALOG_STRING97=Très bien, tu as compris ! Cependant la clé publique générée n'est pas suffisamment sécurisée, l'ordinateur va arranger cela.
+DIALOG_STRING98=Très bien, tu as débranché le bon câble ! Plus qu'un panneau électrique et je pourrai enfin sortir !
+DIALOG_STRING99=Tu es stagiaire dans TXT_CUSTOM_GROUP
+DIALOG_STRING100=Tu n'y arrives pas ? C'est peut-être normal ! Je te rappelle le principe de la cryptographie asymétrique : la clé secrète rend le déchiffrement facile, mais c'est très difficile voire impossible avec la clé publique. Choisis bien à&nbsp;qui tu donnes quelle clé!
+
+DIALOG_STRING101=Tu vas maintenant créer ta paire de clé privée / clé publique mais<span>...</span> n’oublie pas, cette clé privée est... privée ! Toi seul dois la connaître ! Ta clé publique sera diffusée sur le réseau à l’ensemble des chercheurs de l’Institut.
+DIALOG_STRING102=Une clé publique ? Pourquoi ma clé serait-elle publique ?
+DIALOG_STRING103=Valid base64 characters are A-Z, a-z, 0-9, '+', '/',and '='\n
+DIALOG_STRING104=Voici le message que j'ai crypté à l’aide de ta <em>clé publique</em>, pour le décrypter tu dois utiliser ta <em>clé privée.</em> Manipule ta clé comme tout à l’heure avec KEYLEFT et KEYRIGHT pour déplacer les colonnes et KEYUP ou KEYSPACE. pour inverser les couleurs des blocs.
+DIALOG_STRING105=Voici ta clé privée, elle s'affiche en haut de ton écran, utilise les touches KEYLEFT et KEYRIGHT pour la manipuler selon ton envie. Appuie sur la touche KEYUP ou KEYSPACE pour inverser ta clé et lorsque tu seras prêt, appuie sur la touche KEYDOWN pour valider ton choix.
+DIALOG_STRING106=Zut, le serveur essaie lui aussi de décrypter le message, <em>heureusement il ne dispose que de ta clé publique !</em> Je t’envoie en temps réel les informations correspondant à son avancé, dépêche toi de décrypter le message avant qu’il n’arrive à casser le code.
+DIALOG_STRING107=Est-ce que tu me reçois ? C’est vraiment bizarre, notre serveur refuse obstinément de se re-configurer et m'empêche de sortir <sspan>de la salle </sspan>des machines, essaie de débrancher le câble n° 42 du tableau électrique principal.
+DIALOG_STRING108=Félicitations ! Tu as décrypté plus rapidement que l’ordinateur. Si tu veux découvrir la cryptographie, essaie de faire une nouvelle partie complète.

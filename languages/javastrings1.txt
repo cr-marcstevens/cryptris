@@ -1,8 +1,8 @@
-" blocs"|lang.DIALOG_STRING1
+" blocs"|" "+lang.DIALOG_STRING1
 ", bienvenue à l'INRIA. Tu as en ta possession un message crypté, laisse-moi t'expliquer comment le décrypter. "|lang.DIALOG_STRING2
 ", ton compte est maintenant créé. Afin de sécuriser les échanges sur le réseau, nous utilisons un protocole de cryptographie asymétrique."|lang.DIALOG_STRING3
-"<br/>Durée (maximale) de décryptage : "|lang.DIALOG_STRING4
-"Abandon - Temps de jeu : "|lang.DIALOG_STRING5
+"<br/>Durée (maximale) de décryptage : "|"<br/>"+lang.DIALOG_STRING4+" : "
+"Abandon - Temps de jeu : "|lang.DIALOG_STRING5+" : "
 "Abandon"|lang.DIALOG_STRING6
 "Abandonner"|lang.DIALOG_STRING7
 "Aie ! Je viens de me prendre une décharge électrique !"|lang.DIALOG_STRING8
@@ -23,7 +23,7 @@
 "Challenge suivant"|lang.DIALOG_STRING21
 "Chaque challenge est crypté à l’aide de ta <em>clé publique</em>, pour le décrypter tu dois utiliser ta <em>clé privée.</em> Manipule ta clé comme tout à l’heure avec <img src='img/icn-arrow-left.png' class='keyboard-key'> et <img src='img/icn-arrow-right.png'  class='keyboard-key'> pour déplacer les colonnes et <img src='img/icn-arrow-up.png' class='keyboard-key'> ou <img src='img/icn-space.png' class='keyboard-key'>. pour inverser les couleurs des blocs."|lang.DIALOG_STRING22.replace("KEYUP",lang.KEYUP).replace("KEYDOWN",lang.KEYDOWN).replace("KEYLEFT",lang.KEYLEFT).replace("KEYRIGHT",lang.KEYRIGHT).replace("KEYSPACE",lang.KEYSPACE)
 "Chercheuse"|lang.TXT_RESEARCHER
-"Cinquième challenge décrypté : "|lang.DIALOG_STRING23
+"Cinquième challenge décrypté : "|lang.DIALOG_STRING23+" : "
 "Clé créée avec succès"|lang.DIALOG_STRING24
 "Clé privée ? Qu'est-ce que c'est ?"|lang.DIALOG_STRING25
 "Comparaison des temps de jeu"|lang.DIALOG_STRING26
@@ -35,13 +35,13 @@
 "Création clé publique"|lang.DIALOG_STRING30
 "C’est le bon moment pour utiliser le protocole de cryptage afin de l’empêcher de nous écouter ! Je vais t'envoyer la liste des câbles à débrancher, mais un par un, et de manière cryptée."|lang.DIALOG_STRING31
 "D'accord, j'ai compris."|lang.DIALOG_STRING32
-"Deuxième challenge décrypté : "|lang.DIALOG_STRING33
-"Durée du décryptage ("|lang.DIALOG_STRING34
+"Deuxième challenge décrypté : "|lang.DIALOG_STRING33+" : "
+"Durée du décryptage ("|lang.DIALOG_STRING34+" ("
 "Débranche le câble 24 du panneau électrique V"|lang.DIALOG_STRING35
 "Débranche le câble 31 du panneau électrique N"|lang.DIALOG_STRING36
 "Débranche le câble 78 du panneau électrique M"|lang.DIALOG_STRING37
 "Débrancher le câble"|lang.DIALOG_STRING38
-"Déchiffrez le message: "|lang.DIALOG_STRING39
+"Déchiffrez le message: "|lang.DIALOG_STRING39+" : "
 "Décryptage d'un message partagé"|lang.DIALOG_STRING40
 "Décrypter - Décryptage d'un message partagé - "|lang.DIALOG_STRING41
 "Décrypter - Décryptage d'un message partagé - Début"|lang.DIALOG_STRING42
@@ -96,11 +96,11 @@
 "Pour générer ta clé publique, fais tomber six fois ta clé privée. Si le niveau de sécurité est suffisant, ta clé publique sera sauvegardée, sinon l'ordinateur la complétera."|lang.DIALOG_STRING80
 "Pour générer ta clé publique, manipule ta clé privée avec <img src='img/icn-arrow-left.png' class='keyboard-key'>, <img src='img/icn-arrow-up.png' class='keyboard-key'> et <img src='img/icn-arrow-right.png' class='keyboard-key'> puis fais-la tomber six fois avec la touche <img src='img/icn-arrow-down.png' class='keyboard-key'>. Si le niveau de sécurité est suffisant, ta clé publique sera sauvegardée, sinon l'ordinateur la complétera."|lang.DIALOG_STRING81.replace("KEYUP",lang.KEYUP).replace("KEYDOWN",lang.KEYDOWN).replace("KEYLEFT",lang.KEYLEFT).replace("KEYRIGHT",lang.KEYRIGHT).replace("KEYSPACE",lang.KEYSPACE)
 "Pour générer ta clé publique, manipule ta clé privée avec <img src='img/icn-arrow-left.png' class='keyboard-key'>, <img src='img/icn-arrow-up.png' class='keyboard-key'> et <img src='img/icn-arrow-right.png' class='keyboard-key'> puis fais-la tomber six ou sept fois avec la touche <img src='img/icn-arrow-down.png' class='keyboard-key'>."|lang.DIALOG_STRING82.replace("KEYUP",lang.KEYUP).replace("KEYDOWN",lang.KEYDOWN).replace("KEYLEFT",lang.KEYLEFT).replace("KEYRIGHT",lang.KEYRIGHT).replace("KEYSPACE",lang.KEYSPACE)
-"Premier challenge décrypté : "|lang.DIALOG_STRING83
+"Premier challenge décrypté : "|lang.DIALOG_STRING83+" : "
 "Premier jour à l'institut"|lang.DIALOG_STRING84
 "Précédent"|lang.TXT_PREV
 "Préparation du niveau de jeu"|lang.DIALOG_STRING85
-"Quatrième challenge décrypté : "|lang.DIALOG_STRING86
+"Quatrième challenge décrypté : "|lang.DIALOG_STRING86+" : "
 "Recommencer"|lang.TXT_RESTART
 "Reprendre"|lang.TXT_RESUME
 "Rotate"|lang.TXT_ROTATE
@@ -112,9 +112,9 @@
 "Ta clé privée se trouve en haut. Utilise les touches <img src='img/icn-arrow-left.png' class='keyboard-key'> et <img src='img/icn-arrow-right.png'  class='keyboard-key'> pour la manipuler selon ton envie. Appuie sur la touche <img src='img/icn-arrow-up.png' class='keyboard-key'> ou <img src='img/icn-space.png' class='keyboard-key'> pour inverser ta clé et lorsque tu seras prêt, appuie sur la touche <img src='img/icn-arrow-down.png' class='keyboard-key'> pour valider ton choix."|lang.DIALOG_STRING91.replace("KEYUP",lang.KEYUP).replace("KEYDOWN",lang.KEYDOWN).replace("KEYLEFT",lang.KEYLEFT).replace("KEYRIGHT",lang.KEYRIGHT).replace("KEYSPACE",lang.KEYSPACE)
 "Ta clé publique sera dérivée de ta clé privée. De la même manière qu'un <em>cadenas</em> permet de <em>sécuriser le contenu d'un coffre,</em> la <em>clé publique</em> permet de <em>chiffrer des messages</em> et les rendre illisibles à ceux qui ne disposent pas de la clé privée."|lang.DIALOG_STRING92
 "Taille de la clé (blocs)"|lang.DIALOG_STRING93
-"Temps de jeu : "|lang.DIALOG_STRING94
+"Temps de jeu"|lang.DIALOG_STRING94+" : "
 "There were invalid base64 characters in the input text.\n"|lang.DIALOG_STRING95
-"Troisième challenge décrypté : "|lang.DIALOG_STRING96
+"Troisième challenge décrypté : "|lang.DIALOG_STRING96+" : "
 "Très bien, tu as compris ! Cependant la clé publique générée n'est pas suffisamment sécurisée, l'ordinateur va arranger cela."|lang.DIALOG_STRING97
 "Très bien, tu as débranché le bon câble ! Plus qu'un panneau électrique et je pourrai enfin sortir !"|lang.DIALOG_STRING98
 "Tu es stagiaire dans une équipe de recherche Inria"|lang.DIALOG_STRING99.replace("TXT_CUSTOM_INSTITUTE",lang.TXT_CUSTOM_INSTITUTE).replace("TXT_CUSTOM_GROUP",lang.TXT_CUSTOM_GROUP)

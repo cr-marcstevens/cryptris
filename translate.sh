@@ -25,7 +25,7 @@ fi
 rm *_*.html
 
 echo "Translating HTML files for each language"
-for lg in en ; do
+for lg in en fr ; do
 	echo -n "Reading substitutions for language ${lg}"
 
 	# convert the language file into a ed script and a javascript file
@@ -41,7 +41,7 @@ for lg in en ; do
 			echo "${lhsname}:\"${rhsescaped}\"," >> js/lang_${lg}.js
 		fi
 		echo -n "."
-	done < languages/${lg}.txt
+	done < <(cat languages/custom.txt languages/${lg}.txt)
 	echo "langend:\"\"};" >> js/lang_${lg}.js
 	echo "done"
 

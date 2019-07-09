@@ -1,0 +1,22 @@
+= Format: TOKEN=substitution string
+= Usage in HTML: just place TOKEN and it will be completely replaced
+= Usage in Javascript: use the variable lang.TOKEN holding the string "substitution string"
+
+== customization
+= base url translation
+BASE_URL=https://marc-stevens.nl/cryptris/
+
+= custom institute
+=TXT_CUSTOM_INSTITUTE=Inria
+TXT_CUSTOM_INSTITUTE=CWI
+
+= custom OS string
+TXT_CUSTOM_OS=CryptOS 355/113
+
+= custom institute logo: auto scaled to max-height 150px
+=IMG_LOGO_INSTITUTE=img/logo-inria-pixelated.png
+IMG_LOGO_INSTITUTE=img/logo-cwi.png
+
+= custom researcher avatar
+IMG_RESEARCHER=img/avatar-chercheuse.jpg
+=IMG_RESEARCHER=img/avatar-m.jpg

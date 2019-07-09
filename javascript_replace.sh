@@ -28,10 +28,16 @@ for lg in languages/javastrings*.txt; do
 	rm -f ${lg}.ed
 	while read -r line; do
 		lhs=`echo "$line" | cut -d'|' -f1 | sed 's/"/\\"/g' `
-		#| tr -C "[ a-zA-Z0-9_,.!\"\t\n]" "." | sed "s/[.][.][.]*/..*/g"`
+
 		rhs=`echo "$line" | cut -d'|' -f2 | sed 's/"/\\"/g' `
+
 		if [ "$lhs" != "" ]; then
 			echo "s|${lhs}|${rhs}|g;" >> ${lg}.ed
+
+# to easily find out which string is used where
+#			rhs=`echo "$line" | cut -d'|' -f2 | sed 's/"/\\"/g'| grep -o "lang.[A-Z0-9_]*" | head -n1` 
+#			echo "s|${lhs}|\"${rhs}\"|g;" >> ${lg}.ed
+
 		fi
 		echo -n "."
 	done < ${lg}
