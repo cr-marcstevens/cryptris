@@ -123,7 +123,7 @@ TRY_TO_OPEN_EMAIL=Try to send with a new email
 SHARE_ENTER_YOUR_MESSAGE=Challenge your friends to decipher your message, start by typing it below, <br/>it will then be encrypted using a random private / public key pair.
 SHARE_HERES_ENCRYPTED_MESSAGE=Here is your encrypted message, share it !
 MODIFY_MY_MESSAGE=Modify my message
-WARNING_CRYPTRIS_PGP=Warning ! Cryptris is just a game: we will give the private key to all those who will click on your link and your message will not remain secret long ... <br/> To send real encrypted messages, <a href='documentation.html#pgp'>use PGP</a>
+WARNING_CRYPTRIS_PGP=Warning ! Cryptris is just a game: we will give the private key to all those who will click on your link and your message will not remain secret long ... <br/> To send real encrypted messages, <a href='documentation_en.html#pgp'>use PGP</a>
 
 = story.html
 STORY_END_MESSAGE=<p>You've explored the world of cryptography and confronted the computer&nbsp;!</p><p> Try to decrypt an even longer message, even with the public key, in arcade mode. </p><p> Share your experience on your favorite social networks &nbsp;: </p>
