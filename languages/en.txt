@@ -97,7 +97,7 @@ SHARE_SOCIAL_MEDIA=Share your experience on your favorite social media :
 MENU_NEW_GAME=New Game
 MENU_ARCADE=Arcade
 MENU_DOCUMENTATION=Documentation
-MENU_SHARE=Share this game
+MENU_SHARE=Challenge a friend
 MENU_ABOUT=About this game
 MENU_CREDITS=Credits
 
