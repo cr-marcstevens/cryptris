@@ -328,6 +328,10 @@ p{
   position: relative;
 }
 
+.vertical-centering:empty {
+	display: none;
+}
+
 .warning{
 
 }
