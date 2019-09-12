@@ -372,6 +372,18 @@ p{
 	width: 100%;
 }
 
+.logo-cwi{
+	position: absolute;
+	top: 25px;
+	left: 35px;
+	width: 157px;
+	max-width: 157px;
+}
+
+.logo-cwi-medium{
+	width: 100%;
+}
+
 /* Menu */
 
 .main-menu{
