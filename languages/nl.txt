@@ -199,8 +199,8 @@ DIALOG_STRING45=Challenge! Cryptris, een gratis spel over asymmetrische cryptogr
 DIALOG_STRING46=Daag de computer uit om te weten wie het snelst kan decoderen. Veel cryptologische uitdagingen wachten op je, ben je er klaar voor?
 DIALOG_STRING47=Scherm kabel loskoppelen
 DIALOG_STRING48=Anderzijds is de moeilijkheid voor de computer veel sneller toegenomen dan zijn rekencapaciteit. QED!
-DIALOG_STRING49=Gefeliciteerd, u hebt de bewerking begrepen en de gegenereerde Publieke Sleutel is effectief!
-DIALOG_STRING50=Gelukkig, dankzij asymmetrische cryptografie, kan geen enkele machine onze berichten snel genoeg ontsleutelen. De verschillende coderingsniveaus maken <span>uw taak,</span> niet echt ingewikkeld, omdat u de Geheime Sleutel hebt.
+DIALOG_STRING49=Gefeliciteerd, je hebt de bewerking begrepen en de gegenereerde Publieke Sleutel is veilig!
+DIALOG_STRING50=Gelukkig, dankzij asymmetrische cryptografie, kan geen enkele machine onze berichten snel genoeg ontsleutelen. De verschillende coderingsniveaus maken <span>jouw taak,</span> niet echt ingewikkeld, omdat je de Geheime Sleutel hebt.
 
 DIALOG_STRING51=Je moet dit bericht echt eerder kunnen decoderen dan de computer. Laten we opnieuw beginnen!
 DIALOG_STRING53=Intro - Onderzoeker codeert een bericht
@@ -232,7 +232,7 @@ DIALOG_STRING75=Perfect! Hier ben je, klaar! Ik heb je Publieke Sleutel ... Late
 DIALOG_STRING76=Perfect! Je hebt <em>begrepen hoe je een bericht kunt decoderen met je Geheime Sleutel, </em> ik verwachtte <span>niets minder van jou!</span> Je bent klaar en je bent nu lid van het Instituut.
 DIALOG_STRING78=Sla deze stap over
 DIALOG_STRING79=Om het bericht te decoderen moet je de blokken vernietigen, je verzamelt ze. Laten we opnieuw beginnen!
-DIALOG_STRING80=Om je Publieke Sleutel te genereren, laat je je Geheime Sleutel zes keer neer vallen. Als het beveiligingsniveau voldoende is, wordt je openbare sleutel opgeslagen, anders voltooit de computer deze.
+DIALOG_STRING80=Om je Publieke Sleutel te genereren, laat je je Geheime Sleutel zes keer neer vallen. Als het beveiligingsniveau voldoende is, wordt je Publieke Sleutel opgeslagen, anders voltooit de computer deze.
 
 DIALOG_STRING81=Om je Publieke Sleutel te genereren, manipuleer je je Geheime Sleutel met KEYLEFT, KEYUP en KEYRIGHT en laat je deze zes keer neer vallen met KEYDOWN. Als het beveiligingsniveau voldoende is, wordt je Publieke Sleutel opgeslagen, anders voltooit de computer deze.
 DIALOG_STRING82=Om je Publieke Sleutel te genereren, manipuleer je je Geheime Sleutel met KEYLEFT, KEYUP en KEYRIGHT en laat je deze zes of zeven keer vallen met KEYDOWN.
@@ -264,3 +264,4 @@ DIALOG_STRING105=Hier is jouw Geheime Sleutel, deze verschijnt bovenaan jouw sch
 DIALOG_STRING106=Heck, de server probeert ook het bericht te ontsleutelen, <em>gelukkig heeft het alleen jouw Publieke Sleutel!</em> Ik stuur je in realtime de informatie die overeenkomt met de voortgang, haast je om het bericht te ontsleutelen voordat het de code kan breken.
 DIALOG_STRING107=Ontvang je mij? Het is echt raar, onze server weigert koppig zichzelf opnieuw te configureren en voorkomt dat ik <sspan>uit de</sspan> machineruimte kom om te proberen de nr.42-kabel los te koppelen van het mainboard.
 DIALOG_STRING108=Gefeliciteerd! Je hebt sneller gedecodeerd dan de computer. Als je cryptografie wilt ontdekken, probeer dan een nieuw compleet spel te maken.
+DIALOG_STRING109=Sleutellengte : 

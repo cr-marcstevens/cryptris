@@ -264,3 +264,4 @@ DIALOG_STRING105=Here is your private key, it appears at the top of your screen,
 DIALOG_STRING106=Heck, the server is also trying to decrypt the message, <em>luckily it only has your public key!</em> I send you in real time the information corresponding to its progress, hurry to decrypt the message before it can break the code.
 DIALOG_STRING107=Do you receive me? It's really weird, our server stubbornly refuses to re-configure itself and prevents me from getting <sspan>out of the </sspan> room of the machines, trying to unplug the nr.42 cable from the main electrical board.
 DIALOG_STRING108=Congratulations! You have decrypted faster than the computer. If you want to discover cryptography, try to make a new complete game.
+DIALOG_STRING109=Keylength : 

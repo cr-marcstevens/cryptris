@@ -262,3 +262,4 @@ DIALOG_STRING105=Voici ta clé privée, elle s'affiche en haut de ton écran, ut
 DIALOG_STRING106=Zut, le serveur essaie lui aussi de décrypter le message, <em>heureusement il ne dispose que de ta clé publique !</em> Je t’envoie en temps réel les informations correspondant à son avancé, dépêche toi de décrypter le message avant qu’il n’arrive à casser le code.
 DIALOG_STRING107=Est-ce que tu me reçois ? C’est vraiment bizarre, notre serveur refuse obstinément de se re-configurer et m'empêche de sortir <sspan>de la salle </sspan>des machines, essaie de débrancher le câble n° 42 du tableau électrique principal.
 DIALOG_STRING108=Félicitations ! Tu as décrypté plus rapidement que l’ordinateur. Si tu veux découvrir la cryptographie, essaie de faire une nouvelle partie complète.
+DIALOG_STRING109=Taille de la clé : 
