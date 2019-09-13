@@ -124,7 +124,7 @@ CLOSE_THIS_WINDOW=Sluit dit venster
 
 = js/arcade-dialogs.js
 ARCADE_DIALOG_GAME_OVER_TITLE=Game over (de computer heeft gewonnen)
-ARCADE_DIALOG_GAME_OVER=U moet dit bericht echt eerder kunnen decoderen dan de computer. Laten we opnieuw beginnen!
+ARCADE_DIALOG_GAME_OVER=Je moet dit bericht echt eerder kunnen decoderen dan de computer. Laten we opnieuw beginnen!
 ARCADE_DIALOG_TOO_MANY_BLOCKS_TITLE=Game over (speler speelt niet goed)
 ARCADE_DIALOG_TOO_MANY_BLOCKS=Om het bericht te decoderen moet je de blokken opheffen, je verzamelt ze juist.
 ARCADE_DIALOG_ANNOUNCE_PUBLICKEY_TITLE=Dialoog 'Maak jouw sleutelpaar' (onderzoeker)
@@ -202,7 +202,7 @@ DIALOG_STRING48=Anderzijds is de moeilijkheid voor de computer veel sneller toeg
 DIALOG_STRING49=Gefeliciteerd, u hebt de bewerking begrepen en de gegenereerde Publieke Sleutel is effectief!
 DIALOG_STRING50=Gelukkig, dankzij asymmetrische cryptografie, kan geen enkele machine onze berichten snel genoeg ontsleutelen. De verschillende coderingsniveaus maken <span>uw taak,</span> niet echt ingewikkeld, omdat u de Geheime Sleutel hebt.
 
-DIALOG_STRING51=U moet dit bericht echt eerder kunnen decoderen dan de computer. Laten we opnieuw beginnen!
+DIALOG_STRING51=Je moet dit bericht echt eerder kunnen decoderen dan de computer. Laten we opnieuw beginnen!
 DIALOG_STRING53=Intro - Onderzoeker codeert een bericht
 DIALOG_STRING54=Intro - Aanmaken van Publieke Sleutel
 DIALOG_STRING55=Intro - einde
@@ -211,7 +211,7 @@ DIALOG_STRING56=Intro - Decryption Tutorial
 DIALOG_STRING57=Intro
 DIALOG_STRING58=Ik gebruik je Publieke Sleutel om mijn bericht te coderen.
 DIALOG_STRING59=Ik codeer een bericht dat u later kunt decoderen.
-DIALOG_STRING60=Ik stuur u de laatste kabel, waardoor de coderingsmoeilijkheden verder toenemen. Het zal hem een paar honderd dagen kosten om <span> dit laatste bericht te decoderen </span>, en tegen die tijd zullen we het hebben ontkoppeld en geanalyseerd!
+DIALOG_STRING60=Ik stuur je de laatste kabel, waardoor de coderingsmoeilijkheden verder toenemen. Het zal hem een paar honderd dagen kosten om <span> dit laatste bericht te decoderen </span>, en tegen die tijd zullen we het hebben ontkoppeld en geanalyseerd!
 
 DIALOG_STRING61=Ik stuur je de tweede kabel, gecodeerd met nog twee blokken. Met asymmetrische cryptografie neemt bij het vergroten van het aantal bits de rekenmoeilijkheden exponentieel toe voor een aanvaller. Dus dat zou moeten lukken.
 DIALOG_STRING62=Ik stuur je een gecodeerd bericht met het eerste kabelnummer dat moet worden losgekoppeld en de bijbehorende elektrische kaart.
@@ -225,8 +225,8 @@ DIALOG_STRING69=Gefeliciteerd! We zijn erin geslaagd om de machine te beheersen.
 DIALOG_STRING70=Versleuteld bericht.
 
 DIALOG_STRING71=Gedecodeerd bericht
-DIALOG_STRING72=OK, u hebt dit bericht gelezen.
-DIALOG_STRING73=Ja! Asymmetrisch, het wordt ook Publieke Sleutel Cryptografie genoemd omdat het afhankelijk is van het gebruik van twee soorten sleutels: de Geheime Sleutel en de Publieke Sleutel. De Publieke Sleutel wordt gebruikt om de berichten te coderen of te coderen, terwijl de bijbehorende Geheime Sleutel ze kan decoderen.
+DIALOG_STRING72=OK, je hebt dit bericht gelezen.
+DIALOG_STRING73=Ja! Asymmetrisch, het wordt ook Publieke Sleutel Cryptografie genoemd omdat het afhankelijk is van het gebruik van twee soorten sleutels: de Geheime Sleutel en de Publieke Sleutel. De Publieke Sleutel wordt gebruikt om de berichten te coderen, terwijl de bijbehorende Geheime Sleutel ze kan decoderen.
 DIALOG_STRING74=Perfect! Hier ben je, klaar! Ik heb je Publieke Sleutel, we kunnen verder.
 DIALOG_STRING75=Perfect! Hier ben je, klaar! Ik heb je Publieke Sleutel ... Laten we kijken of alles werkt. Ik stuur je een eerste gecodeerd bericht.
 DIALOG_STRING76=Perfect! Je hebt <em>begrepen hoe je een bericht kunt decoderen met je Geheime Sleutel, </em> ik verwachtte <span>niets minder van jou!</span> Je bent klaar en je bent nu lid van het Instituut.
@@ -234,19 +234,19 @@ DIALOG_STRING78=Sla deze stap over
 DIALOG_STRING79=Om het bericht te decoderen moet je de blokken vernietigen, je verzamelt ze. Laten we opnieuw beginnen!
 DIALOG_STRING80=Om je Publieke Sleutel te genereren, laat je je Geheime Sleutel zes keer neer vallen. Als het beveiligingsniveau voldoende is, wordt je openbare sleutel opgeslagen, anders voltooit de computer deze.
 
-DIALOG_STRING81=Om je Publieke Sleutel te genereren, manipuleer je je Geheime Sleutel met KEYLEFT, KEYUP en KEYRIGHT en laat u deze zes keer neer vallen met KEYDOWN. Als het beveiligingsniveau voldoende is, wordt je Publieke Sleutel opgeslagen, anders voltooit de computer deze.
-DIALOG_STRING82=Om je Publieke Sleutel te genereren, manipuleer je je Geheime Sleutel met KEYLEFT, KEYUP en KEYRIGHT en laat u deze zes of zeven keer vallen met KEYDOWN.
+DIALOG_STRING81=Om je Publieke Sleutel te genereren, manipuleer je je Geheime Sleutel met KEYLEFT, KEYUP en KEYRIGHT en laat je deze zes keer neer vallen met KEYDOWN. Als het beveiligingsniveau voldoende is, wordt je Publieke Sleutel opgeslagen, anders voltooit de computer deze.
+DIALOG_STRING82=Om je Publieke Sleutel te genereren, manipuleer je je Geheime Sleutel met KEYLEFT, KEYUP en KEYRIGHT en laat je deze zes of zeven keer vallen met KEYDOWN.
 DIALOG_STRING83=Eerste uitdaging gedecodeerd
 DIALOG_STRING84=Eerste dag op het instituut
 DIALOG_STRING85=Voorbereiding van het spelniveau
 DIALOG_STRING86=Vierde uitdaging ontsleuteld
-DIALOG_STRING87=Als u hulp nodig hebt, drukt u op de '?' en ik zal je alle nodige informatie geven.
-DIALOG_STRING88=Als u het zegt ...
+DIALOG_STRING87=Als je hulp nodig hebt, druk je op de '?' en ik zal je alle nodige informatie geven.
+DIALOG_STRING88=Als je het zegt ...
 DIALOG_STRING89=Selecteer de kabel om los te koppelen
-DIALOG_STRING90=Uw Geheime Sleutel is de sleutel die alleen u zult kennen, het is waarmee u de berichten die naar u worden verzonden, gemakkelijk kunt ontcijferen. <em>Zonder de Geheime Sleutel is het erg moeilijk,</em> onmogelijk, <em>om een ​​gecodeerd bericht te decoderen.</em>
+DIALOG_STRING90=Je Geheime Sleutel is de sleutel die alleen jij kent, het is waarmee je de berichten die naar je worden verzonden, gemakkelijk kunt ontcijferen. <em>Zonder de Geheime Sleutel is het erg moeilijk,</em> onmogelijk, <em>om een ​​gecodeerd bericht te decoderen.</em>
 
-DIALOG_STRING91=Uw Geheime Sleutel staat bovenaan. Gebruik de toetsen KEYLEFT en KEYRIGHT om het naar wens te manipuleren. Druk op de toets KEYUP of KEYSPACE om je sleutel om te keren en wanneer u klaar bent, drukt u op KEYDOWN om je keuze te bevestigen.
-DIALOG_STRING92=Uw Publieke Sleutel wordt afgeleid van je Geheime Sleutel. Op dezelfde manier dat een <em>hangslot</em> <em>de inhoud van een kluis kan beveiligen,</em> kan de <em>Publieke Sleutel</em> <em>berichten coderen</em> en maak ze onleesbaar voor degenen die niet over de Geheime Sleutel beschikken.
+DIALOG_STRING91=Je Geheime Sleutel staat bovenaan. Gebruik de toetsen KEYLEFT en KEYRIGHT om het naar wens te manipuleren. Druk op de toets KEYUP of KEYSPACE om je sleutel om te keren en wanneer je klaar bent, druk je op KEYDOWN om je keuze te bevestigen.
+DIALOG_STRING92=Je Publieke Sleutel wordt afgeleid van je Geheime Sleutel. Op dezelfde manier dat een <em>hangslot</em> <em>de inhoud van een kluis kan beveiligen,</em> kan de <em>Publieke Sleutel</em> <em>berichten coderen</em> en maak ze onleesbaar voor degenen die niet over de Geheime Sleutel beschikken.
 DIALOG_STRING93=Grootte van de sleutel (blokken)
 DIALOG_STRING94=Speeltijd
 DIALOG_STRING95=Er waren ongeldige base64-tekens in de tekstinvoer. \n
@@ -254,13 +254,13 @@ DIALOG_STRING96=Derde uitdaging gedecodeerd
 DIALOG_STRING97=Oké, je begrijpt het! De gegenereerde Publieke Sleutel is echter niet veilig genoeg, de computer zal dat oplossen.
 DIALOG_STRING98=Oké, je hebt de juiste kabel losgekoppeld! Nog één elektrisch paneel en ik kan eindelijk eruit!
 DIALOG_STRING99=Je bent een stagiaire in TXT_CUSTOM_GROUP op TXT_CUSTOM_INSTITUTE
-DIALOG_STRING100=Kan niet winnen? Dit kan normaal zijn! Laat me u herinneren aan het principe van asymmetrische cryptografie: de Geheime Sleutel maakt decodering gemakkelijk, maar het is heel moeilijk of onmogelijk met de Publieke Sleutel. Kies goed wie welke sleutel krijgt!
+DIALOG_STRING100=Kan niet winnen? Dit kan normaal zijn! Laat me je herinneren aan het principe van asymmetrische cryptografie: de Geheime Sleutel maakt decodering gemakkelijk, maar het is heel moeilijk of onmogelijk met de Publieke Sleutel. Kies goed wie welke sleutel krijgt!
 
-DIALOG_STRING101=U gaat nu jouw Geheime / Publieke Sleutelpaar maken, maar <span> ... </span> vergeet niet, deze Geheime Sleutel is ... privé! Alleen Jij mag het weten! Jouw openbare sleutel zal op het netwerk worden verspreid onder alle onderzoekers van het Instituut.
+DIALOG_STRING101=Je gaat nu jouw Geheime / Publieke Sleutelpaar maken, maar <span> ... </span> vergeet niet, deze Geheime Sleutel is ... privé! Alleen Jij mag het weten! Jouw Publieke Sleutel zal op het netwerk worden verspreid onder alle onderzoekers van het Instituut.
 DIALOG_STRING102=Een Publieke Sleutel? Waarom zou mijn sleutel openbaar zijn?
 DIALOG_STRING103=Geldige base64-tekens zijn A-Z, a-z, 0-9, '+', '/' en '=' \ n
-DIALOG_STRING104=Dit is het bericht dat ik heb gecodeerd met jouw <em>Publieke Sleutel</em>, om het te decoderen moet u jouw <em>Geheime Sleutel</em> gebruiken. Bewerk je sleutel zoals al het andere met KEYLEFT en KEYRIGHT om de kolommen te verplaatsen en KEYUP of KEYSPACE om de kleuren van de blokken om te keren.
-DIALOG_STRING105=Hier is jouw Geheime Sleutel, deze verschijnt bovenaan jouw scherm, gebruik de sleutels KEYLEFT en KEYRIGHT om deze naar wens te manipuleren. Druk op de toets KEYUP of KEYSPACE om jouw sleutel om te keren en wanneer u klaar bent, drukt u op KEYDOWN om jouw keuze te bevestigen.
-DIALOG_STRING106=Heck, de server probeert ook het bericht te ontsleutelen, <em>gelukkig heeft het alleen jouw Publieke Sleutel!</em> Ik stuur u in realtime de informatie die overeenkomt met de voortgang, haast u om het bericht te ontsleutelen voordat het kan breek de code.
-DIALOG_STRING107=Ontvangt u mij? Het is echt raar, onze server weigert koppig zichzelf opnieuw te configureren en voorkomt dat ik <sspan>uit de</sspan> machineruimte kom om te proberen de nr.42-kabel los te koppelen van het mainboard.
+DIALOG_STRING104=Dit is het bericht dat ik heb gecodeerd met jouw <em>Publieke Sleutel</em>, om het te decoderen moet je jouw <em>Geheime Sleutel</em> gebruiken. Bewerk je sleutel zoals al het andere met KEYLEFT en KEYRIGHT om de kolommen te verplaatsen en KEYUP of KEYSPACE om de kleuren van de blokken om te keren.
+DIALOG_STRING105=Hier is jouw Geheime Sleutel, deze verschijnt bovenaan jouw scherm, gebruik de sleutels KEYLEFT en KEYRIGHT om deze naar wens te manipuleren. Druk op de toets KEYUP of KEYSPACE om jouw sleutel om te keren en wanneer je klaar bent, drukt je op KEYDOWN om jouw keuze te bevestigen.
+DIALOG_STRING106=Heck, de server probeert ook het bericht te ontsleutelen, <em>gelukkig heeft het alleen jouw Publieke Sleutel!</em> Ik stuur je in realtime de informatie die overeenkomt met de voortgang, haast je om het bericht te ontsleutelen voordat het de code kan breken.
+DIALOG_STRING107=Ontvang je mij? Het is echt raar, onze server weigert koppig zichzelf opnieuw te configureren en voorkomt dat ik <sspan>uit de</sspan> machineruimte kom om te proberen de nr.42-kabel los te koppelen van het mainboard.
 DIALOG_STRING108=Gefeliciteerd! Je hebt sneller gedecodeerd dan de computer. Als je cryptografie wilt ontdekken, probeer dan een nieuw compleet spel te maken.

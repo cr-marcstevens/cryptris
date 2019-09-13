@@ -17,6 +17,6 @@ cd ${TMPDIR}
 git checkout --orphan gh-pages
 git rm --cached -r .
 
-git add *.html css docs fonts html img js snapshots vendor
+git add CNAME *.html css docs fonts html img js snapshots vendor
 git commit -m "publish"
-git push --set-upstream origin gh-pages
+git push origin gh-pages -f
