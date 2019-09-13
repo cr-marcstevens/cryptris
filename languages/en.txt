@@ -65,7 +65,7 @@ CREDITS_R_LANGUAGE=Translation
 CREDITS_THIRDPARTY=This project uses libraries, images and third-party tools.
 CREDITS_S_SERVER_ROOM=Server room by wikieditor243, licensed under creative commons (CC BY-SA 3.0).
 CREDITS_S_ELECTRIC_CIRCUIT=Electric Circuit by Brandon Blinkenberg (gobran111).
-CREDITS_S_OTHER_IMAGES=Without exception, all other visuals were created by or for Digital Cuisine and Inria.
+CREDITS_S_OTHER_IMAGES=Without exception, all other visuals were created by or for Digital Cuisine, Inria and CWI.
 CREDITS_PARTNERS=This achievement was made possible thanks to the support of the following partners :
 
 = arcade.html
@@ -148,16 +148,6 @@ KEYSPACE=SPACE
 =KEYSPACE=<img src='img/icn-space.png' class='keyboard-key'>
 
 
-=DIALOG_STRING1=blocs
-=DIALOG_STRING2=, bienvenue à l'INRIA. Tu as en ta possession un message crypté, laisse-moi t'expliquer comment le décrypter.
-=DIALOG_STRING3=, ton compte est maintenant créé. Afin de sécuriser les échanges sur le réseau, nous utilisons un protocole de cryptographie asymétrique.
-=DIALOG_STRING4=Durée (maximale) de décryptage
-=DIALOG_STRING5=Abandon - Temps de jeu
-=DIALOG_STRING6=Abandon
-=DIALOG_STRING7=Abandonner
-=DIALOG_STRING8=Aie ! Je viens de me prendre une décharge électrique !
-=DIALOG_STRING9=Asymétrique ? Pourquoi asymétrique ?
-=DIALOG_STRING10=Attends, ce n’est pas normal... Je vérifie... Ça alors ! Le serveur s’est reprogrammé de lui-même et il contrôle le système. Manifestement, il nous écoute et t’a empêché de débrancher le câble, tout comme il a verrouillé les portes de la salle. Je suis enfermée ici !
 DIALOG_STRING1=blocks
 DIALOG_STRING2=, welcome to INRIA. You have an encrypted message in your possession, let me explain how to decrypt it.
 DIALOG_STRING3=, your account is now created. In order to secure the exchanges on the network, we use an asymmetric cryptography protocol.
@@ -169,20 +159,10 @@ DIALOG_STRING8=Aie! I just took a shock!
 DIALOG_STRING9=Asymmetric? Why asymmetrical?
 DIALOG_STRING10=Wait, it's not normal ... I'm checking ... That's it! The server has reprogrammed itself and it controls the system. Obviously, he listened to us and prevented you from unplugging the cable, just as he locked the doors of the room. I am locked here!
 
-=DIALOG_STRING11=Bienvenue à l’Institut ! C’est donc toi mon nouvel apprenti, parfait ! Commençons par le commencement, il te faudra un compte utilisateur pour te connecter au réseau, tu n’as qu’à choisir ton nom d’utilisateur.
-=DIALOG_STRING12=Bravo, tu as débranché le bon câble ! Plus que deux panneaux électriques et&nbsp;ça devrait être bon !
-=DIALOG_STRING13=C'est bizarre, le serveur a signalé une panne, je dois aller en salle des machines pour vérifier que tout est en ordre. Il faudra que tu branches ou débranches certains câbles.
-=DIALOG_STRING14=Ce serveur ne devrait pas être en mesure de décrypter aussi rapidement ces messages... J’ai compris ! Il contamine d’autres ordinateurs et augmente ainsi sa puissance !
-=DIALOG_STRING15=Challenge apprenti (12 blocs)
-=DIALOG_STRING16=Challenge chercheur (14 blocs)
-=DIALOG_STRING17=Challenge expert (16 blocs)
-=DIALOG_STRING18=Challenge facile (8 blocs)
-=DIALOG_STRING19=Challenge novice (10 blocs)
-=DIALOG_STRING20=Challenge réussi
 DIALOG_STRING11=Welcome to the Institute! So you're my new intern, perfect! Let's start at the beginning, you will need a user account to connect to the network, you just have to choose your username.
-DIALOG_STRING12=Congratulations, you have disconnected the right cable! More than two electrical panels and it should be good!
+DIALOG_STRING12=Congratulations, you have disconnected the right cable! Just two electrical panels more and it should be good!
 DIALOG_STRING13=It's weird, the server has reported a failure, I have to go to the machine room to check that everything is in order. You will have to plug or unplug some cables.
-DIALOG_STRING14=This server should not be able to decrypt these messages as fast ... I understand! It contaminates other computers and increases its power!
+DIALOG_STRING14=This server should not be able to decrypt these messages as fast ... I understand! It infects other computers and increases its computing power!
 DIALOG_STRING15=Apprentice Challenge (12 blocks)
 DIALOG_STRING16=Researcher Challenge (14 blocks)
 DIALOG_STRING17=Expert Challenge (16 blocks)
@@ -190,16 +170,6 @@ DIALOG_STRING18=Easy Challenge (8 blocks)
 DIALOG_STRING19=Novice Challenge (10 blocks)
 DIALOG_STRING20=Challenge solved
 
-=DIALOG_STRING21=Challenge suivant
-=DIALOG_STRING22=Chaque challenge est crypté à l’aide de ta <em>clé publique</em>, pour le décrypter tu dois utiliser ta <em>clé privée.</em> Manipule ta clé comme tout à l’heure avec KEYLEFT et KEYRIGHT pour déplacer les colonnes et KEYUP ou KEYSPACE. pour inverser les couleurs des blocs.
-=DIALOG_STRING23=Cinquième challenge décrypté
-=DIALOG_STRING24=Clé créée avec succès
-=DIALOG_STRING25=Clé privée ? Qu'est-ce que c'est ?
-=DIALOG_STRING26=Comparaison des temps de jeu
-=DIALOG_STRING27=Comparaison du temps de décryptage
-=DIALOG_STRING28=Cryptogra... quoi ?
-=DIALOG_STRING29=Cryptographie! Du grec ancien <strong>kruptos</strong> (« caché ») et <strong>graphein</strong> (« écrire »). Il s’agit de protéger des messages.
-=DIALOG_STRING30=Création clé publique
 DIALOG_STRING21=Next Challenge
 DIALOG_STRING22=Each challenge is encrypted using your <em>public key</em>, to decrypt it you have to use your <em>private key</em>. Manipulate your key as before with KEYLEFT and KEYRIGHT to move the columns and KEYUP or KEYSPACE to invert the colors of the blocks.
 DIALOG_STRING23=Fifth Challenge Decrypted
@@ -211,16 +181,6 @@ DIALOG_STRING28=Cryptogra ... what?
 DIALOG_STRING29=Cryptography! Ancient Greek <strong>kruptos</strong> ("hidden") and <strong>graphein</strong> ("write"). It's about protecting messages.
 DIALOG_STRING30=Public key creation
 
-=DIALOG_STRING31=C’est le bon moment pour utiliser le protocole de cryptage afin de l’empêcher de nous écouter ! Je vais t'envoyer la liste des câbles à débrancher, mais un par un, et de manière cryptée.
-=DIALOG_STRING32=D'accord, j'ai compris.
-=DIALOG_STRING33=Deuxième challenge décrypté
-=DIALOG_STRING34=Durée du décryptage
-=DIALOG_STRING35=Débranche le câble 24 du panneau électrique V
-=DIALOG_STRING36=Débranche le câble 31 du panneau électrique N
-=DIALOG_STRING37=Débranche le câble 78 du panneau électrique M
-=DIALOG_STRING38=Débrancher le câble
-=DIALOG_STRING39=Déchiffrez le message
-=DIALOG_STRING40=Décryptage d'un message partagé
 DIALOG_STRING31=This is the right time to use the encryption protocol to prevent it from listening to us! I will send you the list of cables to disconnect, but one by one, and encrypted.
 DIALOG_STRING32=Okay, I understood.
 DIALOG_STRING33=Second challenge decrypted
@@ -232,16 +192,6 @@ DIALOG_STRING38=Disconnect the cable
 DIALOG_STRING39=Decrypt the message
 DIALOG_STRING40=Decrypting a shared message
 
-=DIALOG_STRING41=Décrypter - Décryptage d'un message partagé - 
-=DIALOG_STRING42=Décrypter - Décryptage d'un message partagé - Début
-=DIALOG_STRING44=Décrypter
-=DIALOG_STRING45=Défi! Cryptris, un jeu gratuit sur la cryptographie asymétrique
-=DIALOG_STRING46=Défiez l’ordinateur pour savoir qui arrivera à décrypter le plus rapidement. De nombreux défis cryptologiques vous attendent, êtes-vous prêts ?
-=DIALOG_STRING47=Ecran debrancher câble
-=DIALOG_STRING47=Ecran débrancher câble
-=DIALOG_STRING48=En revanche la difficulté pour l’ordinateur a augmenté bien plus vite que sa&nbsp;capacité de calcul. CQFD !
-=DIALOG_STRING49=Félicitations, tu as compris le fonctionnement et la clé publique générée est efficace !
-=DIALOG_STRING50=Heureusement, grâce à la cryptographie asymétrique, aucune machine ne peut décrypter assez vite nos messages. Les différents niveaux d’encryption ne t’ont pas vraiment compliqué <span>la tâche,</span> car tu disposes de la clé privée.
 DIALOG_STRING41=Decrypt - Decrypt a shared message -
 DIALOG_STRING42=Decrypt - Decrypt a Shared Message - Start
 DIALOG_STRING44=Decrypt
@@ -252,16 +202,6 @@ DIALOG_STRING48=On the other hand the difficulty for the computer has increased 
 DIALOG_STRING49=Congratulations, you understood the operation and the generated public key is effective!
 DIALOG_STRING50=Fortunately, thanks to asymmetric cryptography, no machine can decrypt our messages fast enough. The different levels of encryption have not really complicated <span>your task,</span> because you have the private key.
 
-=DIALOG_STRING51=Il faut vraiment que tu puisses décrypter ce message avant l'ordinateur. Reprennons de zéro !
-=DIALOG_STRING53=Intro - Chercheuse crypte un message
-=DIALOG_STRING54=Intro - Création clé publique
-=DIALOG_STRING55=Intro - Fin
-=DIALOG_STRING56=Intro - Tutoriel decryptage
-=DIALOG_STRING56=Intro - Tutoriel décryptage
-=DIALOG_STRING57=Intro
-=DIALOG_STRING58=J'utilise ta clé publique pour crypter mon message.
-=DIALOG_STRING59=Je suis en train de crypter un message que tu pourras décrypter par la suite.
-=DIALOG_STRING60=Je t'envoie le dernier câble, en augmentant encore la difficulté du cryptage. Il lui faudra quelques centaines de jours pour <span>décrypter ce dernier message</span>, et d'ici là nous l'aurons débranché et analysé !
 DIALOG_STRING51=You really need to be able to decrypt this message before the computer. Let's start from scratch!
 DIALOG_STRING53=Intro - Researcher encrypts a message
 DIALOG_STRING54=Intro - Public key creation
@@ -273,37 +213,17 @@ DIALOG_STRING58=I use your public key to encrypt my message.
 DIALOG_STRING59=I am encrypting a message that you can decrypt later.
 DIALOG_STRING60=I am sending you the last cable, further increasing the difficulty of encryption. It will take him a few hundred days to <span>decode this last message</span>, and by then we'll have it unplugged and analyzed!
 
-=DIALOG_STRING61=Je t'envoie le deuxième câble, crypté avec deux blocs de plus. Avec la cryptographie asymétrique, lorsqu’on augmente le  nombre de bits, la difficulté du calcul augmente de manière exponentielle pour un attaquant. Cela devrait donc faire l’affaire.
-=DIALOG_STRING62=Je t'envoie un message crypté contenant le premier numéro de câble à débrancher et le tableau électrique correspondant.
-=DIALOG_STRING63=Je viens de terminer Cryptris - un jeu sur l’univers de la cryptographie asymétrique. Affrontez l’ordinateur
-=DIALOG_STRING64=Jeu terminé en 
-=DIALOG_STRING65=J’ai bien failli rester enfermée pour de bon et le serveur aurait pu contaminer tout internet, absorbant les données personnelles de la planète entière !
-=DIALOG_STRING66=Lorsque deux blocs de même couleur se touchent : ils s'additionnent, sinon ils se détruisent. Ton message est décrypté lorsqu'il ne reste qu'une seule ligne au message. A toi de jouer !
-=DIALOG_STRING67=Lorsque tu appuies sur KEYDOWN ta clé est envoyée sur le message à décrypter et les blocs vont s’annuler s’ils sont de couleurs opposées ou s’empiler s’ils sont de même couleur. Le message est décrypté lorsque tu n’as plus qu’une seule ligne de blocs en bas. À toi de jouer !
-=DIALOG_STRING68=Malheureusement, le serveur a accès à notre base de données, <span>et a appris</span> comment décrypter plus vite. Je fais ce que je peux pour le ralentir, mais sa capacité de calcul et son adresse ne font qu'augmenter !
-=DIALOG_STRING69=Mes félicitations ! Nous avons réussi à contenir la machine. Sa capacité de calcul augmentait de manière phénoménale, mais pas aussi rapidement que&nbsp;la difficulté du décryptage…
-=DIALOG_STRING70=Message crypté.
 DIALOG_STRING61=I'm sending you the second cable, encrypted with two more blocks. With asymmetric cryptography, when increasing the number of bits, the computation difficulty increases exponentially for an attacker. So that should do the trick.
 DIALOG_STRING62=I am sending you an encrypted message containing the first cable number to be disconnected and the corresponding electrical board.
 DIALOG_STRING63=I just finished Cryptris - a game about the universe of asymmetric cryptography. Confront the computer!
 DIALOG_STRING64=Game completed in
-DIALOG_STRING65=I almost stayed locked up for good and the server could have contaminated any internet, absorbing the personal data of the entire planet!
+DIALOG_STRING65=I almost stayed locked up for good and the server could have infected the Internet, absorbing the personal data of the entire planet!
 DIALOG_STRING66=When two blocks of the same color touch: they add up, otherwise they destroy each other. Your message is decrypted when only one line remains in the message. Your turn !
 DIALOG_STRING67=When you press KEYDOWN your key is sent to the message to decrypt and the blocks will cancel if they are opposite colors or stack if they are the same color. The message is decrypted when you have only one row of blocks down. Your turn !
-DIALOG_STRING68=Unfortunately, the server has access to our database, <span>and learned </span> how to decrypt faster. I do what I can to slow it down, but its computing capacity and its address are only increasing!
+DIALOG_STRING68=Unfortunately, the server has access to our database, <span>and learned </span> how to decrypt faster. I do what I can to slow it down, but its computing capacity and its memory are only increasing!
 DIALOG_STRING69=Congratulations! We managed to contain the machine. Its computing capacity was phenomenally increasing, but not as fast as the difficulty of decryption ...
 DIALOG_STRING70=Encrypted message.
 
-=DIALOG_STRING71=Message décrypté
-=DIALOG_STRING71=Message décrypté.
-=DIALOG_STRING72=OK, tu as réussi à lire ce message.
-=DIALOG_STRING73=Oui ! Asymétrique, on l’appelle aussi cryptographie à clé publique car elle repose sur l’utilisation de deux types de clés <span>:</span> la clé privée, et la clé publique. La clé publique sert à chiffrer, ou coder si tu préfères, les messages, tandis que la clé privée permet de les déchiffrer.
-=DIALOG_STRING74=Parfait ! Te voilà fin prêt! J’ai bien ta clé publique, nous pouvons passer à la suite.
-=DIALOG_STRING75=Parfait ! Te voilà fin prêt! J’ai bien ta clé publique... Vérifions que tout fonctionne. Je t’envoie un premier message crypté.
-=DIALOG_STRING76=Parfait ! Tu as compris <em>comment décrypter un message à l'aide de ta clé privée,</em> je n’en attendais pas <span>moins de toi !</span> Te voilà fin prêt et tu es maintenant un membre à part entière de l’Institut.
-=DIALOG_STRING78=Passer cette étape
-=DIALOG_STRING79=Pour décrypter le message tu dois détruire les blocs, tu es en train de les accumuler. Reprennons de zéro !
-=DIALOG_STRING80=Pour générer ta clé publique, fais tomber six fois ta clé privée. Si le niveau de sécurité est suffisant, ta clé publique sera sauvegardée, sinon l'ordinateur la complétera.
 DIALOG_STRING71=Decrypted message
 DIALOG_STRING72=OK, you have successfully read this message.
 DIALOG_STRING73=Yes! Asymmetric, it is also called public key cryptography because it relies on the use of two types of keys: the private key, and the public key. The public key is used to encrypt, or encode if you prefer, the messages, while the private key can decrypt them.
@@ -314,16 +234,6 @@ DIALOG_STRING78=Skip this step
 DIALOG_STRING79=To decrypt the message you have to destroy the blocks, you are accumulating them. Let's start from scratch!
 DIALOG_STRING80=To generate your public key, drop your private key six times. If the level of security is sufficient, your public key will be saved, otherwise the computer will complete it.
 
-=DIALOG_STRING81=Pour générer ta clé publique, manipule ta clé privée avec KEYLEFT, KEYUP et KEYRIGHT puis fais-la tomber six fois avec la touche KEYDOWN. Si le niveau de sécurité est suffisant, ta clé publique sera sauvegardée, sinon l'ordinateur la complétera.
-=DIALOG_STRING82=Pour générer ta clé publique, manipule ta clé privée avec KEYLEFT, KEYUP et KEYRIGHT puis fais-la tomber six ou sept fois avec la touche KEYDOWN.
-=DIALOG_STRING83=Premier challenge décrypté
-=DIALOG_STRING84=Premier jour à l'institut
-=DIALOG_STRING85=Préparation du niveau de jeu
-=DIALOG_STRING86=Quatrième challenge décrypté
-=DIALOG_STRING87=Si tu as besoin d'aide, appuie sur le bouton '?' et je te donnerai toutes les informations nécessaires.
-=DIALOG_STRING88=Si vous le dites...
-=DIALOG_STRING89=Séléctionner le cable à débrancher
-=DIALOG_STRING90=Ta clé privée est la clé que toi seul connaîtra, c'est elle qui te permettra de déchiffrer facilement les message qui te seront envoyés. <em>Sans la clé privée il est très difficile,</em> voir impossible, <em>de déchiffrer un message crypté.</em>
 DIALOG_STRING81=To generate your public key, manipulate your private key with KEYLEFT, KEYUP and KEYRIGHT then drop it six times with KEYDOWN. If the level of security is sufficient, your public key will be saved, otherwise the computer will complete it.
 DIALOG_STRING82=To generate your public key, manipulate your private key with KEYLEFT, KEYUP and KEYRIGHT then drop it six or seven times with KEYDOWN.
 DIALOG_STRING83=First challenge decrypted
@@ -335,16 +245,6 @@ DIALOG_STRING88=If you say so ...
 DIALOG_STRING89=Select the cable to disconnect
 DIALOG_STRING90=Your private key is the key that only you will know, it is what will allow you to easily decipher the messages that will be sent to you. <em>Without the private key it is very difficult,</em> impossible, <em>to decrypt an encrypted message.</em>
 
-=DIALOG_STRING91=Ta clé privée se trouve en haut. Utilise les touches KEYLEFT et KEYRIGHT pour la manipuler selon ton envie. Appuie sur la touche KEYUP ou KEYSPACE pour inverser ta clé et lorsque tu seras prêt, appuie sur la touche KEYDOWN pour valider ton choix.
-=DIALOG_STRING92=Ta clé publique sera dérivée de ta clé privée. De la même manière qu'un <em>cadenas</em> permet de <em>sécuriser le contenu d'un coffre,</em> la <em>clé publique</em> permet de <em>chiffrer des messages</em> et les rendre illisibles à ceux qui ne disposent pas de la clé privée.
-=DIALOG_STRING93=Taille de la clé (blocs)
-=DIALOG_STRING94=Temps de jeu
-=DIALOG_STRING95=There were invalid base64 characters in the input text.\n
-=DIALOG_STRING96=Troisième challenge décrypté
-=DIALOG_STRING97=Très bien, tu as compris ! Cependant la clé publique générée n'est pas suffisamment sécurisée, l'ordinateur va arranger cela.
-=DIALOG_STRING98=Très bien, tu as débranché le bon câble ! Plus qu'un panneau électrique et je pourrai enfin sortir !
-=DIALOG_STRING99=Tu es stagiaire dans TXT_CUSTOM_GROUP
-=DIALOG_STRING100=Tu n'y arrives pas ? C'est peut-être normal ! Je te rappelle le principe de la cryptographie asymétrique : la clé secrète rend le déchiffrement facile, mais c'est très difficile voire impossible avec la clé publique. Choisis bien à&nbsp;qui tu donnes quelle clé!
 DIALOG_STRING91=Your private key is at the top. Use the keys KEYLEFT and KEYRIGHT to manipulate it according to your desire. Press the key KEYUP or KEYSPACE for invert your key and when you are ready, press KEYDOWN to validate your choice.
 DIALOG_STRING92=Your public key will be derived from your private key. In the same way that a <em>padlock</em> can <em>secure the contents of a safe,</em> the <em>public key</em> can <em>encrypt messages</em> and make them unreadable to those who do not have the private key.
 DIALOG_STRING93=Size of the key (blocks)
@@ -352,17 +252,10 @@ DIALOG_STRING94=Playing Time
 DIALOG_STRING95=There were invalid base64 characters in the text input.\n
 DIALOG_STRING96=Third challenge decrypted
 DIALOG_STRING97=All right, you understand! However the generated public key is not secure enough, the computer will fix that.
-DIALOG_STRING98=All right, you've unplugged the right cable! More than an electrical panel and I can finally go out!
+DIALOG_STRING98=All right, you've unplugged the right cable! Now just one electrical panel more and I can finally go out!
 DIALOG_STRING99=You are an intern in TXT_CUSTOM_GROUP at TXT_CUSTOM_INSTITUTE
 DIALOG_STRING100=Can't win ? This may be normal! Let me remind you the principle of asymmetric cryptography: the secret key makes decryption easy, but it is very difficult or impossible with the public key. Choose well who gets which key!
-=DIALOG_STRING101=Tu vas maintenant créer ta paire de clé privée / clé publique mais<span>...</span> n’oublie pas, cette clé privée est... privée ! Toi seul dois la connaître ! Ta clé publique sera diffusée sur le réseau à l’ensemble des chercheurs de l’Institut.
-=DIALOG_STRING102=Une clé publique ? Pourquoi ma clé serait-elle publique ?
-=DIALOG_STRING103=Valid base64 characters are A-Z, a-z, 0-9, '+', '/',and '='\n
-=DIALOG_STRING104=Voici le message que j'ai crypté à l’aide de ta <em>clé publique</em>, pour le décrypter tu dois utiliser ta <em>clé privée.</em> Manipule ta clé comme tout à l’heure avec KEYLEFT et KEYRIGHT pour déplacer les colonnes et KEYUP ou KEYSPACE. pour inverser les couleurs des blocs.
-=DIALOG_STRING105=Voici ta clé privée, elle s'affiche en haut de ton écran, utilise les touches KEYLEFT et KEYRIGHT pour la manipuler selon ton envie. Appuie sur la touche KEYUP ou KEYSPACE pour inverser ta clé et lorsque tu seras prêt, appuie sur la touche KEYDOWN pour valider ton choix.
-=DIALOG_STRING106=Zut, le serveur essaie lui aussi de décrypter le message, <em>heureusement il ne dispose que de ta clé publique !</em> Je t’envoie en temps réel les informations correspondant à son avancé, dépêche toi de décrypter le message avant qu’il n’arrive à casser le code.
-=DIALOG_STRING107=st-ce que tu me reçois ? C’est vraiment bizarre, notre serveur refuse obstinément de se re-configurer et m'empêche de sortir <sspan>de la salle </sspan>des machines, essaie de débrancher le câble n° 42 du tableau électrique principal.
-=DIALOG_STRING108=Félicitations ! Tu as décrypté plus rapidement que l’ordinateur. Si tu veux découvrir la cryptographie, essaie de faire une nouvelle partie complète.
+
 DIALOG_STRING101=You are now going to create your private key / public key pair but <span>...</span> do not forget, this private key is ... private! You alone must know it! Your public key will be disseminated on the network to all the researchers of the Institute.
 DIALOG_STRING102=A public key? Why would my key be public?
 DIALOG_STRING103=Valid base64 characters are A-Z, a-z, 0-9, '+', '/', and '=' \n

@@ -1,0 +1,266 @@
+﻿= Comment lines start with a '='
+= Format: TOKEN=substitution string
+= Usage in HTML: just place TOKEN and it will be completely replaced
+= Usage in Javascript: use the variable lang.TOKEN holding the string "substitution string"
+
+THANKS_HTMLFILE=thanks_nl.html
+DECRYPTER_HTMLFILE=decrypter_nl.html
+DOCUMENTATION_HTMLFILE=documentation_en.html
+
+= language-specific custom group / researcher
+=TXT_RESEARCHER=Researcher
+TXT_RESEARCHER=Léo Ducas
+TXT_CUSTOM_GROUP=een research team
+
+= basic words
+TXT_CANCEL=Annuleer
+TXT_OK=OK
+TXT_RESET=Reset
+TXT_SUBMIT=Indienen
+TXT_LICENSES=Licenties
+TXT_PARTNERS=Partners
+TXT_NEXT=Volgende
+TXT_PREV=Vorige
+TXT_OPEN_MESSAGE=Open Bericht
+TXT_DECRYPT_MESSAGE=Decrypt Bericht
+TXT_GAME=Game
+TXT_SPY_SOFTWARE=SPY SOFTWARE
+TXT_PAUSE=Pause
+TXT_PERFECT=Perfect
+TXT_RESTART=Herstart
+TXT_RESUME=Verdergaan
+TXT_ROTATE=Draaien
+TXT_FAILURE=Gefaald
+TXT_GOODDAY=Hallo
+TXT_CRYPTRIS=Cryptris
+TXT_PRIVATE_KEY=Geheime Sleutel
+TXT_PUBLIC_KEY=Publieke Sleutel
+TXT_PLAYER=Speler
+TXT_ADVERSARY=Tegenstander
+
+= *.html
+CRYPTRIS_HTMLTITLE=Cryptris - Een asymmetrisch cryptografie spel
+CRYPTRIS_HTMLDESCRIPTION=Ontdek de wereld van cryptografie: speel tegen de computer en kijk wie het snelste kan decrypten. Ben jij klaar om de uitdagingen aan te gaan?
+CRYPTRIS_JS_LANGUAGEFILE=lang_nl.js
+
+= about.html credits.html
+ABOUT_HTMLTITLE=Over Cryptris - Cryptris
+CREDITS_HTMLTITLE=Credits - Cryptris
+ABOUT_DESCRIPTION=Cryptris is een spel voorgesteld door <a href="http://www.inria.fr/" target="_blank">Inria</a> en ontwikkeld door <a href="http://digitalcuisine.fr/" target="_blank">Digital&nbsp;Cuisine</a>, met de ondersteuning van <a href="http://www.capmaths.fr">Cap'Maths</a>, en uitgebracht onder een open <a href="license.html">licentie</a>.
+ABOUT_GOAL=Het doel van het spel is om de kracht van asymmetrische cryptografie te laten zien. In een reeks van puzzels decrypt de speler een bericht met de Geheime Sleutel, terwijl de computer hetzelfde bericht probeert te decrypten met slechts de Publieke Sleutel.
+ABOUT_DIFFICULTY=De moeilijkheid voor de speler neemt linear toe, terwijl dit voor de computer exponentieel toeneemt. Cryptografie beschermt je communicatie effectief!
+CREDITS_IDEA=Gebaseerd op een origineel idee van Léo Ducas
+CREDITS_H_SCENARIO=Scenario
+CREDITS_H_TRANSLATION=Vertaling
+CREDITS_R_COORDINATION=Coordinatie
+CREDITS_R_SCIENTIFICREF=Wetenschappelijke Controleur
+CREDITS_R_REF=Controleur
+CREDITS_R_ARTISTIC_DIRECTOR=Artistiek Directeur
+CREDITS_R_GRAPHICS=Graphics
+CREDITS_R_GAME_ENGINE=Game Engine
+CREDITS_R_HTML_INTEGRATION=HTML Integratie
+CREDITS_R_TESTING=Testen
+CREDITS_R_TRANSLATION=Vertaling systeem
+CREDITS_R_LANGUAGE=Vertaling
+CREDITS_THIRDPARTY=Dit project gebruikt libraries, images en derde-partij software.
+CREDITS_S_SERVER_ROOM=Server room van wikieditor243, licentie onder creative commons (CC BY-SA 3.0).
+CREDITS_S_ELECTRIC_CIRCUIT=Electric Circuit van Brandon Blinkenberg (gobran111).
+CREDITS_S_OTHER_IMAGES=Zonder uitzondering, alle andere visuals zijn gemaakt door of voor Digital Cuisine, Inria en CWI.
+CREDITS_PARTNERS=Dit project is mede mogelijk gemaakt door de ondersteuning van de volgende partners:
+
+= arcade.html
+ARCADE_HTMLTITLE=Arcade - Cryptris
+ARCADE_CHOOSE_USERNAME=Kies je gebruikersnaam :
+ARCADE_MENU_CREATE_KEY=Maak je Sleutels
+ARCADE_MENU_BEGINNER=Beginner - 8 blokken
+ARCADE_MENU_EASY=Easy - 10 blokken
+ARCADE_MENU_MEDIUM=Medium - 12 blokken
+ARCADE_MENU_HARD=Hard - 14 blokken
+ARCADE_MENU_EXPERT=Expert - 16 blokken
+ARCADE_END=- EINDE -
+SHARE_SOCIAL_MEDIA=Deel je ervaring op je favoriete social media :
+
+= index.html
+MENU_NEW_GAME=Nieuw Spel
+MENU_ARCADE=Arcade
+MENU_DOCUMENTATION=Documentatie
+MENU_SHARE=Daag een vriend uit
+MENU_ABOUT=Over dit spel
+MENU_CREDITS=Credits
+
+= license.html
+LICENSE_HTMLTITLE=Licentie - Cryptris
+LICENSE_SOURCE_CODE=Alle broncode wordt gedistribueerd onder de licentie <a href="http://www.cecill.info/licences/Licence_CeCILL_V2-en.html">CeCILL V2</a> (compatibel met GNU GPL)
+LICENSE_DOCUMENTATION=Alle gerelateerde documenten zijn gelicentieerd onder <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en">Creative Commons</a> Attribution-NonCommercial-ShareAlike 2.0 Frankrijk (CC BY-NC-SA 2.0 FR)
+LICENSE_BYNCSA20FR_URL=https://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en
+LICENSE_EXPLANATION=Deze licentie geeft daarom het recht om dit materiaal op elke manier en in elk formaat te kopiëren, distribueren en communiceren en een remix te maken, te transformeren of te maken van het materiaal voor persoonlijke of educatieve doeleinden (neem voor enig ander gebruik contact met ons op)
+LICENSE_CECILL_REMARK=De broncode wordt gedistribueerd onder de CeCiLL-licentie. Deze licentie is een licentie voor gratis open source software. Het komt qua voorwaarden dicht bij de LGPL-licentie. De CeCill-licenties zijn gemaakt onder toezicht van de belangrijkste Franse informatica-instellingen. Ze voldoen aan de Europese regelgeving. Documenten worden gedistribueerd onder de standaardlicentie van Creative-Commons.
+
+= share.html
+SHARE_HTMLTITLE=Deel deze game met je vrienden
+CHARACTERS_LEFT=Tekens over
+CHARACTER_LEFT=Teken over
+SHARE_THE_GAME=Deel dit spel
+SHARE_ON_FACEBOOK=Delen op Facebook
+SHARE_ON_TWITTER=Delen op Twitter
+SHARE_VIA_EMAIL=Delen via e-mail
+SHARE_VIA_LINK=Link delen
+SHARE_THIS_LINK=Kopieer en plak deze link om je bericht te delen
+TRY_TO_OPEN_EMAIL=Probeer te verzenden met een nieuwe e-mail
+SHARE_ENTER_YOUR_MESSAGE=Daag je vrienden uit om je bericht te ontcijferen, begin met het hieronder te typen, <br/>het zal dan worden gecodeerd met behulp van een willekeurig geheime / publieke sleutelpaar.
+SHARE_HERES_ENCRYPTED_MESSAGE=Hier is je gecodeerde bericht, deel het!
+MODIFY_MY_MESSAGE=Wijzig mijn bericht
+WARNING_CRYPTRIS_PGP=Waarschuwing! Cryptris is slechts een spel: we geven de geheime sleutel aan iedereen die op je link klikt en je bericht blijft niet lang geheim ... <br/>Om echte gecodeerde berichten te verzenden, <a href='documentation_en.html#pgp'>gebruik PGP</a>
+
+
+= story.html
+STORY_END_MESSAGE=<p>Je hebt de wereld van cryptografie verkend en de computer geconfronteerd!</p><p>Probeer een nog langer bericht te ontsleutelen, zelfs met de publieke sleutel, in arcade-modus. </p><p> Deel je ervaring op je favoriete sociale netwerken: </p>
+STORY_END=- EINDE -
+
+= thanks.html
+THANKS_HTMLTITLE=Bedankt voor het spelen van Cryptris
+THANKS_FOR_PLAYING=Bedankt voor het spelen van deze game!
+CLOSE_THIS_WINDOW=Sluit dit venster
+
+= js/arcade-dialogs.js
+ARCADE_DIALOG_GAME_OVER_TITLE=Game over (de computer heeft gewonnen)
+ARCADE_DIALOG_GAME_OVER=U moet dit bericht echt eerder kunnen decoderen dan de computer. Laten we opnieuw beginnen!
+ARCADE_DIALOG_TOO_MANY_BLOCKS_TITLE=Game over (speler speelt niet goed)
+ARCADE_DIALOG_TOO_MANY_BLOCKS=Om het bericht te decoderen moet je de blokken opheffen, je verzamelt ze juist.
+ARCADE_DIALOG_ANNOUNCE_PUBLICKEY_TITLE=Dialoog 'Maak jouw sleutelpaar' (onderzoeker)
+ARCADE_DIALOG_ANNOUNCE_PUBLICKEY=Je maakt je geheime / publieke sleutelpaar maar <span>...</ span> vergeet niet, deze Geheime Sleutel is ... geheim! Alleen jij mag het weten! Jouw Publieke Sleutel zal op het netwerk worden verspreid onder alle onderzoekers van het Instituut.
+ARCADE_DIALOG_HERE_PRIVATEKEY_TITLE=Dialoog 'Hier is je Geheime Sleutel' (onderzoeker)
+ARCADE_DIALOG_HERE_PRIVATEKEY=Hier is je Geheime Sleutel, gebruik KEYLEFT en KEYRIGHT om deze naar wens te manipuleren. Druk op KEYUP of KEYSPACE om je sleutel om te keren en wanneer je klaar bent, drukt je op KEYDOWN om je keuze te bevestigen.
+ARCADE_DIALOG_CREATE_PUBLICKEY=Laat je Geheime Sleutel zes of zeven keer vallen om je Publieke Sleutel te genereren. Als het beveiligingsniveau voldoende is, wordt je Publieke Sleutel opgeslagen, anders voltooit de computer deze.
+ARCADE_DIALOG_SUCCESS=Gefeliciteerd, je hebt begrepen hoe het werkt!
+
+= recursive KEY IMAGES: 
+= NOTE: in js you must use: lang.ARCADE_DIALOG_HERE_PRIVATEKEY.replace("KEYUP",lang.KEYUP).replace("KEYDOWN",lang.KEYDOWN)  etc etc.
+KEYUP=OMHOOG
+KEYDOWN=OMLAAG
+KEYRIGHT=RECHTS
+KEYLEFT=LINKS
+KEYSPACE=SPATIEBALK
+=KEYUP=<img src='img/icn-arrow-up.png' class='keyboard-key'>
+=KEYDOWN=<img src='img/icn-arrow-down.png' class='keyboard-key'>
+=KEYLEFT=<img src='img/icn-arrow-left.png' class='keyboard-key'>
+=KEYRIGHT=<img src='img/icn-arrow-right.png' class='keyboard-key'>
+=KEYSPACE=<img src='img/icn-space.png' class='keyboard-key'>
+
+
+DIALOG_STRING1=blokken
+DIALOG_STRING2=, welkom bij het Instituut. Je hebt een gecodeerd bericht in je bezit, laat me uitleggen hoe je het kunt decoderen.
+DIALOG_STRING3=, je account is nu aangemaakt. Om de uitwisselingen op het netwerk te beveiligen, gebruiken we een asymmetrisch cryptografieprotocol.
+DIALOG_STRING4=(Maximale) decoderingstijd
+DIALOG_STRING5=Stoppen - Speeltijd
+DIALOG_STRING6=Stop
+DIALOG_STRING7=Stop
+DIALOG_STRING8=Au! Ik kreeg een schrok!
+DIALOG_STRING9=Asymmetrisch? Waarom asymmetrisch?
+DIALOG_STRING10=Wacht, dit is niet normaal ... Ik ben aan het controleren ... Dat is het! De server heeft zichzelf opnieuw geprogrammeerd en bestuurt het systeem. Het is duidelijk dat hij naar ons luisterde en verhinderde dat je de kabel loskoppelde, net toen hij de deuren van de kamer op slot deed. Ik ben hier opgesloten!
+
+DIALOG_STRING11=Welkom bij het Instituut! Dus jij bent mijn nieuwe stagiair, perfect! Laten we beginnen bij het begin, je hebt een gebruikersaccount nodig om verbinding te maken met het netwerk, je hoeft alleen je gebruikersnaam te kiezen.
+DIALOG_STRING12=Gefeliciteerd, je hebt de juiste kabel losgekoppeld! Nog twee elektrische panelen meer en het zou goed moeten zijn!
+DIALOG_STRING13=Het is raar, de server heeft een fout gemeld, ik moet naar de machinekamer om te controleren of alles in orde is. Je moet enkele kabels aansluiten of loskoppelen.
+DIALOG_STRING14=Deze server zou deze berichten niet zo snel moeten kunnen decoderen ... Ik begrijp het! Het infecteert andere computers voor extra rekenkracht!
+DIALOG_STRING15=Leerling uitdaging (12 blokken)
+DIALOG_STRING16=Onderzoeker uitdaging (14 blokken)
+DIALOG_STRING17=Expert uitdaging (16 blokken)
+DIALOG_STRING18=Easy uitdaging (8 blokken)
+DIALOG_STRING19=Novice uitdaging (10 blokken)
+DIALOG_STRING20=Uitdaging opgelost
+
+DIALOG_STRING21=Volgende uitdaging
+DIALOG_STRING22=Elke uitdaging wordt gecodeerd met behulp van je <em>Publieke Sleutel</em>, om deze te decoderen moet je je <em>Geheime Sleutel</em> gebruiken. Bewerk je sleutel zoals eerder met KEYLEFT en KEYRIGHT om de kolommen te verplaatsen en KEYUP of KEYSPACE om de kleuren van de blokken om te keren.
+DIALOG_STRING23=Vijfde uitdaging gedecodeerd
+DIALOG_STRING24=Sleutel succesvol aangemaakt
+DIALOG_STRING25=Geheime sleutel? Wat is het ?
+DIALOG_STRING26=Vergelijking van speeltijden
+DIALOG_STRING27=Vergelijking van decoderingstijd
+DIALOG_STRING28=Cryptogra ... wat?
+DIALOG_STRING29=Cryptografie! Oudgrieks <strong> kruptos </strong> ("verborgen") en <strong> graphein </strong> ("schrijven"). Het gaat om het beschermen van berichten.
+DIALOG_STRING30=Publieke sleutel aanmaken
+
+DIALOG_STRING31=Dit is het juiste moment om het coderingsprotocol te gebruiken om te voorkomen dat het naar ons luistert! Ik stuur je de lijst met kabels die je moet loskoppelen, maar één voor één, en versleuteld.
+DIALOG_STRING32=Oké, ik begrijp het.
+DIALOG_STRING33=Tweede uitdaging ontsleuteld
+DIALOG_STRING34=Decoderingstijd
+DIALOG_STRING35=Koppel kabel 24 los van elektrisch paneel V
+DIALOG_STRING36=Koppel kabel 31 los van het elektrische paneel N
+DIALOG_STRING37=Koppel kabel 78 los van elektrisch paneel M
+DIALOG_STRING38=Koppel de kabel los
+DIALOG_STRING39=Decodeer het bericht
+DIALOG_STRING40=Een gedeeld bericht ontsleutelen
+
+DIALOG_STRING41=Decoderen - Gedecodeerd bericht decoderen -
+DIALOG_STRING42=Decoderen - Gedecodeerd bericht decoderen - Start
+DIALOG_STRING44=Decoderen
+DIALOG_STRING45=Challenge! Cryptris, een gratis spel over asymmetrische cryptografie
+DIALOG_STRING46=Daag de computer uit om te weten wie het snelst kan decoderen. Veel cryptologische uitdagingen wachten op je, ben je er klaar voor?
+DIALOG_STRING47=Scherm kabel loskoppelen
+DIALOG_STRING48=Anderzijds is de moeilijkheid voor de computer veel sneller toegenomen dan zijn rekencapaciteit. QED!
+DIALOG_STRING49=Gefeliciteerd, u hebt de bewerking begrepen en de gegenereerde Publieke Sleutel is effectief!
+DIALOG_STRING50=Gelukkig, dankzij asymmetrische cryptografie, kan geen enkele machine onze berichten snel genoeg ontsleutelen. De verschillende coderingsniveaus maken <span>uw taak,</span> niet echt ingewikkeld, omdat u de Geheime Sleutel hebt.
+
+DIALOG_STRING51=U moet dit bericht echt eerder kunnen decoderen dan de computer. Laten we opnieuw beginnen!
+DIALOG_STRING53=Intro - Onderzoeker codeert een bericht
+DIALOG_STRING54=Intro - Aanmaken van Publieke Sleutel
+DIALOG_STRING55=Intro - einde
+DIALOG_STRING56=Intro - Decryption Tutorial
+DIALOG_STRING56=Intro - Decryption Tutorial
+DIALOG_STRING57=Intro
+DIALOG_STRING58=Ik gebruik je Publieke Sleutel om mijn bericht te coderen.
+DIALOG_STRING59=Ik codeer een bericht dat u later kunt decoderen.
+DIALOG_STRING60=Ik stuur u de laatste kabel, waardoor de coderingsmoeilijkheden verder toenemen. Het zal hem een paar honderd dagen kosten om <span> dit laatste bericht te decoderen </span>, en tegen die tijd zullen we het hebben ontkoppeld en geanalyseerd!
+
+DIALOG_STRING61=Ik stuur je de tweede kabel, gecodeerd met nog twee blokken. Met asymmetrische cryptografie neemt bij het vergroten van het aantal bits de rekenmoeilijkheden exponentieel toe voor een aanvaller. Dus dat zou moeten lukken.
+DIALOG_STRING62=Ik stuur je een gecodeerd bericht met het eerste kabelnummer dat moet worden losgekoppeld en de bijbehorende elektrische kaart.
+DIALOG_STRING63=Ik heb zojuist Cryptris voltooid - een spel over het universum van asymmetrische cryptografie. Confronteer de computer!
+DIALOG_STRING64=Spel voltooid in
+DIALOG_STRING65=Ik bleef bijna voor altijd opgesloten en de server had het hele internet kunnen infecteren, waardoor de persoonlijke gegevens van de hele planeet geabsorbeerd hadden kunnen worden!
+DIALOG_STRING66=Wanneer twee blokken van dezelfde kleur elkaar raken stapelen ze op, en anders annuleren ze elkaar. Je bericht wordt gedecodeerd wanneer er nog maar één regel over is in het bericht. Jouw beurt !
+DIALOG_STRING67=Wanneer je op KEYDOWN drukt, wordt je sleutel verzonden naar het bericht om te decoderen en worden de blokken geannuleerd als ze tegengestelde kleuren hebben of opgestapeld als ze dezelfde kleur hebben. Het bericht wordt gedecodeerd wanneer je slechts één rij blokken over hebt. Jouw beurt !
+DIALOG_STRING68=Helaas heeft de server toegang tot onze database <span>en heeft hij</span> geleerd hoe hij sneller kan ontsleutelen. Ik doe wat ik kan om het te vertragen, maar zijn rekencapaciteit en het geheugen nemen alleen maar toe!
+DIALOG_STRING69=Gefeliciteerd! We zijn erin geslaagd om de machine te beheersen. De rekencapaciteit nam fenomenaal toe, maar niet zo snel als de moeilijkheid van ontsleuteling ...
+DIALOG_STRING70=Versleuteld bericht.
+
+DIALOG_STRING71=Gedecodeerd bericht
+DIALOG_STRING72=OK, u hebt dit bericht gelezen.
+DIALOG_STRING73=Ja! Asymmetrisch, het wordt ook Publieke Sleutel Cryptografie genoemd omdat het afhankelijk is van het gebruik van twee soorten sleutels: de Geheime Sleutel en de Publieke Sleutel. De Publieke Sleutel wordt gebruikt om de berichten te coderen of te coderen, terwijl de bijbehorende Geheime Sleutel ze kan decoderen.
+DIALOG_STRING74=Perfect! Hier ben je, klaar! Ik heb je Publieke Sleutel, we kunnen verder.
+DIALOG_STRING75=Perfect! Hier ben je, klaar! Ik heb je Publieke Sleutel ... Laten we kijken of alles werkt. Ik stuur je een eerste gecodeerd bericht.
+DIALOG_STRING76=Perfect! Je hebt <em>begrepen hoe je een bericht kunt decoderen met je Geheime Sleutel, </em> ik verwachtte <span>niets minder van jou!</span> Je bent klaar en je bent nu lid van het Instituut.
+DIALOG_STRING78=Sla deze stap over
+DIALOG_STRING79=Om het bericht te decoderen moet je de blokken vernietigen, je verzamelt ze. Laten we opnieuw beginnen!
+DIALOG_STRING80=Om je Publieke Sleutel te genereren, laat je je Geheime Sleutel zes keer neer vallen. Als het beveiligingsniveau voldoende is, wordt je openbare sleutel opgeslagen, anders voltooit de computer deze.
+
+DIALOG_STRING81=Om je Publieke Sleutel te genereren, manipuleer je je Geheime Sleutel met KEYLEFT, KEYUP en KEYRIGHT en laat u deze zes keer neer vallen met KEYDOWN. Als het beveiligingsniveau voldoende is, wordt je Publieke Sleutel opgeslagen, anders voltooit de computer deze.
+DIALOG_STRING82=Om je Publieke Sleutel te genereren, manipuleer je je Geheime Sleutel met KEYLEFT, KEYUP en KEYRIGHT en laat u deze zes of zeven keer vallen met KEYDOWN.
+DIALOG_STRING83=Eerste uitdaging gedecodeerd
+DIALOG_STRING84=Eerste dag op het instituut
+DIALOG_STRING85=Voorbereiding van het spelniveau
+DIALOG_STRING86=Vierde uitdaging ontsleuteld
+DIALOG_STRING87=Als u hulp nodig hebt, drukt u op de '?' en ik zal je alle nodige informatie geven.
+DIALOG_STRING88=Als u het zegt ...
+DIALOG_STRING89=Selecteer de kabel om los te koppelen
+DIALOG_STRING90=Uw Geheime Sleutel is de sleutel die alleen u zult kennen, het is waarmee u de berichten die naar u worden verzonden, gemakkelijk kunt ontcijferen. <em>Zonder de Geheime Sleutel is het erg moeilijk,</em> onmogelijk, <em>om een ​​gecodeerd bericht te decoderen.</em>
+
+DIALOG_STRING91=Uw Geheime Sleutel staat bovenaan. Gebruik de toetsen KEYLEFT en KEYRIGHT om het naar wens te manipuleren. Druk op de toets KEYUP of KEYSPACE om je sleutel om te keren en wanneer u klaar bent, drukt u op KEYDOWN om je keuze te bevestigen.
+DIALOG_STRING92=Uw Publieke Sleutel wordt afgeleid van je Geheime Sleutel. Op dezelfde manier dat een <em>hangslot</em> <em>de inhoud van een kluis kan beveiligen,</em> kan de <em>Publieke Sleutel</em> <em>berichten coderen</em> en maak ze onleesbaar voor degenen die niet over de Geheime Sleutel beschikken.
+DIALOG_STRING93=Grootte van de sleutel (blokken)
+DIALOG_STRING94=Speeltijd
+DIALOG_STRING95=Er waren ongeldige base64-tekens in de tekstinvoer. \n
+DIALOG_STRING96=Derde uitdaging gedecodeerd
+DIALOG_STRING97=Oké, je begrijpt het! De gegenereerde Publieke Sleutel is echter niet veilig genoeg, de computer zal dat oplossen.
+DIALOG_STRING98=Oké, je hebt de juiste kabel losgekoppeld! Nog één elektrisch paneel en ik kan eindelijk eruit!
+DIALOG_STRING99=Je bent een stagiaire in TXT_CUSTOM_GROUP op TXT_CUSTOM_INSTITUTE
+DIALOG_STRING100=Kan niet winnen? Dit kan normaal zijn! Laat me u herinneren aan het principe van asymmetrische cryptografie: de Geheime Sleutel maakt decodering gemakkelijk, maar het is heel moeilijk of onmogelijk met de Publieke Sleutel. Kies goed wie welke sleutel krijgt!
+
+DIALOG_STRING101=U gaat nu jouw Geheime / Publieke Sleutelpaar maken, maar <span> ... </span> vergeet niet, deze Geheime Sleutel is ... privé! Alleen Jij mag het weten! Jouw openbare sleutel zal op het netwerk worden verspreid onder alle onderzoekers van het Instituut.
+DIALOG_STRING102=Een Publieke Sleutel? Waarom zou mijn sleutel openbaar zijn?
+DIALOG_STRING103=Geldige base64-tekens zijn A-Z, a-z, 0-9, '+', '/' en '=' \ n
+DIALOG_STRING104=Dit is het bericht dat ik heb gecodeerd met jouw <em>Publieke Sleutel</em>, om het te decoderen moet u jouw <em>Geheime Sleutel</em> gebruiken. Bewerk je sleutel zoals al het andere met KEYLEFT en KEYRIGHT om de kolommen te verplaatsen en KEYUP of KEYSPACE om de kleuren van de blokken om te keren.
+DIALOG_STRING105=Hier is jouw Geheime Sleutel, deze verschijnt bovenaan jouw scherm, gebruik de sleutels KEYLEFT en KEYRIGHT om deze naar wens te manipuleren. Druk op de toets KEYUP of KEYSPACE om jouw sleutel om te keren en wanneer u klaar bent, drukt u op KEYDOWN om jouw keuze te bevestigen.
+DIALOG_STRING106=Heck, de server probeert ook het bericht te ontsleutelen, <em>gelukkig heeft het alleen jouw Publieke Sleutel!</em> Ik stuur u in realtime de informatie die overeenkomt met de voortgang, haast u om het bericht te ontsleutelen voordat het kan breek de code.
+DIALOG_STRING107=Ontvangt u mij? Het is echt raar, onze server weigert koppig zichzelf opnieuw te configureren en voorkomt dat ik <sspan>uit de</sspan> machineruimte kom om te proberen de nr.42-kabel los te koppelen van het mainboard.
+DIALOG_STRING108=Gefeliciteerd! Je hebt sneller gedecodeerd dan de computer. Als je cryptografie wilt ontdekken, probeer dan een nieuw compleet spel te maken.
