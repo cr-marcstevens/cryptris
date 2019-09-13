@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CRYPTRIS_LANGUAGES="en fr"
+CRYPTRIS_LANGUAGES="en fr nl"
 
 function replace_string_in_file
 {
