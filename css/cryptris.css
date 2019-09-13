@@ -341,6 +341,15 @@ p{
 	Home screen
 */
 
+/* Flags */
+.flags{}
+.flag{
+	max-height:25px;
+	margin:10px;
+	vertical-align:middle;
+}
+
+
 /* Logos */
 
 .cryptris-logo-large{
