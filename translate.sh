@@ -2,6 +2,13 @@
 
 CRYPTRIS_LANGUAGES="en fr nl"
 
+# convert LANGUAGES in flags html code
+FLAGS="<div class='flags'>"
+for lg in ${CRYPTRIS_LANGUAGES}; do
+	FLAGS="${FLAGS}<a href='index_${lg}.html'><img src='img/flags/${lg}.png' class='flag'></a>"
+done
+FLAGS="${FLAGS}</div>"
+
 function replace_string_in_file
 {
 cat "$1" | sed "s/$2/$3/g" > "$1.tmp"
@@ -39,14 +46,15 @@ for lg in ${CRYPTRIS_LANGUAGES} ; do
 		echo -n "."
 	done < <(cat languages/custom.txt languages/${lg}.txt)
 	echo "langend:\"\"};" >> js/lang_${lg}.js
+	echo "s|<div class='flags'></div>|${FLAGS}|;" >> languages/${lg}.ed
 	echo "done"
 
-	# process all html files	
+	# process all html files
 	for f in html/*.html; do
 		outfile=$(basename ${f%.html})_${lg}.html
 		generate_html_file $f $lg
 	done
-	
+
 	# copy pre-translated html files
 	for f in html/pre_translated/*_${lg}.html ; do
 		ff=$(basename ${f})
