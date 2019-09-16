@@ -262,6 +262,6 @@ DIALOG_STRING103=Valid base64 characters are A-Z, a-z, 0-9, '+', '/', and '=' \n
 DIALOG_STRING104=Here is the message I encrypted using your <em>public key</em>, to decrypt it you have to use your <em>private key</em>. Manipulate your key like everything else with KEYLEFT and KEYRIGHT to move the columns and KEYUP or KEYSPACE to invert the colors of the blocks.
 DIALOG_STRING105=Here is your private key, it appears at the top of your screen, use the keys KEYLEFT and KEYRIGHT to manipulate it according to your desire. Press the key KEYUP or KEYSPACE to invert your key and when you are ready, press KEYDOWN to confirm your choice.
 DIALOG_STRING106=Heck, the server is also trying to decrypt the message, <em>luckily it only has your public key!</em> I send you in real time the information corresponding to its progress, hurry to decrypt the message before it can break the code.
-DIALOG_STRING107=Do you receive me? It's really weird, our server stubbornly refuses to re-configure itself and prevents me from getting <sspan>out of the </sspan> room of the machines, trying to unplug the nr.42 cable from the main electrical board.
+DIALOG_STRING107=Do you receive me? It's really weird, our server stubbornly refuses to re-configure itself and prevents me from getting <sspan>out of the </sspan> room of the machines. Try to unplug the nr.42 cable from the main electrical board.
 DIALOG_STRING108=Congratulations! You have decrypted faster than the computer. If you want to discover cryptography, try to make a new complete game.
 DIALOG_STRING109=Keylength : 

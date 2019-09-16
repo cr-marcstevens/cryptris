@@ -1,4 +1,4 @@
-﻿= Comment lines start with a '='
+= Comment lines start with a '='
 = Format: TOKEN=substitution string
 = Usage in HTML: just place TOKEN and it will be completely replaced
 = Usage in Javascript: use the variable lang.TOKEN holding the string "substitution string"
@@ -210,7 +210,7 @@ DIALOG_STRING56=Intro - Decryption Tutorial
 DIALOG_STRING56=Intro - Decryption Tutorial
 DIALOG_STRING57=Intro
 DIALOG_STRING58=Ik gebruik je Publieke Sleutel om mijn bericht te coderen.
-DIALOG_STRING59=Ik codeer een bericht dat u later kunt decoderen.
+DIALOG_STRING59=Ik codeer een bericht dat je later kunt decoderen.
 DIALOG_STRING60=Ik stuur je de laatste kabel, waardoor de coderingsmoeilijkheden verder toenemen. Het zal hem een paar honderd dagen kosten om <span> dit laatste bericht te decoderen </span>, en tegen die tijd zullen we het hebben ontkoppeld en geanalyseerd!
 
 DIALOG_STRING61=Ik stuur je de tweede kabel, gecodeerd met nog twee blokken. Met asymmetrische cryptografie neemt bij het vergroten van het aantal bits de rekenmoeilijkheden exponentieel toe voor een aanvaller. Dus dat zou moeten lukken.
@@ -262,6 +262,6 @@ DIALOG_STRING103=Geldige base64-tekens zijn A-Z, a-z, 0-9, '+', '/' en '=' \ n
 DIALOG_STRING104=Dit is het bericht dat ik heb gecodeerd met jouw <em>Publieke Sleutel</em>, om het te decoderen moet je jouw <em>Geheime Sleutel</em> gebruiken. Bewerk je sleutel zoals al het andere met KEYLEFT en KEYRIGHT om de kolommen te verplaatsen en KEYUP of KEYSPACE om de kleuren van de blokken om te keren.
 DIALOG_STRING105=Hier is jouw Geheime Sleutel, deze verschijnt bovenaan jouw scherm, gebruik de sleutels KEYLEFT en KEYRIGHT om deze naar wens te manipuleren. Druk op de toets KEYUP of KEYSPACE om jouw sleutel om te keren en wanneer je klaar bent, drukt je op KEYDOWN om jouw keuze te bevestigen.
 DIALOG_STRING106=Heck, de server probeert ook het bericht te ontsleutelen, <em>gelukkig heeft het alleen jouw Publieke Sleutel!</em> Ik stuur je in realtime de informatie die overeenkomt met de voortgang, haast je om het bericht te ontsleutelen voordat het de code kan breken.
-DIALOG_STRING107=Ontvang je mij? Het is echt raar, onze server weigert koppig zichzelf opnieuw te configureren en voorkomt dat ik <sspan>uit de</sspan> machineruimte kom om te proberen de nr.42-kabel los te koppelen van het mainboard.
+DIALOG_STRING107=Ontvang je mij? Het is echt raar, onze server weigert koppig zichzelf opnieuw te configureren en voorkomt dat ik <sspan>uit de</sspan> machineruimte kom. Probeer de nr.42-kabel los te koppelen van het mainboard.
 DIALOG_STRING108=Gefeliciteerd! Je hebt sneller gedecodeerd dan de computer. Als je cryptografie wilt ontdekken, probeer dan een nieuw compleet spel te maken.
 DIALOG_STRING109=Sleutellengte : 
