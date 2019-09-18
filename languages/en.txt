@@ -8,8 +8,8 @@ DECRYPTER_HTMLFILE=decrypter_en.html
 DOCUMENTATION_HTMLFILE=documentation_en.html
 
 = language-specific custom group / researcher
-=TXT_RESEARCHER=Researcher
-TXT_RESEARCHER=Léo Ducas
+TXT_RESEARCHER=Researcher
+=TXT_RESEARCHER=Léo Ducas
 TXT_CUSTOM_GROUP=a research team
 
 = basic words
