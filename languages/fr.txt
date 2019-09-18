@@ -11,128 +11,127 @@ TXT_RESEARCHER=Chercheuse
 TXT_CUSTOM_GROUP=une équipe de recherche Inria
 
 = basic words
-TXT_CANCEL=Cancel
+TXT_CANCEL=Annuler
 TXT_OK=OK
-TXT_RESET=Reset
-TXT_SUBMIT=Submit
-TXT_LICENSES=Licenses
-TXT_PARTNERS=Partners
+TXT_RESET=Réinitialiser
+TXT_SUBMIT=Soumettre
+TXT_LICENSES=Licences
+TXT_PARTNERS=Partenaires
 TXT_NEXT=Next
-TXT_PREV=Previous
-TXT_OPEN_MESSAGE=Open Message
-TXT_DECRYPT_MESSAGE=Decrypt Message
-TXT_GAME=Game
-TXT_SPY_SOFTWARE=SPY SOFTWARE
+TXT_PREV=Précédent
+TXT_OPEN_MESSAGE=Message ouvert
+TXT_DECRYPT_MESSAGE=Déchiffrer le message
+TXT_GAME=Jeu
+TXT_SPY_SOFTWARE=LOGICIEL SPY
 TXT_PAUSE=Pause
-TXT_PERFECT=Perfect
-TXT_RESTART=Restart
-TXT_RESUME=Resume
-TXT_ROTATE=Rotate
-TXT_FAILURE=Failure
-TXT_GOODDAY=Hello
+TXT_PERFECT=Parfait
+TXT_RESTART=Redémarrer
+TXT_RESUME=Reprendre
+TXT_ROTATE=Rotation
+TXT_FAILURE=Echec
+TXT_GOODDAY=Bonjour
 TXT_CRYPTRIS=Cryptris
-TXT_PRIVATE_KEY=Private Key
-TXT_PUBLIC_KEY=Public Key
+TXT_PRIVATE_KEY=Clé privée
+TXT_PUBLIC_KEY=Clé publique
 TXT_PLAYER=Player
-TXT_ADVERSARY=Adversary
+TXT_ADVERSARY=Adversaire
 
 = *.html
-CRYPTRIS_HTMLTITLE=Cryptris - An asymetric cryptography game
-CRYPTRIS_HTMLDESCRIPTION=Discover the universe of cryptography: play against the computer to find out who will be able to decrypt the fastest. Many challenges await you, are you ready?
-CRYPTRIS_JS_LANGUAGEFILE=lang_en.js
+CRYPTRIS_HTMLTITLE=Cryptris - Un jeu de cryptographie asymétrique
+CRYPTRIS_HTMLDESCRIPTION=Decouvrez l'univers de la cryptographie: jouez contre l'ordinateur pour trouver qui sera capable de déchiffrer le plus rapide. De nombreux défis vous attendent, êtes-vous prêt?
+CRYPTRIS_JS_LANGUAGEFILE=lang_fr.js
 
 = about.html credits.html
-ABOUT_HTMLTITLE=About - Cryptris
-CREDITS_HTMLTITLE=Credits - Cryptris
-ABOUT_DESCRIPTION=Cryptris is a game proposed by <a href="http://www.inria.fr/" target="_blank">Inria</a> and developed by <a href="http://digitalcuisine.fr/" target="_blank">Digital&nbsp;Cuisine</a>, with the support of <a href="http://www.capmaths.fr">Cap'Maths</a>, and proposed under an open <a href="license.html">license</a>.
-ABOUT_GOAL=The goal of this game is to show the interest of so-called asymmetric cryptography. In a series of puzzles, the player decrypts a message using a private key, while the computer tries to decrypt the same message using a&nbsp;public&nbsp;key.
-ABOUT_DIFFICULTY=The difficulty for the player increases linearly, while the computer will have more and more trouble. Cryptography protects your data effectively!
-CREDITS_IDEA=Based on an original idea by Léo Ducas
-CREDITS_H_SCENARIO=Scenario
-CREDITS_H_TRANSLATION=Translation
+ABOUT_HTMLTITLE=À propos de - Cryptris
+CREDITS_HTMLTITLE=Crédits - Cryptris
+ABOUT_DESCRIPTION=Cryptris est un jeu proposé par <a href="http://www.inria.fr/" target="_blank"> Inria </a> et développé par <a href = "http://digitalcuisine.fr / "target =" _ blank "> Digital Cuisine </a>, avec le soutien de <a href="http://www.capmaths.fr"> Cap'Maths </a>, et proposé sous un <a href = "license.html"> licence </a>.
+ABOUT_GOAL=Le but de ce jeu est de montrer l'intérêt de la cryptographie dite asymétrique. Dans une série d'énigmes, le lecteur déchiffre un message à l'aide d'une clé privée, tandis que l'ordinateur tente de déchiffrer le même message à l'aide d'une clé publique.
+ABOUT_DIFFICULTY=La difficulté pour le joueur augmente linéairement, alors que l'ordinateur aura de plus en plus de problèmes. La cryptographie protège efficacement vos données!
+CREDITS_IDEA=Basé sur une idée originale de Léo Ducas
+CREDITS_H_SCENARIO=Scénario
+CREDITS_H_TRANSLATION=Traduction
 CREDITS_R_COORDINATION=Coordination
-CREDITS_R_SCIENTIFICREF=Scientific Review
-CREDITS_R_REF=Review
-CREDITS_R_ARTISTIC_DIRECTOR=Artistic Director
-CREDITS_R_GRAPHICS=Graphics
-CREDITS_R_GAME_ENGINE=Game Engine
-CREDITS_R_HTML_INTEGRATION=HTML Integration
-CREDITS_R_TESTING=Testing
-CREDITS_R_TRANSLATION=Translation adaptation
-CREDITS_R_LANGUAGE=Translation
-CREDITS_THIRDPARTY=This project uses libraries, images and third-party tools.
-CREDITS_S_SERVER_ROOM=Server room by wikieditor243, licensed under creative commons (CC BY-SA 3.0).
-CREDITS_S_ELECTRIC_CIRCUIT=Electric Circuit by Brandon Blinkenberg (gobran111).
-CREDITS_S_OTHER_IMAGES=Without exception, all other visuals were created by or for Digital Cuisine and Inria.
-CREDITS_PARTNERS=This achievement was made possible thanks to the support of the following partners :
+CREDITS_R_SCIENTIFICREF=Examen scientifique
+CREDITS_R_REF=Révision
+CREDITS_R_ARTISTIC_DIRECTOR=Directeur artistique
+CREDITS_R_GRAPHICS=Graphiques
+CREDITS_R_GAME_ENGINE=Moteur de jeu
+CREDITS_R_HTML_INTEGRATION=Intégration HTML
+CREDITS_R_TESTING=Test
+CREDITS_R_TRANSLATION=Adaptation de la traduction
+CREDITS_R_LANGUAGE=Traduction
+CREDITS_THIRDPARTY=Ce projet utilise des bibliothèques, des images et des outils tiers.
+CREDITS_S_SERVER_ROOM=Salle des serveurs de wikieditor243, sous licence Creative Commons (CC BY-SA 3.0).
+CREDITS_S_ELECTRIC_CIRCUIT=Circuit électrique de Brandon Blinkenberg (gobran111).
+CREDITS_S_OTHER_IMAGES=Tous les autres visuels ont été créés par ou pour Digital Cuisine et Inria.
+CREDITS_PARTNERS=Cette réalisation a été rendue possible grâce au soutien des partenaires suivants:
 
 = arcade.html
 ARCADE_HTMLTITLE=Arcade - Cryptris
-ARCADE_CHOOSE_USERNAME=Choose your username :
-ARCADE_MENU_CREATE_KEY=Create Keys
-ARCADE_MENU_BEGINNER=Beginner - 8 blocks
-ARCADE_MENU_EASY=Easy - 10 blocks
-ARCADE_MENU_MEDIUM=Medium - 12 blocks
-ARCADE_MENU_HARD=Hard - 14 blocks
-ARCADE_MENU_EXPERT=Expert - 16 blocks
-ARCADE_END=- END -
-SHARE_SOCIAL_MEDIA=Share your experience on your favorite social media :
+ARCADE_CHOOSE_USERNAME=Choisissez votre nom d'utilisateur:
+ARCADE_MENU_CREATE_KEY=Créer des clés
+ARCADE_MENU_BEGINNER=Débutant - 8 blocs
+ARCADE_MENU_EASY=Facile - 10 blocs
+ARCADE_MENU_MEDIUM=Moyen - 12 blocs
+ARCADE_MENU_HARD=Difficile - 14 blocs
+ARCADE_MENU_EXPERT=Expert - 16 blocs
+ARCADE_END=- FIN -
+SHARE_SOCIAL_MEDIA=Partagez votre expérience sur vos réseaux sociaux préférés:
 
 = index.html
-MENU_NEW_GAME=New Game
+MENU_NEW_GAME=Nouvelle partie
 MENU_ARCADE=Arcade
 MENU_DOCUMENTATION=Documentation
-MENU_SHARE=Share this game
-MENU_ABOUT=About this game
-MENU_CREDITS=Credits
+MENU_SHARE=Partager ce jeu
+MENU_ABOUT=A propos de ce jeu
+MENU_CREDITS=Crédits
 
 = license.html
-LICENSE_HTMLTITLE=License - Cryptris
-LICENSE_SOURCE_CODE=All source code is distributed under the license <a href="http://www.cecill.info/licences/Licence_CeCILL_V2-en.html">CeCILL V2</a> (Compatible with GNU GPL)
-LICENSE_DOCUMENTATION=All related documents are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en">Creative Commons</a> Attribution-NonCommercial-ShareAlike 2.0 France (CC BY-NC-SA 2.0 FR)
-LICENSE_BYNCSA20FR_URL=https://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en
-LICENSE_EXPLANATION=This license therefore gives the right to copy, distribute and communicate this material by any means and in any format, and make a remix, transform, or create from the material for personal or educational purposes (for any other use just contact us)
-LICENSE_CECILL_REMARK=The source code is distributed under the CeCiLL license. This License is a Free Open Source Software license. It is close in its terms to the LGPL license. The CeCill licenses have been created under the supervision of French computer science major institutions. They comply to European regulation rules. Documents are distributed under the Creative-Commons standard license.
+LICENSE_HTMLTITLE=Licence - Cryptris
+LICENSE_SOURCE_CODE=Tout le code source est distribué sous la licence <a href="http://www.cecill.info/licences/Licence_CeCILL_V2-en.html"> CeCILL V2 </a> (compatible avec GNU GPL)
+LICENSE_DOCUMENTATION=Tous les documents associés sont sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en"> Creative Commons </a> (Attribution-NonCommercial-ShareAlike 2.0) France (CC BY-NC-SA 2.0 FR)
+LICENSE_BYNCSA20FR_URL=https: //creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.fr
+LICENSE_EXPLANATION=Cette licence donne donc le droit de copier, distribuer et communiquer ce matériel par tout moyen et dans n'importe quel format, et de faire un remix, une transformation ou une création à partir du matériel à des fins personnelles ou éducatives (pour toute autre utilisation, contactez-nous)
+LICENSE_CECILL_REMARK=Le code source est distribué sous la licence CeCiLL. Cette licence est une licence de logiciel libre Open Source. Ses termes sont proches de ceux de la licence LGPL. Les licences CeCill ont été créées sous la supervision de grandes institutions informatiques françaises. Ils sont conformes aux règles de la réglementation européenne. Les documents sont distribués sous la licence standard Creative-Commons.
 
 = share.html
-SHARE_HTMLTITLE=Share this game with your friends
-CHARACTERS_LEFT=Characters left
-CHARACTER_LEFT=Character left
-SHARE_THE_GAME=Share the game
-SHARE_ON_FACEBOOK=Share on Facebook
-SHARE_ON_TWITTER=Share on Twitter
-SHARE_VIA_EMAIL=Share via email
-SHARE_VIA_LINK=Share link
-SHARE_THIS_LINK=Copy-paste this link to share your message&nbsp;:
-TRY_TO_OPEN_EMAIL=Try to send with a new email
-SHARE_ENTER_YOUR_MESSAGE=Challenge your friends to decipher your message, start by typing it below, <br/>it will then be encrypted using a random private / public key pair.
-SHARE_HERES_ENCRYPTED_MESSAGE=Here is your encrypted message, share it !
-MODIFY_MY_MESSAGE=Modify my message
-WARNING_CRYPTRIS_PGP=Warning ! Cryptris is just a game: we will give the private key to all those who will click on your link and your message will not remain secret long ... <br/> To send real encrypted messages, <a href='documentation.html#pgp'>use PGP</a>
+SHARE_HTMLTITLE=Partagez ce jeu avec vos amis
+CHARACTERS_LEFT=Caractères restants
+CHARACTER_LEFT=Caractère restant
+SHARE_THE_GAME=Partager le jeu
+SHARE_ON_FACEBOOK=Partager sur Facebook
+SHARE_ON_TWITTER=Partager sur Twitter
+SHARE_VIA_EMAIL=Partager par courrier électronique
+SHARE_VIA_LINK=Lien de partage
+SHARE_THIS_LINK=Copiez-collez ce lien pour partager votre message:
+TRY_TO_OPEN_EMAIL=Essayez d'envoyer avec un nouvel email
+SHARE_ENTER_YOUR_MESSAGE=Mettez vos amis au défi de déchiffrer votre message. Commencez par le saisir ci-dessous. <br/> il sera ensuite chiffré à l'aide d'une paire aléatoire de clés privée / publique.
+SHARE_HERES_ENCRYPTED_MESSAGE=Voici votre message crypté, partagez-le!
+MODIFY_MY_MESSAGE=Modifier mon message
+WARNING_CRYPTRIS_PGP=Attention! Cryptris n’est qu’un jeu: nous allons donner la clé privée à tous ceux qui cliqueront sur votre lien et votre message ne restera pas secret longtemps ... <br/> Pour envoyer de vrais messages cryptés, <a href = 'documentation.html #pgp '> utiliser PGP </a>
 
 = story.html
-STORY_END_MESSAGE=<p>You've explored the world of cryptography and confronted the computer&nbsp;!</p><p> Try to decrypt an even longer message, even with the public key, in arcade mode. </p><p> Share your experience on your favorite social networks &nbsp;: </p>
-STORY_END=- END -
+STORY_END_MESSAGE=<p> Vous avez exploré le monde de la cryptographie et confronté l'ordinateur! </ P> <p> Essayez de déchiffrer un message encore plus long, même avec la clé publique, en mode arcade. </ p> <p> Partagez votre expérience sur vos réseaux sociaux préférés: </ p>
+STORY_END=- FIN -
 
 = thanks.html
-THANKS_HTMLTITLE=Thank you for playing Cryptris
-THANKS_FOR_PLAYING=Thank you for playing this game!
-CLOSE_THIS_WINDOW=Close this window
-
+THANKS_HTMLTITLE=Merci d'avoir joué à Cryptris
+THANKS_FOR_PLAYING=Merci d'avoir joué à ce jeu!
+CLOSE_THIS_WINDOW=Fermer cette fenêtre
 
 = js/arcade-dialogs.js
-ARCADE_DIALOG_GAME_OVER_TITLE=Game over (the computer won)
-ARCADE_DIALOG_GAME_OVER=You really need to be able to decrypt this message before the computer. Let's start from scratch!
-ARCADE_DIALOG_TOO_MANY_BLOCKS_TITLE=Game over (player does not play properly)
-ARCADE_DIALOG_TOO_MANY_BLOCKS=To decrypt the message you have to cancel out the blocks, you are accumulating them.
-ARCADE_DIALOG_ANNOUNCE_PUBLICKEY_TITLE=Dialogue 'You will create your key pair' (Researcher)
-ARCADE_DIALOG_ANNOUNCE_PUBLICKEY=You will create your private key / public key pair but <span> ... </ span> do not forget, this private key is ... private! You alone must know it! Your public key will be disseminated on the network to all the researchers of the Institute.
-ARCADE_DIALOG_HERE_PRIVATEKEY_TITLE=Dialogue 'Here is your private key' (Researcher)
-ARCADE_DIALOG_HERE_PRIVATEKEY=Here is your private key, use the keys KEYLEFT and KEYRIGHT to manipulate it according to your desire. Press KEYUP or KEYSPACE to invert your key and when you are ready, press KEYDOWN to confirm your choice.
-ARCADE_DIALOG_CREATE_PUBLICKEY=To generate your public key, drop your private key six or seven times. If the security level is sufficient, your public key will be saved, otherwise the computer will complete it.
-ARCADE_DIALOG_SUCCESS=Congratulations, you understood how it works!
+ARCADE_DIALOG_GAME_OVER_TITLE=Fin du jeu (l'ordinateur a gagné)
+ARCADE_DIALOG_GAME_OVER=Vous devez vraiment pouvoir déchiffrer ce message avant votre ordinateur. Commençons à partir de zéro!
+ARCADE_DIALOG_TOO_MANY_BLOCKS_TITLE=Fin du jeu (le joueur ne joue pas correctement)
+ARCADE_DIALOG_TOO_MANY_BLOCKS=Pour déchiffrer le message, vous devez annuler les blocs, vous les accumulez.
+ARCADE_DIALOG_ANNOUNCE_PUBLICKEY_TITLE=Dialogue 'Vous allez créer votre paire de clés' (Chercheur)
+ARCADE_DIALOG_ANNOUNCE_PUBLICKEY=Vous allez créer votre paire clé privée / clé publique mais <span> ... </ span> ne l'oubliez pas, cette clé privée est ... privée! Vous seul devez le savoir! Votre clé publique sera diffusée sur le réseau à tous les chercheurs de l'Institut.
+ARCADE_DIALOG_HERE_PRIVATEKEY_TITLE=Dialogue 'Voici votre clé privée' (Chercheur)
+ARCADE_DIALOG_HERE_PRIVATEKEY=Voici votre clé privée, utilisez les clés KEYLEFT et KEYRIGHT pour la manipuler selon vos désirs. Appuyez sur KEYUP ou KEYSPACE pour inverser votre clé et, lorsque vous êtes prêt, appuyez sur KEYDOWN pour confirmer votre choix.
+ARCADE_DIALOG_CREATE_PUBLICKEY=Pour générer votre clé publique, supprimez votre clé privée six ou sept fois. Si le niveau de sécurité est suffisant, votre clé publique sera sauvegardée, sinon l'ordinateur la complétera.
+ARCADE_DIALOG_SUCCESS=Félicitations, vous avez compris comment ça marche!
 
-= recursive KEY IMAGES: 
+= recursive KEY IMAGES:
 = NOTE: in js you must use: lang.ARCADE_DIALOG_HERE_PRIVATEKEY.replace("KEYUP",lang.KEYUP).replace("KEYDOWN",lang.KEYDOWN)  etc etc.
 =KEYUP=UP
 =KEYDOWN=DOWN
@@ -147,7 +146,7 @@ KEYSPACE=<img src='img/icn-space.png' class='keyboard-key'>
 
 
 DIALOG_STRING1=blocs
-DIALOG_STRING2=, bienvenue à l'INRIA. Tu as en ta possession un message crypté, laisse-moi t'expliquer comment le décrypter. 
+DIALOG_STRING2=, bienvenue à l'INRIA. Tu as en ta possession un message crypté, laisse-moi t'expliquer comment le décrypter.
 DIALOG_STRING3=, ton compte est maintenant créé. Afin de sécuriser les échanges sur le réseau, nous utilisons un protocole de cryptographie asymétrique.
 DIALOG_STRING4=Durée (maximale) de décryptage
 DIALOG_STRING5=Abandon - Temps de jeu
@@ -190,7 +189,7 @@ DIALOG_STRING38=Débrancher le câble
 DIALOG_STRING39=Déchiffrez le message
 DIALOG_STRING40=Décryptage d'un message partagé
 
-DIALOG_STRING41=Décrypter - Décryptage d'un message partagé - 
+DIALOG_STRING41=Décrypter - Décryptage d'un message partagé -
 DIALOG_STRING42=Décrypter - Décryptage d'un message partagé - Début
 DIALOG_STRING44=Décrypter
 DIALOG_STRING45=Défi! Cryptris, un jeu gratuit sur la cryptographie asymétrique
@@ -214,7 +213,7 @@ DIALOG_STRING60=Je t'envoie le dernier câble, en augmentant encore la difficult
 DIALOG_STRING61=Je t'envoie le deuxième câble, crypté avec deux blocs de plus. Avec la cryptographie asymétrique, lorsqu’on augmente le  nombre de bits, la difficulté du calcul augmente de manière exponentielle pour un attaquant. Cela devrait donc faire l’affaire.
 DIALOG_STRING62=Je t'envoie un message crypté contenant le premier numéro de câble à débrancher et le tableau électrique correspondant.
 DIALOG_STRING63=Je viens de terminer Cryptris - un jeu sur l’univers de la cryptographie asymétrique. Affrontez l’ordinateur
-DIALOG_STRING64=Jeu terminé en 
+DIALOG_STRING64=Jeu terminé en
 DIALOG_STRING65=J’ai bien failli rester enfermée pour de bon et le serveur aurait pu contaminer tout internet, absorbant les données personnelles de la planète entière !
 DIALOG_STRING66=Lorsque deux blocs de même couleur se touchent : ils s'additionnent, sinon ils se détruisent. Ton message est décrypté lorsqu'il ne reste qu'une seule ligne au message. A toi de jouer !
 DIALOG_STRING67=Lorsque tu appuies sur KEYDOWN ta clé est envoyée sur le message à décrypter et les blocs vont s’annuler s’ils sont de couleurs opposées ou s’empiler s’ils sont de même couleur. Le message est décrypté lorsque tu n’as plus qu’une seule ligne de blocs en bas. À toi de jouer !
@@ -262,4 +261,4 @@ DIALOG_STRING105=Voici ta clé privée, elle s'affiche en haut de ton écran, ut
 DIALOG_STRING106=Zut, le serveur essaie lui aussi de décrypter le message, <em>heureusement il ne dispose que de ta clé publique !</em> Je t’envoie en temps réel les informations correspondant à son avancé, dépêche toi de décrypter le message avant qu’il n’arrive à casser le code.
 DIALOG_STRING107=Est-ce que tu me reçois ? C’est vraiment bizarre, notre serveur refuse obstinément de se re-configurer et m'empêche de sortir <sspan>de la salle </sspan>des machines, essaie de débrancher le câble n° 42 du tableau électrique principal.
 DIALOG_STRING108=Félicitations ! Tu as décrypté plus rapidement que l’ordinateur. Si tu veux découvrir la cryptographie, essaie de faire une nouvelle partie complète.
-DIALOG_STRING109=Taille de la clé : 
+DIALOG_STRING109=Taille de la clé :
