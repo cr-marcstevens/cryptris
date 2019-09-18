@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CRYPTRIS_LANGUAGES="en nl"
+CRYPTRIS_LANGUAGES="en nl fr"
 
 # convert LANGUAGES in flags html code
 FLAGS="<div class='flags'>"
