@@ -4,7 +4,7 @@
 
 == customization
 = base url translation
-BASE_URL=https://projects.cwi.nl/cryptris/
+BASE_URL=https://www.cryptris.nl/
 
 = custom institute
 =TXT_CUSTOM_INSTITUTE=Inria
@@ -18,6 +18,6 @@ TXT_CUSTOM_OS=CryptOS 355/113
 IMG_LOGO_INSTITUTE=img/logo-cwi.png
 
 = custom researcher avatar
-IMG_RESEARCHER=img/avatar-ducas.jpg
-=IMG_RESEARCHER=img/avatar-chercheuse.jpg
+=IMG_RESEARCHER=img/avatar-ducas.jpg
+IMG_RESEARCHER=img/avatar-chercheuse.jpg
 =IMG_RESEARCHER=img/avatar-m.jpg
