@@ -3,6 +3,7 @@
 = Usage in HTML: just place TOKEN and it will be completely replaced
 = Usage in Javascript: use the variable lang.TOKEN holding the string "substitution string"
 
+INDEX_HTMLFILE=index_en.html
 THANKS_HTMLFILE=thanks_en.html
 DECRYPTER_HTMLFILE=decrypter_en.html
 DOCUMENTATION_HTMLFILE=documentation_en.html
@@ -37,6 +38,8 @@ TXT_PRIVATE_KEY=Private Key
 TXT_PUBLIC_KEY=Public Key
 TXT_PLAYER=Player
 TXT_ADVERSARY=Adversary
+TXT_MAINMENU=Main Menu
+TXT_ARCADEMENU=Arcade Menu
 
 = *.html
 CRYPTRIS_HTMLTITLE=Cryptris - An asymetric cryptography game

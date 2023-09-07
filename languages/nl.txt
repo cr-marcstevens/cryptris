@@ -3,9 +3,10 @@
 = Usage in HTML: just place TOKEN and it will be completely replaced
 = Usage in Javascript: use the variable lang.TOKEN holding the string "substitution string"
 
+INDEX_HTMLFILE=index_nl.html
 THANKS_HTMLFILE=thanks_nl.html
 DECRYPTER_HTMLFILE=decrypter_nl.html
-DOCUMENTATION_HTMLFILE=documentation_en.html
+DOCUMENTATION_HTMLFILE=documentation_nl.html
 
 = language-specific custom group / researcher
 TXT_RESEARCHER=Researcher
@@ -37,6 +38,8 @@ TXT_PRIVATE_KEY=Geheime Sleutel
 TXT_PUBLIC_KEY=Publieke Sleutel
 TXT_PLAYER=Speler
 TXT_ADVERSARY=Tegenstander
+TXT_MAINMENU=Hoofdmenu
+TXT_ARCADEMENU=Arcademenu
 
 = *.html
 CRYPTRIS_HTMLTITLE=Cryptris - Een asymmetrisch cryptografie spel

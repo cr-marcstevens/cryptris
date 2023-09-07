@@ -137,3 +137,7 @@
 'decrypter.html'|lang.DECRYPTER_HTMLFILE
 'Félicitations ! Tu as décrypté plus rapidement que l’ordinateur. Si tu veux découvrir la cryptographie, essaie de faire une nouvelle partie complète.'|lang.DIALOG_STRING108
 "</strong><br/>Taille de la clé : "|"</strong><br/>"+lang.DIALOG_STRING109
+"Menu Principal"|lang.TXT_MAINMENU
+"Menu arcade"|lang.TXT_ARCADEMENU
+"Menu Arcade"|lang.TXT_ARCADEMENU
+'./'|lang.INDEX_HTMLFILE

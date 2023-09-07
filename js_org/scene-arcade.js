@@ -21,6 +21,17 @@ $(function(){
 
   function getName(level, isCK) {
 
+    // Fix: Don't ask for a custom name in Arcade mode, just go with a general player name
+    currentGame.username = lang.TXT_PLAYER;
+    updateNameFunction();
+
+    // Fix: We show the helpdialogs (only once) at the start of any level, which replaces the one-time firstDialog before the level.
+    // isCK ? level() : firstDialog(level);
+    level();
+
+    // Fix: return here instead of creating a get username dialog
+    return false;
+
     //console.log('Arcade - Renseignement du nom - Invite de commande');
 
     $("body").closeAllDialogs( function(){
@@ -647,35 +658,35 @@ $(function(){
       identifier = {
         category: 'Arcade',
         action: 'Challenge facile (8 blocs)',
-        label: "Dialogue 'Aide' (Chercheuse) 1/2"
+        label: "Dialogue 'Aide' (Chercheuse) 1/3"
       };
     } else if (helpInfo.sceneName === currentGame.scenes.play_medium_scene) {
       // We are in the 10 blocks level.
       identifier = {
         category: 'Arcade',
         action: 'Challenge novice (10 blocs)',
-        label: "Dialogue 'Aide' (Chercheuse) 1/2"
+        label: "Dialogue 'Aide' (Chercheuse) 1/3"
       };
     } else if (helpInfo.sceneName === currentGame.scenes.play_max_scene) {
       // We are in the 12 blocks level.
       identifier = {
         category: 'Arcade',
         action: 'Challenge apprenti (12 blocs)',
-        label: "Dialogue 'Aide' (Chercheuse) 1/2"
+        label: "Dialogue 'Aide' (Chercheuse) 1/3"
       };
     } else if (helpInfo.sceneName === currentGame.scenes.play_super_max_scene) {
       // We are in the 14 blocks level.
       identifier = {
         category: 'Arcade',
         action: 'Challenge chercheur (14 blocs)',
-        label: "Dialogue 'Aide' (Chercheuse) 1/2"
+        label: "Dialogue 'Aide' (Chercheuse) 1/3"
       };
     } else if (helpInfo.sceneName === currentGame.scenes.play_mega_max_scene) {
       // We are in the 16 blocks level.
       identifier = {
         category: 'Arcade',
         action: 'Challenge expert (16 blocs)',
-        label: "Dialogue 'Aide' (Chercheuse) 1/2'"
+        label: "Dialogue 'Aide' (Chercheuse) 1/3'"
       };
     }
 
@@ -719,35 +730,35 @@ $(function(){
       identifier = {
         category: 'Arcade',
         action: 'Challenge facile (8 blocs)',
-        label: "Dialogue 'Aide' (Chercheuse) 2/2"
+        label: "Dialogue 'Aide' (Chercheuse) 2/3"
       };
     } else if (helpInfo.sceneName === currentGame.scenes.play_medium_scene) {
       // We are in the 10 blocks level.
       identifier = {
         category: 'Arcade',
         action: 'Challenge novice (10 blocs)',
-        label: "Dialogue 'Aide' (Chercheuse) 2/2"
+        label: "Dialogue 'Aide' (Chercheuse) 2/3"
       };
     } else if (helpInfo.sceneName === currentGame.scenes.play_max_scene) {
       // We are in the 12 blocks level.
       identifier = {
         category: 'Arcade',
         action: 'Challenge apprenti (12 blocs)',
-        label: "Dialogue 'Aide' (Chercheuse) 2/2"
+        label: "Dialogue 'Aide' (Chercheuse) 2/3"
       };
     } else if (helpInfo.sceneName === currentGame.scenes.play_super_max_scene) {
       // We are in the 14 blocks level.
       identifier = {
         category: 'Arcade',
         action: 'Challenge chercheur (14 blocs)',
-        label: "Dialogue 'Aide' (Chercheuse) 2/2"
+        label: "Dialogue 'Aide' (Chercheuse) 2/3"
       };
     } else if (helpInfo.sceneName === currentGame.scenes.play_mega_max_scene) {
       // We are in the 16 blocks level.
       identifier = {
         category: 'Arcade',
         action: 'Challenge expert (16 blocs)',
-        label: "Dialogue 'Aide' (Chercheuse) 2/2'"
+        label: "Dialogue 'Aide' (Chercheuse) 2/3'"
       };
     }
 
@@ -771,7 +782,9 @@ $(function(){
           label: "Suite", 
           class: "button blue",
           onClick: function() {
-            deActivateHelp(helpInfo.sceneName, helpInfo.hookName);
+              // Fix: Added firstDialog content as third help screen
+              helpDialog3(helpInfo);
+//            deActivateHelp(helpInfo.sceneName, helpInfo.hookName);
           }
         }]
 
@@ -780,6 +793,85 @@ $(function(){
     });
 
   }
+
+
+  // Fix: Added firstDialog content as third help screen
+  function helpDialog3(helpInfo){
+
+
+    /*
+     * To use analytics here, adapt below
+     */
+
+    var identifier = null;
+    if (helpInfo.sceneName === currentGame.scenes.play_min_scene) {
+      // We are in the 8 blocks level.
+      identifier = {
+        category: 'Arcade',
+        action: 'Challenge facile (8 blocs)',
+        label: "Dialogue 'Aide' (Chercheuse) 3/3"
+      };
+    } else if (helpInfo.sceneName === currentGame.scenes.play_medium_scene) {
+      // We are in the 10 blocks level.
+      identifier = {
+        category: 'Arcade',
+        action: 'Challenge novice (10 blocs)',
+        label: "Dialogue 'Aide' (Chercheuse) 3/3"
+      };
+    } else if (helpInfo.sceneName === currentGame.scenes.play_max_scene) {
+      // We are in the 12 blocks level.
+      identifier = {
+        category: 'Arcade',
+        action: 'Challenge apprenti (12 blocs)',
+        label: "Dialogue 'Aide' (Chercheuse) 3/3"
+      };
+    } else if (helpInfo.sceneName === currentGame.scenes.play_super_max_scene) {
+      // We are in the 14 blocks level.
+      identifier = {
+        category: 'Arcade',
+        action: 'Challenge chercheur (14 blocs)',
+        label: "Dialogue 'Aide' (Chercheuse) 3/3"
+      };
+    } else if (helpInfo.sceneName === currentGame.scenes.play_mega_max_scene) {
+      // We are in the 16 blocks level.
+      identifier = {
+        category: 'Arcade',
+        action: 'Challenge expert (16 blocs)',
+        label: "Dialogue 'Aide' (Chercheuse) 3/3'"
+      };
+    }
+
+    $("body").closeAllDialogs(function(){
+
+      $.switchWrapper('#bg-circuits', function(){
+
+        $(".wrapper.active .vertical-centering").dialog({
+
+          animateText: true,
+          animateTextDelayBetweenLetters: game.animateTextDelayBetweenLetters,
+
+          type: "withAvatar",
+          avatar: "<img src='img/avatar-chercheuse.jpg'>",
+
+
+          identifier: identifier,
+
+          title: "Chercheuse",
+          content: "Si tu as besoin d'aide, appuie sur le bouton '?' et je te donnerai toutes les informations nécessaires.",
+          controls: [{
+            label: "Suite",
+            class: "button blue",
+            onClick: function() {
+              deActivateHelp(helpInfo.sceneName, helpInfo.hookName);
+            }
+          }]
+        });
+      });
+    });
+  }
+
+
+
 
   $(document).on("playMinHelpEvent", function() {
     activateHelp(currentGame.scenes.play_min_scene, "playMinSceneActive", helpDialog1);
@@ -895,6 +987,14 @@ $(function(){
       currentGame.iaPlay = true;
       currentGame.scenes.play_min_scene.scene.setPaused(false);
       currentGame.playMinSceneActive = true;
+
+      // Fix: show help dialogs at start of game once
+      if (!firstHelp)
+      {
+        firstHelp = true;
+        activateHelp(currentGame.scenes.play_min_scene, "playMinSceneActive", helpDialog1);
+      }
+
     });
   }
 
@@ -1082,6 +1182,14 @@ $(function(){
       currentGame.iaPlay = true;
       currentGame.scenes.play_medium_scene.scene.setPaused(false);
       currentGame.playMediumSceneActive = true;
+
+      // Fix: show help dialogs at start of game once
+      if (!firstHelp)
+      {
+        firstHelp = true;
+        activateHelp(currentGame.scenes.play_medium_scene, "playMediumSceneActive", helpDialog1);
+      }
+
     });
   }
 
@@ -1257,6 +1365,14 @@ $(function(){
       currentGame.iaPlay = true;
       currentGame.scenes.play_max_scene.scene.setPaused(false);
       currentGame.playMaxSceneActive = true;
+
+      // Fix: show help dialogs at start of game once
+      if (!firstHelp)
+      {
+        firstHelp = true;
+        activateHelp(currentGame.scenes.play_max_scene, "playMaxSceneActive", helpDialog1);
+      }
+
     });
   }
 
@@ -1438,6 +1554,14 @@ $(function(){
       currentGame.iaPlay = true;
       currentGame.scenes.play_super_max_scene.scene.setPaused(false);
       currentGame.playSuperMaxSceneActive = true;
+
+      // Fix: show help dialogs at start of game once
+      if (!firstHelp)
+      {
+        firstHelp = true;
+        activateHelp(currentGame.scenes.play_super_max_scene, "playSuperMaxSceneActive", helpDialog1);
+      }
+
     });
   }
 
@@ -1617,6 +1741,15 @@ $(function(){
       currentGame.iaPlay = true;
       currentGame.scenes.play_mega_max_scene.scene.setPaused(false);
       currentGame.playMegaMaxSceneActive = true;
+
+      // Fix: show help dialogs at start of game once
+      if (!firstHelp)
+      {
+        firstHelp = true;
+        activateHelp(currentGame.scenes.play_mega_max_scene, "playMegaMaxSceneActive", helpDialog1);
+      }
+
+
     });
   }
 
@@ -1684,7 +1817,9 @@ $(function(){
 
   menu();
 
-  var firstLaunch = false;
+  // Fix: replace firstDialog (boolean flag firstLaunch), by showing help dialogs once (boolean flag firstHelp)
+  var firstLaunch = true;
+  var firstHelp = false;
   var haveName = false;
   function firstDialog(challenge) {
     firstLaunch = true;
