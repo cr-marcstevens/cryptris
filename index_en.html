@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Article">
+  <head>
+    <title>Cryptris - An asymetric cryptography game</title>
+    <meta name="description" content="Discover the universe of cryptography: play against the computer to find out who will be able to decrypt the fastest. Many challenges await you, are you ready?">
+
+    <script src="js/lang_en.js"></script>
+
+    <meta name="viewport" content="" id="viewport"/>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-title" content="Cryptris">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="cache-control" content="max-age=10000000, public, must-revalidate">
+    <meta http-equiv="last-modified" content="Mon, 14 Jan 2050 11:52:12 GMT" />
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+
+    <link href="img/apple-touch-startup-image-320x460.png"
+          media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+    <link href="img/apple-touch-startup-image-640x920.png"
+          media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">              
+    <link href="img/apple-touch-startup-image-640x1096.png"
+          media="(device-width: 320px) and (device-height: 568px)
+             and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+
+    <link href="img/apple-touch-startup-image-768x1004.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+    <link href="img/apple-touch-startup-image-748x1024.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+
+    <link href="img/apple-touch-startup-image-1536x2008.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+    <link href="img/apple-touch-startup-image-1496x2048.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+
+    <!-- Css -->
+    <link href="css/fonts.css" rel="stylesheet" media="screen">
+    <link href="css/cryptris.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="vendor/html5shiv.js"></script>
+      <script src="vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="vendor/jquery-1.10.2.min.js"></script>
+    <script src="js/prototype-additions.js"></script>
+    <script src="js/cryptris-settings.js"></script>
+
+    <script src="js/viewport.js"></script>
+    <script src="js/mobile-detection.js"></script>
+    <script src="js/selectable-list.js"></script>
+    <script src="vendor/caat.js"></script>
+    <script src="js/preloaded_images.js"></script>
+    <script src="js/preloader.js"></script>
+
+    <script src="js/index.js"></script>
+
+
+  </head>
+  <body class="">
+
+    <div id="preloader-view" class="wrapper bg-circuits" style="">
+
+      <div class="vertical-centering"><div>
+          <ul class="main-menu">
+            <li>
+              <span class="bar preload-blinking-smooth"><span id="preloader-display"></span></span></a>
+            </li>
+          </ul>
+        </div></div>
+    </div>
+
+    <div id="menu-view" class="wrapper bg-circuits" style="display: none">
+
+      <div class="animation">
+        <div class="layer-00 blinking-smooth-1"></div>
+        <div class="layer-01 blinking-smooth-2"></div>
+        <div class="layer-02 blinking-smooth-3"></div>
+        <div class="layer-03 blinking-smooth-4"></div>
+      </div>      
+
+      <div class="vertical-centering">
+
+        <img class="cryptris-logo-large" src="img/logo-cryptris-large.png">
+
+        <div>
+          <ul class="main-menu selectable">
+            <li class="active">
+              <a href="story_en.html"><span class="arrow">▶</span>New Game<span class="arrow">◀</span></a>
+            </li> 
+            <li>              
+              <a href="arcade_en.html"><span class="arrow">▶</span>Arcade<span class="arrow">◀</span></a>
+            </li>
+
+            <li>
+              <a href="documentation_en.html"><span class="arrow">▶</span>Documentation<span class="arrow">◀</span></a>
+            </li>
+
+            <li>
+              <a href="share_en.html"><span class="arrow">▶</span>Challenge a friend<span class="arrow">◀</span></a>
+            </li>
+
+            <li>
+              <a href="about_en.html"><span class="arrow">▶</span>About this game<span class="arrow">◀</span></a>
+            </li>
+            <li>
+              <a href="credits_en.html"><span class="arrow">▶</span>Credits<span class="arrow">◀</span></a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="http://digitalcuisine.fr/" target="_blank"><img class="logo-digital-cuisine-medium" src="img/logo-digital-cuisine-medium.png"></a>
+
+	<div class='flags'><a href='index_en.html'><img src='img/flags/en.png' class='flag'></a><a href='index_nl.html'><img src='img/flags/nl.png' class='flag'></a><a href='index_fr.html'><img src='img/flags/fr.png' class='flag'></a></div>
+      </div>
+      
+      <a href="http://www.inria.fr/" target="_blank" class="logo-inria"><img class="logo-inria-medium" src="img/logo-inria-medium.png"></a>
+      <a href="https://www.cwi.nl/" target="_blank" class="logo-cwi"><img class="logo-cwi-medium" src="img/logo-cwi.png"></a>
+
+    </div>
+
+    <!-- <script src="vendor/retina.js"></script> -->
+
+  </body>
+</html>
