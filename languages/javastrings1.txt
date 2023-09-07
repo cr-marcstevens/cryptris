@@ -141,3 +141,7 @@
 "Menu arcade"|lang.TXT_ARCADEMENU
 "Menu Arcade"|lang.TXT_ARCADEMENU
 './'|lang.INDEX_HTMLFILE
+'j '|lang.TXT_DAYS+' '
+"h "|lang.TXT_HOURS+' '
+'m '|lang.TXT_MINUTES+' '
+'s'|lang.TXT_SECONDS
